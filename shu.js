@@ -1,14 +1,15 @@
-created: 20150303100400695
-modified: 20150304090358504
-tags: 
-title: master
-type: text/vnd.tiddlywiki
-
-<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-6,6,-1,13], border:'1px solid black'">`
+<$asciisvg class="SVGgraph" options="height:400,width:400,scales:[-6,6,-1,14], border:'none'">`
 window.shu = {};
 window.shu.neck = 0.7;//ratio controlling the slope of cape 
-window.shu.headroom = 0.8;
+window.shu.headroom = 0.7;
 window.shu.ears = 0.1;
+window.shu.ratiocalc = function (x) {return  Math.log(x)}
+window.shu.subfactorheight = function(subfactor,num) {
+	return shu.ratiocalc(subfactor) /(shu.ratiocalc(num)+shu.ratiocalc(subfactor));
+}
+window.shu.subshuheight = function(subfactor,num) {
+	return shu.ratiocalc(num) /(shu.ratiocalc(num)+shu.ratiocalc(subfactor));
+}
 window.shu.biggestprime=function(num){
   var root = Math.sqrt(num),   
   x = 2; 
@@ -25,6 +26,23 @@ window.shu.biggestprime=function(num){
 }
 window.shu.rend = function(num, left, right, h, up,newshu) {
 var cap = [],neck = shu.neck;
+if (num ==2) {
+	line( left, [left[0],left[1]+h*shu.headroom],{strokewidth:2,stroke:"red"});
+	line( right, [right[0],right[1]+h*shu.headroom],{strokewidth:2,stroke:"red"});
+	return;
+}
+if (num % 4 == 0) {
+	var hdelta = h*0.05;
+	var righttop = [];
+	righttop[0] = right[0];
+	righttop[1] = right[1] + h; 
+	rect(left,righttop,{stroke:"red"});
+var capeleft =[left[0]+hdelta,left[1]+hdelta];
+var caperight =[right[0]-hdelta,right[1]+hdelta];
+	
+	if (num > 4) shu.rend(num / 4,capeleft,caperight,h-2*hdelta,up,true);
+	return;
+}
 var subshu = shu.biggestprime(num) ;
 var subfactor = num/subshu;
 num = subshu;
@@ -68,11 +86,11 @@ var capeleft =[left[0]+instep*width,head];
 var caperight =[right[0]-instep*width,head];
 line(left,capeleft,{strokewidth:2,stroke:"red"});
 line(right,caperight,{strokewidth:2,stroke:"red"});
-var hdelta1 = hdelta * num /(num + subfactor);
+var hdelta1 = hdelta * shu.subshuheight(subfactor,num);
 //render subshu
 if (num > 1) shu.rend(num,capeleft,caperight,hdelta1,!up);
 //render subfactor
-var hdelta2 =  hdelta * subfactor /(num + subfactor);
+var hdelta2 =  hdelta * shu.subfactorheight(subfactor,num);
 hdelta=h*(1-shu.headroom)/4
 if (up){
 capeleft[1] =base+hdelta;
@@ -94,6 +112,6 @@ else {
 shu.rend(subfactor,capeleft,caperight,hdelta2,up,true);
 }
 }
-shu.rend(89,[-3,0],[3,0],9,true,true);
+shu.rend(32*17*1221,[-3,0],[3,0],9,true,true);
 
 `</$asciisvg>

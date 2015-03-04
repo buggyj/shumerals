@@ -15,6 +15,7 @@ module-type: widget
 if($tw.browser) {
 	require("$:/plugins/bj/asciisvg/jquery.min.js");
 	require("$:/plugins/bj/asciisvg/ASCIImathsvg.js");
+	require("$:/plugins/bj/asciisvg/shulib.js");
 }
 var Widget = require("$:/core/modules/widgets/widget.js").widget;
 

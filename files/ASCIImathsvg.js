@@ -3972,6 +3972,9 @@ MSVG = function ($) { // character lists for STIX fonts
     }
   } // Public stuff
   return {
+	line:line,
+	path:path,
+	rect:rect,
     showFormulaOnMouseOver: false,
     latexImages: false,
     //set to true to force external converter

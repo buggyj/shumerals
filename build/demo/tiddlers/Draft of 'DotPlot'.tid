@@ -1,0 +1,17 @@
+changecount: 19
+created: 20071218010700000
+draft.of: DotPlot
+draft.title: DotPlot
+modified: 20150303100352969
+modifier: PauloSoares
+tags: svg
+title: Draft of 'DotPlot'
+type: text/vnd.tiddlywiki
+
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-0.6,6,-1.2,8], border:'1px solid black'">
+axes();
+var a=[ [1,3],[2,5],[3,6],[4,2],[5,7] ] ;
+var b=[3,5,6,2,7];
+path(a,{marker:"ooo",markerfill:"yellow",stroke:"none",label:b,pos:"n"});
+</$asciisvg>
+dsdss

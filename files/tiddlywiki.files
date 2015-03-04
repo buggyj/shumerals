@@ -1,0 +1,20 @@
+{
+	"tiddlers": [
+		{
+			"file": "jquery.min.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/bj/asciisvg/jquery.min.js",
+				"module-type": "library"
+			}
+		},
+		{
+			"file": "ASCIImathsvg.js",
+			"fields": {
+				"type": "application/javascript",
+				"title": "$:/plugins/bj/asciisvg/ASCIImathsvg.js",
+				"module-type": "library"
+			}
+		}
+	]
+}

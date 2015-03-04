@@ -1,0 +1,10 @@
+{
+	"title": "$:/plugins/bj/asciisvg",
+	"description": "draw",
+	"author": "Jeffrey Wilkinson (BJ)",
+	"version": "0.0.1",
+	"list": "readme license",
+	"core-version": ">=5.1.0",
+	"source": "",
+	"plugin-type": "plugin"
+}

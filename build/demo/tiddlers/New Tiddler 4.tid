@@ -1,0 +1,31 @@
+created: 20150304080301598
+modified: 20150304080421353
+tags: 
+title: New Tiddler 4
+type: text/vnd.tiddlywiki
+
+
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-6,6,-1,13], border:'1px solid black'">`
+
+shu.rend(213,[-3,0],[3,0],13,true,true);
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-6,6,-1,13], border:'1px solid black'">`
+
+shu.rend(223,[-3,0],[3,0],13,true,true);
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-6,6,-1,13], border:'1px solid black'">`
+
+shu.rend(253,[-3,0],[3,0],13,true,true);
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-6,6,-1,13], border:'1px solid black'">`
+
+shu.rend(255,[-3,0],[3,0],13,true,true);
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-6,6,-1,13], border:'1px solid black'">`
+
+shu.rend(1251,[-3,0],[3,0],13,true,true);
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-6,6,-1,13], border:'1px solid black'">`
+
+shu.rend(9,[-3,0],[3,0],13,true,true);
+`</$asciisvg>

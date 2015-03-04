@@ -1,0 +1,46 @@
+changecount: 35
+created: 20091121220600000
+modified: 20150302205359641
+modifier: PauloSoares
+tags: dynamic
+title: ConfidenceIntervals
+type: text/vnd.tiddlywiki
+
+Click to start simulation.
+<$asciisvg class='SVGgraph' options="height:600,width:200,scales:[-3.5,3.5,-101,10],pan:false, border:'orange solid 5px'">
+function f(x){return 20*1/sqrt(2*PI)*exp(-0.5*pow(x,2));}
+
+function goforit(e){
+if(animate==1) {
+  success=0;
+  time=0;
+  animate=0;
+  openGroup('ics',true);
+  timer = setInterval(roll,50);
+}
+}
+
+function roll(){
+time++;
+if(time>limit) {animate=1; closeGroup(); clearInterval(timer); return;}
+var sd=1./sqrt(20);
+var mean=rnormal(0,sd);
+var liminf=mean-1.96*sd;
+var limsup=mean+1.96*sd;
+var color="red";
+if(liminf<0 && limsup>0){
+success++;
+color="green";
+}
+var covering=success/time;
+line([liminf,-time],[limsup,-time],{stroke:color});
+text([2.5,limit*0.05],covering.toFixed(2),{id:"success",fontfill:"green"});
+}
+
+var time, limit=100;
+var success, animate=1;
+plot(f);
+setAction("mousedown",goforit);
+grid({dx:0.5,dy:limit/20});
+axes({dx:1,dy:200,size:0.5});
+</$asciisvg>

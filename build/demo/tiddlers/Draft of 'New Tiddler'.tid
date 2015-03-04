@@ -1,0 +1,14 @@
+created: 20150302152313220
+draft.of: New Tiddler
+draft.title: New Tiddler
+modified: 20150302152427030
+tags: 
+title: Draft of 'New Tiddler'
+type: text/vnd.tiddlywiki
+
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-0.6,6,-1.2,8]">
+axes();
+alert("dd")
+
+</$asciisvg>
+dsdss

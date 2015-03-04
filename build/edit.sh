@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-node ../../../../../tiddlywiki.js \
+node ../../../../tiddlywiki.js \
 	./demoedit \
 	--verbose \
 	--server 8088 $:/core/save/all \

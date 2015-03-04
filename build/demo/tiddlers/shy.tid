@@ -1,0 +1,47 @@
+created: 20150303100400695
+draft.of: New Tiddler 2
+draft.title: master
+modified: 20150303151543766
+tags: 
+title: Draft of 'New Tiddler 2'
+type: text/vnd.tiddlywiki
+
+<$asciisvg class="SVGgraph" options="height:200,width:320,scales:[-6,6,-8,8], border:'1px solid black'">`
+window.shu = {};
+window.shu.neck = 0.8;//ratio controlling the slope of cape 
+window.shu.rend = function(num, left, right, h, up) {
+var cap = [];
+if (num % 3 == 2) {
+num = num - 2;
+var head = 4*h/5;
+var base =left[1]; //y coord
+if (up) head = base + head;
+else head = base - head;
+
+cap.push([left[0],head]);
+cap.push([right[0],head]);
+path (cap,{stroke:"red",strokewidth:2});
+} 
+else if (num % 3 == 1) {
+num -=4;
+var head = 4*h/5;
+var ear;
+var base =left[1]; //y coord
+if (up) {head = base + head;ear = head/10}
+else {head = base - head; ear = -head/10}
+cap.push([left[0],head+ear]);
+cap.push([left[0],head]);
+cap.push([right[0],head]);
+cap.push([right[0],head+ear]);
+path (cap,{stroke:"red",strokewidth:2});
+}
+num = num /3;
+var capeleft =[left[0]+shu.neck,head];
+var caperight =[right[0]-shu.neck,head];
+line(left,capeleft,{strokewidth:2,stroke:"red"});
+line(right,caperight,{strokewidth:2,stroke:"red"});
+if (num > 1) shu.rend(num,capeleft,caperight,head,!up);
+
+}
+shu.rend(53,[0,0],[5,0],7,true);
+`</$asciisvg>

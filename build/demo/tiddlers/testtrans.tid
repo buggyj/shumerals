@@ -1,0 +1,7 @@
+created: 20150308142249431
+modified: 20150308142642809
+tags: 
+title: testtrans
+type: text/plain
+
+image('http://www1.chapman.edu/~jipsen/mathml/asciimathml.jpeg',{origin:[1.7,2],width:60,height:75,pos:"NE"});

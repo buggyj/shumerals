@@ -1,0 +1,22 @@
+created: 20150311162751254
+draft.of: blank how it works 1
+draft.title: The number 1
+modified: 20150311164443075
+tags: [[How It Works]]
+title: Draft of 'blank how it works 1'
+type: text/vnd.tiddlywiki
+
+The number one can be thought of as standing in for some object.
+
+One such object is a 'dot'. Conversly we can use the dot to represent 1.
+
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+dot([10,10],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+
+so
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+shu.rend(3,[0,0],[16,0],16,true,true);
+dot([8,5],{marker:'o',markerfill:'black'});
+dot([28,5],{marker:'o',markerfill:'black'});
+`</$asciisvg>

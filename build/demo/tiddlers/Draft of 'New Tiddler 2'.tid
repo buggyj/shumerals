@@ -1,0 +1,37 @@
+created: 20150303210008577
+draft.of: New Tiddler 2
+draft.title: New Tiddler 2
+modified: 20150308150401449
+tags: 
+title: Draft of 'New Tiddler 2'
+type: image/svg+xml
+
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg height="200" width="320" style="border:1px solid black" baseProfile="full" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns="http://www.w3.org/2000/svg" id="ixlVWTBeXmeezxfa">
+<defs id="ixlVWTBeXmeezxfa_Defs"></defs>
+
+	
+ 
+    <polygon points="60,30 90,90 30,90">
+        <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 60 70"
+                          to="360 60 70"
+                          dur="10s"
+                          repeatCount="indefinite"/>
+    </polygon>
+	
+
+<g id="ixlVWTBeXmeezxfa_Canvas">
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M82 53 242 53 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M82 183 106 53 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M242 183 218 53 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M106 145 218 145 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M106 53 122.80000000000001 145 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M218 53 201.2 145 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M122.80000000000001 74.16 122.80000000000001 80.6 201.2 80.6 201.2 74.16 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M122.80000000000001 145 134.56 80.6 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M201.2 145 189.44 80.6 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M106 174.875 162 162.875 "></path>
+<path fill-opacity="1" fill="none" stroke-opacity="1" stroke-dasharray="none" stroke-width="2" stroke="red" d="M218 174.875 162 162.875 "></path></g></svg>

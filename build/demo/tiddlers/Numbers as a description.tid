@@ -1,0 +1,23 @@
+created: 20150311084706831
+modified: 20150311111652186
+tags: [[How It Works]]
+title: Numbers as a description
+type: text/vnd.tiddlywiki
+
+When we speak of a number of objects, say 3 people and 2 cats, it is obvious to us that the '3' is describing the number of people, we understand the 3 is only applied to the people because of our understand of spoken language.
+When using shapes (such as squares etc) we can draw our shapes around the objects to give a natural limitation to describe what object the number applies to
+<$asciisvg class="SVGgraph" options="height:40,width:60,scales:[0,30,0,20], border:'none'">`
+shu.rend(4,[0,0],[10,0],10,true,true);
+text([5,6],"a");
+
+text([20,6],"=aaaa");
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+shu.rend(4,[0,0],[10,0],10,true,true);
+shu.rend(4,[2,2],[8,4],5,true,true);
+shu.rend(4,[18,1],[24,4],5,true,true);
+shu.rend(4,[26,1],[32,4],5,true,true);
+shu.rend(4,[34,1],[40,4],5,true,true);
+shu.rend(4,[42,1],[48,4],5,true,true);
+text([14,6],"=");
+`</$asciisvg>

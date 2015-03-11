@@ -1,0 +1,17 @@
+created: 20150311082954957
+draft.of: Shaped Numerals
+draft.title: Shaped Numerals
+modified: 20150311163748036
+tags: [[How It Works]]
+title: Draft of 'Shaped Numerals'
+type: text/vnd.tiddlywiki
+
+Some shapes give direct ideas of a number eg
+<$asciisvg class="SVGgraph" options="height:20,width:20,scales:[0,6,0,6], border:'none'">`
+shu.rend(4,[0,0],[5,0],5,true,true);
+`</$asciisvg>
+give us a sense of 4
+<$asciisvg class="SVGgraph" options="height:20,width:20,scales:[0,6,0,7], border:'none'">`
+shu.rend(3,[0,0],[6,0],6,true,true);
+`</$asciisvg>
+give us a sense of 3.

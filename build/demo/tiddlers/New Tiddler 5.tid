@@ -1,0 +1,17 @@
+created: 20150305071153282
+modified: 20150306082225270
+tags: 
+title: New Tiddler 5
+type: text/vnd.tiddlywiki
+
+\define shu(value:3)
+<$asciisvg class="SVGgraph" options="height:450,width:620,scales:[-6,6,-1,13], border:'1px solid black'">`
+//shu.test();
+shu.rend($value$,[-3,0],[3,0],13,true,true);
+`</$asciisvg>
+\end
+
+ 
+<$macrocall $name=shu value=16805/>
+<$macrocall $name=shu value=91825/>
+<$macrocall $name=shu value=1000149/>

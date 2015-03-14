@@ -1,0 +1,23 @@
+title: $:/plugins/bj/shumerals/license
+
+ASCIIMathML.js has this license:
+
+
+Version 2.1 Oct 8, 2008, (c) Peter Jipsen http://www.chapman.edu/~jipsen
+This version extends ASCIIMathML.js with LaTeXMathML.js and ASCIIsvg.js.
+Latest version at http://www.chapman.edu/~jipsen/mathml/ASCIIMathML.js
+If you use it on a webpage, please send the URL to jipsen@chapman.edu
+
+The LaTeXMathML modifications were made by Douglas Woodall, June 2006.
+(for details see header on the LaTeXMathML part in middle of file)
+Extensive clean-up and improvements by Paulo Soares, Oct 2007.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation; either version 2.1 of the License, or (at
+your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT 
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License 
+(at http://www.gnu.org/licences/lgpl.html) for more details.

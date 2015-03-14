@@ -17,7 +17,7 @@ fi
 node ../../../../tiddlywiki.js \
 	./demo \
 	--verbose \
-	--rendertiddler $:/core/save/all $TW5_BUILD_OUTPUT/asciisvg.html text/plain \
+	--rendertiddler $:/core/save/all $TW5_BUILD_OUTPUT/shumerals.html text/plain \
 	|| exit 1
 
 

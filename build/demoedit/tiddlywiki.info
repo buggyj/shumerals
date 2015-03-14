@@ -2,7 +2,7 @@
 	"plugins": [
 		"tiddlywiki/tiddlyweb",
 		"tiddlywiki/filesystem",
-		"bj/asciisvg"
+		"bj/shumerals"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",

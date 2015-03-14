@@ -1,6 +1,6 @@
 {
 	"plugins": [
-		"bj/asciisvg"
+		"bj/shumerals"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",

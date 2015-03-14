@@ -1,0 +1,60 @@
+created: 20150311082930386
+draft.of: Shumerals
+draft.title: Shumerals
+modified: 20150313145856606
+tags: [[How It Works]]
+title: Draft of 'Shumerals'
+type: text/vnd.tiddlywiki
+
+The term shumeral derives from the phrase "shaped numeral". They are derived from iconic (shaped) numerals, but attempt to over come the limitation of have large polygons (shapes with a large number of sides)<hr>
+The number 5 can be represented by 2+3 like so
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+line([0,0],[18,00],{strokewidth:2,stroke:"red"});
+line([0,10],[18,10],{strokewidth:2,stroke:"red"})
+dot([10,5],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+shu.rend(3,[0,0],[16,0],16,true,true);
+dot([8,5],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+This is then 'condensed' to
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+line([0,13],[18,13],{strokewidth:2,stroke:"red"});
+line([0,15],[18,15],{strokewidth:2,stroke:"red"})
+shu.rend(3,[0,0],[16,0],16,true,true);
+dot([8,5],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+and finally is drawn as 
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+
+shu.rendplus(5,[0,0],[16,0],16,true,true,0.5,0.3);
+dot([8,5],{marker:'o',markerfill:'black'});
+`</$asciisvg><hr>
+seven as 4 + 3 is
+
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+shu.rend(4,[0,10],[12,9],10,true,true);
+shu.rend(3,[0,0],[12,0],12,true,true);
+dot([6,15],{marker:'o',markerfill:'black'});
+dot([6,4],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+and becomes
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+shu.rendplus(7,[0,0],[16,0],16,true,true,0.5,0.3);
+dot([8,5],{marker:'o',markerfill:'black'});
+`</$asciisvg><hr>
+Eleven as 9 +2 is
+
+<$asciisvg class="SVGgraph" options="height:80,width:180,scales:[0,90,0,20], border:'none'">`
+line([0,13],[18,13],{strokewidth:2,stroke:"red"});
+line([0,15],[18,15],{strokewidth:2,stroke:"red"})
+shu.rend(9,[0,0],[16,0],16,true,true);
+dot([8,5],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+this becomes
+<$asciisvg class="SVGgraph" options="height:80,width:180,scales:[0,90,0,20], border:'none'">`
+
+shu.rendplus(11,[0,0],[16,0],16,true,true,0.5,0.2);
+dot([8,2],{marker:'o',markerfill:'black'});
+`</$asciisvg><hr>
+You can see larger shumerals by clicking [[here|ShumeralCreater]]

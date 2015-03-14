@@ -1,0 +1,14 @@
+created: 20150311170354226
+modified: 20150311231035927
+title: five not
+type: text/vnd.tiddlywiki
+
+<$asciisvg class="SVGgraph" options='width:200,height:200,scales:[-1.1,1.1]'>`
+a = []
+n = 5
+ for (i = 0; i < n; i++)
+ a[i] = [cos(PI/4*(1)*i),
+ sin(PI/4*(1)*i)]
+path([a[0],a[1],a[2],a[3],a[4],a[0]])
+path(a)
+`</$asciisvg>

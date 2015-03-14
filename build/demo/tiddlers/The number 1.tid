@@ -1,9 +1,7 @@
 created: 20150311162751254
-draft.of: blank how it works 1
-draft.title: The number 1
-modified: 20150311164443075
+modified: 20150311170132015
 tags: [[How It Works]]
-title: Draft of 'blank how it works 1'
+title: The number 1
 type: text/vnd.tiddlywiki
 
 The number one can be thought of as standing in for some object.
@@ -19,4 +17,7 @@ so
 shu.rend(3,[0,0],[16,0],16,true,true);
 dot([8,5],{marker:'o',markerfill:'black'});
 dot([28,5],{marker:'o',markerfill:'black'});
+dot([38,5],{marker:'o',markerfill:'black'});
+dot([48,5],{marker:'o',markerfill:'black'});
+text([20,6],"=");
 `</$asciisvg>

@@ -34,6 +34,18 @@ shu.biggestprime=function(num){
   //if num isn't prime factor make recursive call
   return (x === num) ? x : shu.biggestprime(num/x) ;
 }
+shu.rendplus = function(num, left, right, h, up,newshu,neck,ears,headroom) {
+	neck1 = shu.neck;//ratio controlling the slope of cape 
+	headroom1 = shu.headroom;
+	ears1 = shu.ears;
+	shu.neck = neck;//ratio controlling the slope of cape 
+	shu.headroom = headroom||shu.headroom;
+	shu.ears = ears||shu.ears;
+	shu.rend (num, left, right, h, up,newshu);
+	shu.neck = neck1;//ratio controlling the slope of cape 
+	shu.headroom = headroom1;
+	shu.ears = ears1;
+}
 shu.rend = function(num, left, right, h, up,newshu) {
 	var cap = [],neck = shu.neck;
 	if (num ==2) {

@@ -1,0 +1,36 @@
+created: 20150311172545087
+modified: 20150312082742384
+tags: [[How It Works]]
+title: icons 1 to 5
+type: text/vnd.tiddlywiki
+
+The first five numbers are:
+<$asciisvg class="SVGgraph" options="height:40,width:60,scales:[0,30,0,20], border:'none'">`
+dot([5,5],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:40,width:60,scales:[0,30,0,20], border:'none'">`
+shu.rend(2,[2,0],[12,0],10,true,true);
+dot([7,5],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+shu.rend(3,[0,0],[16,0],16,true,true);
+dot([8,5],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
+shu.rend(4,[2,0],[15,0],12,true,true);
+dot([8,6],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+
+
+<$asciisvg class="SVGgraph" options='width:40,height:40,scales:[-1.1,1.1]'>`
+a = []
+n = 5
+ for (i = 0; i < n; i++)
+ a[i] = [cos(2*PI/5*(1)*i-1), sin(2*PI/5*(1)*i-1)];
+a[4][1] = a[0][1]
+a[3][1] = a[1][1]
+path([a[0],a[1],a[2],a[3],a[4],a[0]])
+path(a)
+dot([0.0,0.0],{marker:'o',markerfill:'black'});
+`</$asciisvg>
+Larger numbers follow this pattern.

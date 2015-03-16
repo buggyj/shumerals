@@ -20,6 +20,13 @@ shu.subfactorheight = function(subfactor,num) {
 shu.subshuheight = function(subfactor,num) {
 	return shu.ratiocalc(num) /(shu.ratiocalc(num)+shu.ratiocalc(subfactor));
 }
+function mid(a,b) {
+	var mid = [];
+	mid [0] = (b[0]+a[0])/2;//(a[0]< b[0])? b[0]-a[0]:a[0]-b[0];
+	mid [1] = (b[1]+a[1])/2;//a[1]< b[1])? b[1]-a[1]:a[1]-b[1];
+	return mid;
+}
+
 shu.biggestprime=function(num){
   var root = Math.sqrt(num),   
   x = 2; 
@@ -33,6 +40,28 @@ shu.biggestprime=function(num){
 
   //if num isn't prime factor make recursive call
   return (x === num) ? x : shu.biggestprime(num/x) ;
+}
+shu.icon = function(n,m,X,Y,size,cent,seperate) {
+//for not conected we need to shorten the line segments so the ends don't touch the vertices
+var a = []
+
+var i
+if (n==1) {MSVG.dot([X,Y],{marker:'o',markerfill:'black'});return}
+ for (i = 0; i < n+1; i++)
+ a[i] = [X +size/2* Math.sin(2*Math.PI/n*(1)*i),Y+size/2*Math.cos(2*Math.PI/n*(1)*i)];
+if (!seperate)
+for (var j =0; j< a.length-1; j++) MSVG.line(a[j],a[j+1],{strokewidth:2,stroke:"red"})
+else
+for (var j =0; j< a.length-1; j++) MSVG.line(mid(a[j],mid(a[j],a[j+1])),mid(mid(a[j],a[j+1]),a[j+1]),{strokewidth:2,stroke:"red"})
+
+if (!cent && m!==-1) shu.icon(m,-1,X,Y,size/2);
+else if (m!==-1){
+    var pt;
+    //for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);    MSVG.dot([pt[0],pt[1]],{marker:'o',markerfill:'black'});}
+
+	for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);shu.icon(m,-1,pt[0],pt[1],size/4);}
+}
+
 }
 shu.rendplus = function(num, left, right, h, up,newshu,neck,ears,headroom) {
 	neck1 = shu.neck;//ratio controlling the slope of cape 

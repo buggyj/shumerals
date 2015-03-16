@@ -3972,6 +3972,7 @@ MSVG = function ($) { // character lists for STIX fonts
     }
   } // Public stuff
   return {
+	dot:dot,
 	line:line,
 	path:path,
 	rect:rect,

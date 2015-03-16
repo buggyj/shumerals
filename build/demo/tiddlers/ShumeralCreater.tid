@@ -1,5 +1,5 @@
 created: 20150304093644868
-modified: 20150312143543272
+modified: 20150315095632718
 tags: 
 title: ShumeralCreater
 type: text/vnd.tiddlywiki
@@ -11,5 +11,5 @@ shu.rend($value$,[-3,0],[3,0],13,true,true);
 `</$asciisvg>
 \end
 !!Enter a number <$edit-text tiddler="$:/tmp/openall" tag="input" type="text" placeholder="."/> 
- 
+To copy the shumeral, position the mouse over,  hold shift and click the left mouse button. Then select SVG and copy the code into your web page.
 <$macrocall $name=shu value={{$:/tmp/openall}}/>

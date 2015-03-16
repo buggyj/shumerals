@@ -1,0 +1,10 @@
+created: 20150314135326953
+list: [[Icons vs Symbols]] [[Iconic Numerals]] [[Numbers as a description]] [[The number 1]] [[icons 1 to 5]] Shumerals
+modified: 20150314135358495
+tags: ToC
+title: Visual Calculations
+type: text/vnd.tiddlywiki
+
+ <$set name="loop1" value=<<qualify "$:/temp/taglist">>>
+<$taglist class="btn btn-primary" >{{||taglisttemplate}}</$taglist>
+</$set>

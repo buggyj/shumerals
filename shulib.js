@@ -64,19 +64,31 @@ shu.icon = function(n,m,X,Y,size,cent,seperate) {
 	var i
 	if (n==1) {MSVG.dot([X,Y],{marker:'o',markerfill:'black'});return}
 	if (n==2) {shu.icon2(m,X,Y,size,cent,seperate);return}
+	if (n==4) a = [[X-size/2,Y-size/2],[X-size/2,Y+size/2],[X+size/2,Y+size/2],[X+size/2,Y-size/2],[X-size/2,Y-size/2]];
+	else
 	 for (i = 0; i < n+1; i++)
 		a[i] = [X +size/2* Math.sin(2*Math.PI/n*(1)*i),Y+size/2*Math.cos(2*Math.PI/n*(1)*i)];
-	if (!seperate)
-	for (var j =0; j< a.length-1; j++) MSVG.line(a[j],a[j+1],{strokewidth:2,stroke:"red"})
-	else
-	for (var j =0; j< a.length-1; j++) MSVG.line(mid(a[j],mid(a[j],a[j+1])),mid(mid(a[j],a[j+1]),a[j+1]),{strokewidth:2,stroke:"red"})
+	
+	switch (seperate) {
+		case null:
+		case 0:
+			for (var j =0; j< a.length-1; j++) MSVG.line(a[j],a[j+1],{strokewidth:2,stroke:"red"});
+			break;
+		case 1:
+		
+			for (var j =0; j< a.length-1; j++) MSVG.line(mid(a[j],mid(a[j],a[j+1])),mid(mid(a[j],a[j+1]),a[j+1]),{strokewidth:2,stroke:"red"});
+			break;
+		default:
+			break;
+	}
 
-	if (!cent && m!==-1) shu.icon(m,-1,X,Y,size/2);
+
+	if (!cent && m!==-1) shu.icon(m,-1,X,Y,size/2,false,0);
 	else if (m!==-1){
 		var pt;
 		//for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);    MSVG.dot([pt[0],pt[1]],{marker:'o',markerfill:'black'});}
 
-		for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);shu.icon(m,-1,pt[0],pt[1],size/4);}
+		for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);shu.icon(m,-1,pt[0],pt[1],size/4,false,0);}
 	}
 
 }

@@ -1,19 +1,19 @@
 created: 20150315095524909
 draft.of: New Tiddler 6
 draft.title: New Tiddler 6
-modified: 20150316081201997
+modified: 20150317091823080
 tags: 
 title: Draft of 'New Tiddler 6'
 type: text/vnd.tiddlywiki
 
-<$asciisvg class="SVGgraph" options='width:240,height:80,scales:[0,240,0,80]'>`
+<$micon class="SVGgraph" options='width:240,height:80'>`
 a = []
-n = 2
+n = 6
     size = 60,
     X = 55,
     Y = 40;
-shu.icon(n,5,X,Y,size,false,true)
+shu.icon(n,4,X,Y,size,false,0)
     X = 125,
     Y = 40;
-shu.icon(n,5,X,Y,size,true,true)
-`</$asciisvg>
+shu.icon(n,4,X,Y,size,true,0)
+`</$micon>

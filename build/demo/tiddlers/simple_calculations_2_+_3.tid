@@ -1,0 +1,108 @@
+created: 20150318084725306
+modified: 20150318085250921
+tags: [[How It Works]]
+title: simple calculations 2 + 3
+type: text/vnd.tiddlywiki
+
+simple calculations
+
+1 + 2 =3 is
+<$micon class="SVGgraph" options='width:240,height:40'>`
+a = []
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(2,1,X,Y,size,0)
+a = []
+
+    size = 30,
+    X = 67,
+    Y = 20;
+shu.icon(3,1,X,Y,size,0)
+
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:240,height:40'>`
+a = []
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(2,1,X,Y,size,1)
+a = []
+
+    size = 30,
+    X = 67,
+    Y = 20;
+shu.icon(3,1,X,Y,size,1)
+
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:240,height:40'>`
+a = []
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(2,1,X,Y,size,2)
+a = []
+
+    size = 30,
+    X = 67,
+    Y = 20;
+shu.icon(3,1,X,Y,size,2)
+
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:240,height:40'>`
+a = []
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(2,1,X,Y,size,3)
+a = []
+
+    size = 30,
+    X = 67,
+    Y = 20;
+shu.icon(3,1,X,Y,size,3)
+
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:240,height:40'>`
+a = []
+
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(5,1,X,Y,size,3)
+
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:240,height:40'>`
+a = []
+
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(5,1,X,Y,size,2)
+
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:240,height:40'>`
+a = []
+
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(5,1,X,Y,size,1)
+
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:240,height:40'>`
+a = []
+
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(5,1,X,Y,size,0)
+
+`</$micon>

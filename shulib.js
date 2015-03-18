@@ -41,54 +41,65 @@ shu.biggestprime=function(num){
   //if num isn't prime factor make recursive call
   return (x === num) ? x : shu.biggestprime(num/x) ;
 }
-shu.icon2 = function(m,X,Y,size,cent) {
+shu.icon2 = function(m,X,Y,size,mode) {
 //for not connected we need to shorten the line segments so the ends don't touch the vertices
 	var a = [[X-size/2,Y-size/2],[X-size/2,Y+size/2],[X+size/2,Y-size/2],[X+size/2,Y+size/2]];
 
-
-	 MSVG.line(a[0],a[1],{strokewidth:2,stroke:"red"})
-	 MSVG.line(a[2],a[3],{strokewidth:2,stroke:"red"})
-
-	if (!cent && m!==-1) shu.icon(m,-1,X,Y,size/2);
+		switch (mode) {
+			case null:
+			case 0:
+			case 1:
+				 MSVG.line(a[0],a[1],{strokewidth:2,stroke:"red"})
+				 MSVG.line(a[2],a[3],{strokewidth:2,stroke:"red"})
+				break;
+			case 2:
+				 MSVG.line(mid(a[0],mid(a[0],a[1])),mid(mid(a[0],a[1]),a[1]),{strokewidth:2,stroke:"red"})
+				 MSVG.line(mid(a[2],mid(a[2],a[3])),mid(mid(a[2],a[3]),a[3]),{strokewidth:2,stroke:"red"})
+				break;
+			default:
+				break;
+		}
+	if (!mode && m!==-1) shu.icon(m,-1,X,Y,size/2,0);
 	else if (m!==-1){
 		var pt;
-		pt= mid(a[0],a[1]);shu.icon(m,-1,pt[0],pt[1],size/4);
-		pt= mid(a[2],a[3]);shu.icon(m,-1,pt[0],pt[1],size/4);
+		pt= mid(a[0],a[1]);shu.icon(m,-1,pt[0],pt[1],size/4,0);
+		pt= mid(a[2],a[3]);shu.icon(m,-1,pt[0],pt[1],size/4,0);
 	}
 
 }
-shu.icon = function(n,m,X,Y,size,cent,seperate) {
+shu.icon = function(n,m,X,Y,size,mode) {
 //for not conected we need to shorten the line segments so the ends don't touch the vertices
 	var a = []
 
 	var i
 	if (n==1) {MSVG.dot([X,Y],{marker:'o',markerfill:'black'});return}
-	if (n==2) {shu.icon2(m,X,Y,size,cent,seperate);return}
-	if (n==4) a = [[X-size/2,Y-size/2],[X-size/2,Y+size/2],[X+size/2,Y+size/2],[X+size/2,Y-size/2],[X-size/2,Y-size/2]];
-	else
-	 for (i = 0; i < n+1; i++)
-		a[i] = [X +size/2* Math.sin(2*Math.PI/n*(1)*i),Y+size/2*Math.cos(2*Math.PI/n*(1)*i)];
-	
-	switch (seperate) {
-		case null:
-		case 0:
-			for (var j =0; j< a.length-1; j++) MSVG.line(a[j],a[j+1],{strokewidth:2,stroke:"red"});
-			break;
-		case 1:
+	if (n==2) {shu.icon2(m,X,Y,size,mode);}
+	else {
+		if (n==4) a = [[X-size/2,Y-size/2],[X-size/2,Y+size/2],[X+size/2,Y+size/2],[X+size/2,Y-size/2],[X-size/2,Y-size/2]];
+		else
+		 for (i = 0; i < n+1; i++)
+			a[i] = [X +size/2* Math.sin(2*Math.PI/n*(1)*i),Y+size/2*Math.cos(2*Math.PI/n*(1)*i)];
 		
-			for (var j =0; j< a.length-1; j++) MSVG.line(mid(a[j],mid(a[j],a[j+1])),mid(mid(a[j],a[j+1]),a[j+1]),{strokewidth:2,stroke:"red"});
-			break;
-		default:
-			break;
-	}
+		switch (mode) {
+			case null:
+			case 0:
+			case 1:
+				for (var j =0; j< a.length-1; j++) MSVG.line(a[j],a[j+1],{strokewidth:2,stroke:"red"});
+				break;
+			case 2:
+				for (var j =0; j< a.length-1; j++) MSVG.line(mid(a[j],mid(a[j],a[j+1])),mid(mid(a[j],a[j+1]),a[j+1]),{strokewidth:2,stroke:"red"});
+				break;
+			default:
+				break;
+		}
+
+		if (!mode && m!==-1) shu.icon(m,-1,X,Y,size/4,0);
+		else if (m!==-1){
+			var pt;
 
 
-	if (!cent && m!==-1) shu.icon(m,-1,X,Y,size/2,false,0);
-	else if (m!==-1){
-		var pt;
-		//for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);    MSVG.dot([pt[0],pt[1]],{marker:'o',markerfill:'black'});}
-
-		for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);shu.icon(m,-1,pt[0],pt[1],size/4,false,0);}
+			for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);shu.icon(m,-1,pt[0],pt[1],size/4,0);}
+		}
 	}
 
 }

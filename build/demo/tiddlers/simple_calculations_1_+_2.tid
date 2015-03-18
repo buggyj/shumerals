@@ -1,5 +1,5 @@
 created: 20150318083453476
-modified: 20150318085327509
+modified: 20150318091646159
 tags: [[How It Works]]
 title: simple calculations 1 + 2
 type: text/vnd.tiddlywiki
@@ -81,6 +81,7 @@ a = []
 shu.icon(3,1,X,Y,size,1)
 
 `</$micon>
+=
 <$micon class="SVGgraph" options='width:240,height:40'>`
 a = []
 

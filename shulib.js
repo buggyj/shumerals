@@ -59,11 +59,11 @@ shu.icon2 = function(m,X,Y,size,mode) {
 			default:
 				break;
 		}
-	if (!mode && m!==-1) shu.icon(m,-1,X,Y,size/2,0);
+	if (!mode && m!==-1) shu.icon(m,1,X,Y,size/2,0);
 	else if (m!==-1){
 		var pt;
-		pt= mid(a[0],a[1]);shu.icon(m,-1,pt[0],pt[1],size/4,0);
-		pt= mid(a[2],a[3]);shu.icon(m,-1,pt[0],pt[1],size/4,0);
+		pt= mid(a[0],a[1]);shu.icon(m,1,pt[0],pt[1],size/2,0);
+		pt= mid(a[2],a[3]);shu.icon(m,1,pt[0],pt[1],size/2,0);
 	}
 
 }
@@ -93,12 +93,12 @@ shu.icon = function(n,m,X,Y,size,mode) {
 				break;
 		}
 
-		if (!mode && m!==-1) shu.icon(m,-1,X,Y,size/4,0);
+		if (!mode && m!==-1) shu.icon(m,1,X,Y,size/4,0);
 		else if (m!==-1){
 			var pt;
 
 
-			for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);shu.icon(m,-1,pt[0],pt[1],size/4,0);}
+			for (var j =0; j< a.length-1; j++){pt= mid(a[j],a[j+1]);shu.icon(m,1,pt[0],pt[1],size/4,0);}
 		}
 	}
 

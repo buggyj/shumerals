@@ -1,10 +1,28 @@
 created: 20150311082930386
-modified: 20150315091717215
+modified: 20150319194433137
 tags: [[How It Works]]
 title: Shumerals
 type: text/vnd.tiddlywiki
 
-The term shumeral derives from the phrase "shaped numeral". They are derived from iconic (shaped) numerals, but attempt to over come the limitation of have large polygons (shapes with a large number of sides)<hr>
+The term shumeral derives from the phrase "shaped numeral". They are derived from iconic (shaped) numerals, 
+For numbers greater that 6 or 7 their iconic numerals becomes hard to perceive, eg 11 is 
+<$micon class="SVGgraph" options='width:240,height:60'>`
+a = []
+    size = 40,
+    X = 40,
+    Y = 20;
+shu.icon(11,1,X,Y,size,0)
+
+`</$micon>which looks almost like a cirlcle. Numbers that can be formed by multiplying smaller numbers  together can be represented that way eg 9 can be
+<$micon class="SVGgraph" options='width:240,height:60'>`
+a = []
+    size = 60,
+    X = 40,
+    Y = 20;
+shu.icon(3,3,X,Y,size,0)
+
+`</$micon>Other numbers cannot be formed this way (the so called 'prime numbers').
+Shumeral over come this limitation, their structure is shown by examples as follow:<hr>
 The number 5 can be represented by 2+3 like so
 <$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
 line([0,0],[18,00],{strokewidth:2,stroke:"red"});

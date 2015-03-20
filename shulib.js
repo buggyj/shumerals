@@ -116,11 +116,24 @@ shu.rendplus = function(num, left, right, h, up,newshu,neck,ears,headroom) {
 	shu.ears = ears1;
 }
 shu.rend = function(num, left, right, h, up,newshu) {
-	var cap = [],neck = shu.neck;
+	var ret = shu.rendinner (num, left, right, h, up,newshu);
+	MSVG.dot([(right[0]+left[0])/2,ret[2]],{marker:'o',markerfill:'black'});
+}
+shu.rendinner = function(num, left, right, h, up,newshu) {
+	var cap = [],neck = shu.neck,min = 0,hdelta ;
 	if (num ==2) {
+		if (left[0]==right[0]) {
+			 min = (up)?h*shu.headroom/10:-h*shu.headroom/5;
+			 left[0]+=min;
+			 right[0]-=min;
+			 h = h*4/5;
+		 }
 		MSVG.line( left, [left[0],left[1]+h*shu.headroom],{strokewidth:2,stroke:'red'});
 		MSVG.line( right, [right[0],right[1]+h*shu.headroom],{strokewidth:2,stroke:'red'});
-		return;
+		return [left[0],right[0],right[1]+(h*shu.headroom/2)];
+	}
+	if (num ==1) {
+		return [left[0],right[0],h/2];
 	}
 	if (num % 4 == 0) {
 		var hdelta = h*0.05;
@@ -131,8 +144,7 @@ shu.rend = function(num, left, right, h, up,newshu) {
 	var capeleft =[left[0]+hdelta,left[1]+hdelta];
 	var caperight =[right[0]-hdelta,right[1]+hdelta];
 		
-		if (num > 4) shu.rend(num / 4,capeleft,caperight,h-2*hdelta,up,true);
-		return;
+		return(shu.rendinner(num / 4,capeleft,caperight,h-2*hdelta,up,true));
 	}
 	var subshu = shu.biggestprime(num) ;
 	var subfactor = num/subshu;
@@ -163,13 +175,14 @@ shu.rend = function(num, left, right, h, up,newshu) {
 		cap.push([right[0],head+ear]);
 		MSVG.path (cap,{stroke:'red',strokewidth:2});
 	}
-	else { //divisable by 3
+	else { //divisable by 3 - no cap
 		neck = 0;
 		var hdelta = h*shu.headroom,head;
 		var base =left[1]; //y coord
 		if (up) head = base + hdelta;
 		else head = base - hdelta;
 	}
+	/**** now draw the cape *****/
 	num = num /3;
 	var width = right[0] -left[0];
 	var instep = (1 - neck)/2;
@@ -179,7 +192,7 @@ shu.rend = function(num, left, right, h, up,newshu) {
 	MSVG.line(right,caperight,{strokewidth:2,stroke:'red'});
 	var hdelta1 = hdelta * shu.subshuheight(subfactor,num);
 	//render subshu
-	if (num > 1) shu.rend(num,capeleft,caperight,hdelta1,!up);
+	if (num > 1) shu.rendinner(num,capeleft,caperight,hdelta1,!up);
 	//render subfactor
 	var hdelta2 =  hdelta * shu.subfactorheight(subfactor,num);
 	hdelta=h*(1-shu.headroom)/4
@@ -192,16 +205,26 @@ shu.rend = function(num, left, right, h, up,newshu) {
 	caperight[1] =base-hdelta;
 	}
 
-	if (subfactor > 1) 
-	if (subfactor % 3 ==0 && num == 1) {
-		capeleft[0] =left[0]+hdelta;
-		caperight[0]=right[0]-hdelta;
-		shu.rend(subfactor,capeleft,caperight,hdelta2,up,true);
+	if (subfactor > 1) {
+		//var X = (!up)? capeleft[0] - caperight[0]:caperight[0] - capeleft[0];
+		//var Y = capeleft[1];
+		//MSVG.dot([X,Y],{marker:'o',markerfill:'black'});
+		if (subfactor % 3 ==0 && num == 1) {
+			capeleft[0] =left[0]+hdelta;
+			caperight[0]=right[0]-hdelta;
+			return(shu.rendinner(subfactor,capeleft,caperight,hdelta2,up,true));
+		}
+		else {
+		//alert (num);alert(subfactor)
+			return(shu.rendinner(subfactor,capeleft,caperight,hdelta2,up,true));
+		}
+	} else {
+		var X = (!up)? capeleft[0] - caperight[0]:caperight[0] - capeleft[0];
+		var Y = capeleft[1];//alert(hdelta)
+		return [capeleft[0],caperight[0],capeleft[1]+(hdelta)];
 	}
-	else {
-	//alert (num);alert(subfactor)
-		shu.rend(subfactor,capeleft,caperight,hdelta2,up,true);
-	}
+
+
 }
 
 })();

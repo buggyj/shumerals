@@ -1,5 +1,5 @@
 created: 20150311082930386
-modified: 20150319194433137
+modified: 20150322082559454
 tags: [[How It Works]]
 title: Shumerals
 type: text/vnd.tiddlywiki
@@ -31,33 +31,32 @@ dot([10,5],{marker:'o',markerfill:'black'});
 `</$asciisvg>
 <$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
 shu.rend(3,[0,0],[16,0],16,true,true);
-dot([8,5],{marker:'o',markerfill:'black'});
+
 `</$asciisvg>
 This is then 'condensed' to
 <$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
-line([0,13],[18,13],{strokewidth:2,stroke:"red"});
+line([0,17],[18,17],{strokewidth:2,stroke:"red"});
 line([0,15],[18,15],{strokewidth:2,stroke:"red"})
 shu.rend(3,[0,0],[16,0],16,true,true);
-dot([8,5],{marker:'o',markerfill:'black'});
+
 `</$asciisvg>
 and finally is drawn as 
 <$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
 
 shu.rendplus(5,[0,0],[16,0],16,true,true,0.5,0.3);
-dot([8,5],{marker:'o',markerfill:'black'});
+
 `</$asciisvg><hr>
 seven as 4 + 3 is
 
-<$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
-shu.rend(4,[0,10],[12,9],10,true,true);
+<$asciisvg class="SVGgraph" options="height:50,width:180,scales:[0,90,0,25], border:'none'">`
+shu.rend(4,[0,12],[12,12],10,true,true);
 shu.rend(3,[0,0],[12,0],12,true,true);
-dot([6,15],{marker:'o',markerfill:'black'});
-dot([6,4],{marker:'o',markerfill:'black'});
+
 `</$asciisvg>
 and becomes
 <$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
 shu.rendplus(7,[0,0],[16,0],16,true,true,0.5,0.3);
-dot([8,5],{marker:'o',markerfill:'black'});
+
 `</$asciisvg><hr>
 Eleven as 9 +2 is
 
@@ -65,12 +64,20 @@ Eleven as 9 +2 is
 line([0,13],[18,13],{strokewidth:2,stroke:"red"});
 line([0,15],[18,15],{strokewidth:2,stroke:"red"})
 shu.rend(9,[0,0],[16,0],16,true,true);
-dot([8,5],{marker:'o',markerfill:'black'});
+
 `</$asciisvg>
 this becomes
 <$asciisvg class="SVGgraph" options="height:80,width:180,scales:[0,90,0,20], border:'none'">`
 
 shu.rendplus(11,[0,0],[16,0],16,true,true,0.5,0.2);
-dot([8,2],{marker:'o',markerfill:'black'});
+
 `</$asciisvg><hr>
-You can see larger shumerals by clicking [[here|ShumeralCreater]]
+To create a shumeral, first factorize.
+For each prime factor (other than 2 or 3 -these can be directly represented as iconic numal):
+subtract either 2 or 4 to make the number a factor of three, then divide by 3 to leave the sub-number.
+
+*make a 'cap' representation of 2 or 4 
+*draw a triangle like shape to represent the multiple of 3 
+*repeat the process for the sub-number, draw the shumeral for the sub-number underneath the cap, continue this process until all that remains is 1.
+
+!!!You can see larger shumerals by using the shumeral creater found [[here|ShumeralCreater]]

@@ -1,0 +1,49 @@
+created: 20150321075729568
+draft.of: brackets as positons
+draft.title: brackets as positions
+modified: 20150321164428273
+tags: ideas
+title: Draft of 'brackets as positons'
+type: text/vnd.tiddlywiki
+
+ use 
+`|7|6||4|5|` for
+
+|7|6|
+|4|5|
+
+`|7|6|//|4|5|` for
+
+||7|6|
+|4|5||
+
+`|7|6|//|4|5|///|3|2|` for
+
+|||7|6|
+||4|5||
+|3|2|||
+`|7|6|//|4|5|///|3|2| = |/|(|\|7|6|/|4|5|//|3|2| )` 
+
+|||7|6|
+||4|5||
+|3|2|||
+
+`|7|6|//|4|5|///|3|2| = |/|(|\|7|6|/|4|5|//|3|2| )` 
+
+or use seperate / move down \ move left?
+
+
+
+use `|12|`
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`a = [];    size = 50,    X = 25,    Y = 25;shu.icon(5,3,X,Y,size,0)`</$micon>|
+
+use `|\12|`
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`a = [];    size = 50,    X = 25,    Y = 25;shu.icon(1,1,X,Y,size,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`a = [];    size = 50,    X = 25,    Y = 25;shu.icon(5,1,X,Y,size,0)`</$micon>|
+
+
+
+table {
+    table-layout: fixed;
+} 

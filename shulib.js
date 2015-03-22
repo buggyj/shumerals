@@ -115,9 +115,19 @@ shu.rendplus = function(num, left, right, h, up,newshu,neck,ears,headroom) {
 	shu.headroom = headroom1;
 	shu.ears = ears1;
 }
+shu.draw =function (num,X,Y,size) {
+shu.rend(num,[X-size/2,Y-size/2],[X + size/2,Y-size/2],size,true,true);
+}
 shu.rend = function(num, left, right, h, up,newshu) {
-	var ret = shu.rendinner (num, left, right, h, up,newshu);
-	MSVG.dot([(right[0]+left[0])/2,ret[2]],{marker:'o',markerfill:'black'});
+	var ret;
+	if (num < 5) {
+		var X = (left[0] + right[0])/2,Y = right[1]+h/2;
+		shu.icon(num,1,X,Y,h,0);
+	}
+	else {
+		ret = shu.rendinner (num, left, right, h, up,newshu);
+		MSVG.dot([(right[0]+left[0])/2,ret[2]],{marker:'o',markerfill:'black'});
+	}
 }
 shu.rendinner = function(num, left, right, h, up,newshu) {
 	var cap = [],neck = shu.neck,min = 0,hdelta ;

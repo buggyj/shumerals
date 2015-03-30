@@ -1,11 +1,11 @@
 created: 20150311172545087
-modified: 20150318083449259
+modified: 20150322221312498
 tags: [[How It Works]]
 title: icons 1 to 5
 type: text/vnd.tiddlywiki
 
 The first five numbers as shaped icons are:
-<$micon class="SVGgraph" options='width:240,height:40'>`
+<$micon class="SVGgraph" options='width:240,height:60'>`
 a = []
     size = 30,
     X = 27,
@@ -13,7 +13,7 @@ a = []
 shu.icon(1,4,X,Y,size,3)
 
 `</$micon>
-<$micon class="SVGgraph" options='width:240,height:40'>`
+<$micon class="SVGgraph" options='width:240,height:60'>`
 a = []
 
     size = 30,
@@ -22,7 +22,7 @@ a = []
 shu.icon(2,1,X,Y,size,0)
 
 `</$micon>
-<$micon class="SVGgraph" options='width:240,height:40'>`
+<$micon class="SVGgraph" options='width:240,height:60'>`
 a = []
 
     size = 30,
@@ -31,7 +31,7 @@ a = []
 shu.icon(3,1,X,Y,size,0)
 
 `</$micon>
-<$micon class="SVGgraph" options='width:240,height:40'>`
+<$micon class="SVGgraph" options='width:240,height:60'>`
 a = []
 
     size = 30,
@@ -40,12 +40,21 @@ a = []
 shu.icon(4,1,X,Y,size,0)
 
 `</$micon>
-<$micon class="SVGgraph" options='width:240,height:40'>`
+<$micon class="SVGgraph" options='width:240,height:60'>`
 a = []
 
     size = 30,
     X = 27,
     Y = 20;
 shu.icon(5,1,X,Y,size,0)
+
+`</$micon>
+<$micon class="SVGgraph" options='width:240,height:60'>`
+a = []
+
+    size = 30,
+    X = 27,
+    Y = 20;
+shu.icon(6,1,X,Y,size,0)
 
 `</$micon>

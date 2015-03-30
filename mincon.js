@@ -44,18 +44,25 @@ Compute the internal state of the widget
 */
 nullWidget.prototype.execute = function() {
 	var attrs = {id: "currentGraph",};
-	var opts;
+	var opts,scale = true;
 	var options = this.getAttribute("options");
 	if (options) {
 		if (options.indexOf("scales")== -1) {
+			scale = false; 
+		}
 			eval("opts={" + options + "}");
-			opts.scales = [];
-			opts.scales[0] = 0;
-			opts.scales[1] = opts.width ;		
- 			opts.scales[2] = 0;
-			opts.scales[3] = opts.height;
+			
+			opts.wheel = false;
+			opts.pan = false;
+			if (!scale){
+				opts.scales = [];
+				opts.scales[0] = 0;
+				opts.scales[1] = opts.width ;		
+				opts.scales[2] = 0;
+				opts.scales[3] = opts.height;
+			}
 			options = JSON.stringify(opts).replace(/^\{([\s\S]*)\}$/,"$1")  ;      
-	  }
+
     }
 	$tw.utils.each(this.attributes,function(attribute,name) {
 			attrs[name] =attribute;			

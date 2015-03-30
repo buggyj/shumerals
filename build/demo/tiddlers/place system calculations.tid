@@ -1,5 +1,5 @@
 created: 20150321164640555
-modified: 20150322104210695
+modified: 20150327220724782
 tags: [[Visual Calculations]]
 title: place system calculations
 type: text/vnd.tiddlywiki
@@ -38,14 +38,14 @@ shu.icon(3,1,70,10,30,0)
 
 multiply the terms gives
 
-||<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(9,25,30,40,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,25,50,0)`</$micon>|
-|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(12,25,25,40,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`a = [];    size = 40,    X = 25,    Y = 25;shu.icon(4,2,X,Y,size,0)`</$micon>||
+||<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,3,25,20,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,20,50,0)`</$micon>|
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(4,3,25,25,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(4,2,25,25,50,0)`</$micon>||
 =
 
-|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(12,25,25,40,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(17,25,35,50);`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,25,50,0);`</$micon>|
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(4,3,25,25,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(17,25,25,50);` </$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,20,50,0);`</$micon>|
 =
 
-|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(13,25,35,40,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(7,25,35,40);`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,25,50,0);`</$micon>|
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(13,25,25,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(7,25,25,50)     `</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,20,50,0);`</$micon>|
 =
 
-|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(1,25,25,40,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(3,25,25,40,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(7,25,35,40);`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,25,50,0);`</$micon>|
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(1,25,25,50,0) `</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,1,25,20,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(7,25,25,50);    `</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,20,50,0);`</$micon>|

@@ -3167,6 +3167,26 @@ MSVG = function ($) { // character lists for STIX fonts
     drawPicture();
   }
 
+  function reScales(scales) {
+    if (scales) {
+      SVG.xmin = scales[0];
+      SVG.xmax = scales[1];
+      SVG.ymin = scales[2];
+      SVG.ymax = scales[3];
+    }
+    SVG.xunitlength = SVG.width / (SVG.xmax - SVG.xmin);
+    SVG.yunitlength = SVG.height / (SVG.ymax - SVG.ymin);
+    SVG.origin = [-SVG.xmin * SVG.xunitlength, -SVG.ymin * SVG.yunitlength];
+
+  }
+function getAllScales() {
+    var res = [null, null, null, null, 0];
+      res[0] = SVG.xmin;
+      res[1] = SVG.xmax;
+      res[2] = SVG.ymin;
+      res[3] = SVG.ymax;
+      return res;
+    }
   function getScales(scales) {
     scales = scales || [];
     var res = [null, null, null, null, 0];
@@ -3208,7 +3228,20 @@ MSVG = function ($) { // character lists for STIX fonts
     }
     setScales();
   }
-
+  function resizeme(factor) {
+    SVG.factor = (SVG.factor * factor).toFixed(3);
+    SVG.width /= factor;
+    SVG.height /= factor;
+    var picture = $("#" + SVG.id);
+    picture.attr("width", SVG.width);
+    picture.attr("height", SVG.height);
+    var parent = picture[0].parentNode;
+    if (parent.nodeName == 'DIV') {
+      parent.style.width = SVG.width + "px";
+      parent.style.height = SVG.height + "px";
+    }
+    //setScales();
+  }
   function zoom(factor, center) {
     var px, py;
     if (center) {
@@ -3977,6 +4010,9 @@ MSVG = function ($) { // character lists for STIX fonts
 	path:path,
 	rect:rect,
 	image:image,
+	resizeme:resizeme,
+	reScales:reScales,
+	getAllScales:getAllScales,
     showFormulaOnMouseOver: false,
     latexImages: false,
     //set to true to force external converter
@@ -4154,7 +4190,7 @@ MSVG = function ($) { // character lists for STIX fonts
           if (SVG.pan) setAction("mouseup", onDrop);
           if (window.addEventListener) {
             var evt = $.browser.mozilla ? "DOMMouseScroll" : "mousewheel";
-            qnode.addEventListener(evt, onWheel, false);
+            if (options.wheel != false) qnode.addEventListener(evt, onWheel, false);
           }
         }
         setAction("mousedown", onClick);

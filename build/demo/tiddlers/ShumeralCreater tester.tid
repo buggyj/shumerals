@@ -1,7 +1,6 @@
-created: 20150304093644868
-modified: 20150329053936360
-tags: [[How It Works]]
-title: ShumeralCreater
+created: 20150329071339450
+modified: 20150330124308000
+title: ShumeralCreater tester
 type: text/vnd.tiddlywiki
 
 \define shu(value:3)
@@ -10,7 +9,12 @@ type: text/vnd.tiddlywiki
 var X = 120;
 var Y = 160;
 var size = 320;
-shu.draw($value$,X,Y,size);
+var ret =shu.drawouter($value$,X,Y,size);
+shu.rend(5,ret[0],ret[1],ret[2]/2,true,true);
+ret[2] =ret[2]/2;
+ret[0][1]+=ret[2];
+ret[1][1]+=ret[2];
+shu.rend(2,ret[0],ret[1],ret[2],true,true);
 `</$micon>
 \end
 !!Enter a number <$edit-text tiddler="$:/tmp/openall" tag="input" type="text" placeholder="."/> 

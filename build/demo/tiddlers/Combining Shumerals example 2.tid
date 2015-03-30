@@ -1,0 +1,51 @@
+created: 20150330121813780
+modified: 20150330123434391
+tags: [[Visual Calculations]]
+title: Combining Shumerals example 2
+type: text/vnd.tiddlywiki
+
+\define condense(vinner:3 v1:3 v2:4)
+<$micon class="SVGgraph" options='width:340,height:150
+'>`
+var X = 70;
+var Y = 100;
+var size = 80;
+var ret =shu.drawouter($vinner$,X,Y,size);
+shu.rend($v1$,ret[0],ret[1],ret[2],true,true);
+
+var X = 70;
+var Y = 30;
+var size = 80;
+var ret =shu.drawouter($vinner$,X,Y,size);
+shu.rend($v2$,ret[0],ret[1],ret[2],true,true);
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:340,height:100
+'>`
+var X = 70;
+var Y = 50;
+var size = 80;
+var ret =shu.drawouter($vinner$,X,Y,size,1,1.5);
+shu.rend($v2$,ret[0],ret[1],ret[2]/2,true,true);
+ret[2] =ret[2]/2;
+ret[0][1]+=ret[2];
+ret[1][1]+=ret[2];
+shu.rend($v1$,ret[0],ret[1],ret[2],true,true);
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:340,height:100
+'>`
+var X = 70;
+var Y = 50;
+var size = 80;
+var ret =shu.drawouter($vinner$,X,Y,size);
+var cent = shu.tocent(ret);
+var ret = shu.tobase(cent,2,1.5);
+shu.rend($v1$+$v2$,ret[0],ret[1],ret[2],true,true);
+
+`</$micon>
+\end
+ 5*4 + 5*5  is 5*9
+<<condense 5 4 5>>
+
+

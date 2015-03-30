@@ -1,5 +1,5 @@
 created: 20150311162751254
-modified: 20150318085410348
+modified: 20150322105814486
 tags: [[How It Works]]
 title: The number 1
 type: text/vnd.tiddlywiki
@@ -15,7 +15,7 @@ dot([10,10],{marker:'o',markerfill:'black'});
 so
 <$asciisvg class="SVGgraph" options="height:40,width:180,scales:[0,90,0,20], border:'none'">`
 shu.rend(3,[0,0],[16,0],16,true,true);
-dot([8,5],{marker:'o',markerfill:'black'});
+
 dot([28,5],{marker:'o',markerfill:'black'});
 dot([38,5],{marker:'o',markerfill:'black'});
 dot([48,5],{marker:'o',markerfill:'black'});

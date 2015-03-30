@@ -1,0 +1,54 @@
+created: 20150324130125792
+draft.of: New Tiddler 3
+draft.title: New Tiddler 3
+modified: 20150325151407571
+tags: 
+title: Draft of 'New Tiddler 3'
+type: text/vnd.tiddlywiki
+
+shumerals can be conbined with place value,  and eg
+333
+becomes
+<$micon class="SVGgraph" options='width:340,height:160'>`
+a = []
+    size = 145,
+    X = 40,
+    Y = 10;
+shu.icon(4,1,X,Y,size,0)
+    X = 180,
+    Y = 10;
+shu.draw(11*5,X,Y,size*0.707,0)
+    X = 320,
+    Y = 10;
+shu.icon(11,1,X,Y,size,0)
+resizeme(0.3)
+`</$micon>
+They can be used to effect with multiplication
+eg 43 *32 or
+<$micon class="SVGgraph" options='width:240,height:30'>`
+SVG.ymax=400
+shu.icon(3,1,40,10,size,0)
+shu.icon(2,1,70,10,size,0)
+
+`</$micon>
+X
+<$micon class="SVGgraph" options='width:240,height:30'>`
+
+shu.icon(4,1,40,12,20,0)
+
+shu.icon(3,1,70,10,30,0)
+`</$micon>
+
+multiply the terms gives
+
+||<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,3,25,20,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,20,50,0)`</$micon>|
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(4,3,25,25,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(4,2,25,25,50,0)`</$micon>||
+=
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(4,3,25,25,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(17,25,33,50);`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,20,50,0);`</$micon>|
+=
+
+|<$micon class="SVGgraph" options='width:50,height:100'>`shu.draw(13,25,33,50);shu.draw(7,25,76,50)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(7,25,33,50);`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(7,25,33,50)`</$micon><$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(7,25,33,50)`</$micon>|
+=
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(1,25,25,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,1,25,20,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(7,25,33,50);`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,2,25,20,50,0);`</$micon>|

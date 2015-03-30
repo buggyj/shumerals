@@ -11,7 +11,7 @@ module-type: library
 shu = {};
 shu.test = function (){alert("test")}
 shu.neck = 0.7;//ratio controlling the slope of cape 
-shu.usableHfraction = 0.7;
+shu.headroom = 0.7;
 shu.ears = 0.1;
 shu.ratiocalc = function (x) {return  Math.log(x)}
 shu.subfactorheight = function(subfactor,num) {
@@ -113,43 +113,20 @@ shu.icon = function(n,m,X,Y,size,mode) {
 	}
 
 }
-shu.rendplus = function(num, left, right, h, up,newshu,neck,ears,usableHfraction) {
+shu.rendplus = function(num, left, right, h, up,newshu,neck,ears,headroom) {
 	neck1 = shu.neck;//ratio controlling the slope of cape 
-	usableHfraction1 = shu.usableHfraction;
+	headroom1 = shu.headroom;
 	ears1 = shu.ears;
 	shu.neck = neck;//ratio controlling the slope of cape 
-	shu.usableHfraction = usableHfraction||shu.usableHfraction;
+	shu.headroom = headroom||shu.headroom;
 	shu.ears = ears||shu.ears;
 	shu.rend (num, left, right, h, up,newshu);
 	shu.neck = neck1;//ratio controlling the slope of cape 
-	shu.usableHfraction = usableHfraction1;
+	shu.headroom = headroom1;
 	shu.ears = ears1;
 }
 shu.draw =function (num,X,Y,size) {
-	size = size * 0.707;
-	shu.rend(num,[X-size/2,Y-size/2],[X + size/2,Y-size/2],size,true,true);
-	
-}
-shu.drawouter =function (num,X,Y,size,facx, facy) {
-	facx = facx||1;
-	facy = facy||1;
-	var sizex = size * 0.707 *facx;
-	var sizey = size * 0.707 *facy;
-return(shu.rendinner(num,[X-sizex/2,Y-sizey/2],[X + sizex/2,Y-sizey/2],sizey,true,true,1));
-}
-shu.tobase =function (cent, facx, facy) {
-	var X = cent[0];
-	var Y = cent[1];
-	var size = cent[2];
-	facx = facx||1;
-	facy = facy||1;
-	var sizex = size * 0.707 *facx;
-	var sizey = size * 0.707 *facy;
-return([[X-sizex/2,Y-sizey/2],[X + sizex/2,Y-sizey/2],sizey]);
-}
-shu.tocent = function(base) {
-	var X = (base[0][0] + base[1][0])/2,Y = base[1][1]+base[2]/2;
-	return([X,Y,base[2]]);
+shu.rend(num,[X-size/2,Y-size/2],[X + size/2,Y-size/2],size,true,true);
 }
 shu.rend = function(num, left, right, h, up,newshu) {
 	var ret;
@@ -159,28 +136,25 @@ shu.rend = function(num, left, right, h, up,newshu) {
 	}
 	else {
 		ret = shu.rendinner (num, left, right, h, up,newshu,1);
-		MSVG.dot([(right[0]+left[0])/2,ret[1][1]+ret[2]/2],{marker:'o',markerfill:'black'});
+		MSVG.dot([(right[0]+left[0])/2,ret[2]],{marker:'o',markerfill:'black'});
 	}
 }
-shu.rendinner = function(num, left, right, h, up,newshu,usableHfraction) {
+shu.rendinner = function(num, left, right, h, up,newshu,headroom) {
 	var cap = [],neck = shu.neck,min = 0,hdelta,ret ;
-	if (usableHfraction == null) usableHfraction = shu.usableHfraction;
-	var number = num;
-	if (num ==1) {
-		return [left,right,h];
+	if (headroom == null) headroom = shu.headroom;
+	if (num ==2) {
+		if (left[0]==right[0]) {
+			 min = (up)?h*headroom/10:-h*headroom/5;
+			 left[0]+=min;
+			 right[0]-=min;
+			 h = h*4/5;
+		 }
+		MSVG.line( left, [left[0],left[1]+h*headroom],{strokewidth:2,stroke:'red'});
+		MSVG.line( right, [right[0],right[1]+h*headroom],{strokewidth:2,stroke:'red'});
+		return [left[0],right[0],right[1]+(h*headroom/2)];
 	}
-	if (num ==2) {//alert(left[0]+"=="+right[0])
-		/*
-		if (true){//(left[0]==right[0]) {
-			 min = (up)?h*usableHfraction/5:-h*usableHfraction/5;
-			 var centre =(left[0]+ right[0])/2;
-			 left[0] =centre+min;
-			 right[0] = centre-min;
-			 //h = h*4/5;
-		 }*/
-		MSVG.line( left, [left[0],left[1]+h*usableHfraction],{strokewidth:2,stroke:'red'});
-		MSVG.line( right, [right[0],right[1]+h*usableHfraction],{strokewidth:2,stroke:'red'});
-		return [left,right,(h)];
+	if (num ==1) {
+		return [left[0],right[0],h/2];
 	}
 	if (num % 4 == 0) {
 		var hdelta = h*0.05;
@@ -190,71 +164,74 @@ shu.rendinner = function(num, left, right, h, up,newshu,usableHfraction) {
 		
 	var capeleft =[left[0]+hdelta,left[1]+hdelta];
 	var caperight =[right[0]-hdelta,right[1]+hdelta];
-		//var scales = MSVG.getAllScales();
-		//scales[3] *=0.5;
-		//MSVG.reScales(scales);	
-		ret =(shu.rendinner(num / 4,capeleft,caperight,h-2*hdelta,up,true,1-shu.ears));
-
+		
+		ret =(shu.rendinner(num / 4,capeleft,caperight,h-2*hdelta,up,true,1));
+		var scales = MSVG.getAllScales();
+		scales[3] *=0.5;
+		MSVG.reScales(scales);
 		MSVG.rect(left,righttop,{stroke:'red'});
 		return ret;
 	}
 	var subshu = shu.biggestprime(num) ;
 	var subfactor = num/subshu;
 
-	var curshu = subshu;
+	num = subshu;
 
 		//render subfactor
 		
-	var base =left[1];//alert(subshu +"-"+h*usableHfraction)
-	var hdelta = h*usableHfraction;
-	var subleft=[],subright=[];//alert(hdelta +"-"+ shu.subfactorheight(subfactor,subshu);)
-	var hdelta2 =  hdelta * shu.subfactorheight(subfactor,subshu/3);
-	var margin=h*(1-shu.usableHfraction)/4
+	var base =left[1];
+	var hdelta = h*headroom;
+	var subleft=[],subright=[];//alert(hdelta +"-"+ shu.subfactorheight(subfactor,num);)
+	var hdelta2 =  hdelta * shu.subfactorheight(subfactor,num);
+	var hdelta3=h*(1-shu.headroom)/4
 	if (up){
-	subleft[1] =base+margin;
-	subright[1] =base+margin;
+	subleft[1] =base+hdelta3;
+	subright[1] =base+hdelta3;
 	
 	}
 	else {
-	subleft[1] =base-margin;
-	subright[1] =base-margin;
+	subleft[1] =base-hdelta3;
+	subright[1] =base-hdelta3;
 	}
 	var width = right[0] -left[0];
 	var instep = (1 - neck)/2;
 	subleft[0]	= left[0]+instep*width;
 	subright[0]	= right[0]-instep*width;
 	if (subfactor > 1) {
-{
-		//alert (subshu);alert(subfactor)
-		    if (curshu % 3 == 0 && subfactor % 3 !=0 ) {
-				// there is less usable space inside a triangle
-				subleft[0]	= left[0]+4*instep*width;
-				subright[0]	= right[0]-4*instep*width;
-				ret = (shu.rendinner(subfactor,subleft,subright,hdelta2/2,up,true));
-			}
-		    else 
-				ret = (shu.rendinner(subfactor,subleft,subright,hdelta2,up,true));
+		//var X = (!up)? subleft[0] - subright[0]:subright[0] - subleft[0];
+		//var Y = subleft[1];
+		//MSVG.dot([X,Y],{marker:'o',markerfill:'black'});
+		if (subfactor % 3 ==0 ){//&& num == 1) {
+			subleft[0] =left[0]+2*hdelta3;
+			subright[0]=right[0]-2*hdelta3;
+			ret = (shu.rendinner(subfactor,subleft,subright,hdelta2,up,true));
+		}
+		else {
+		//alert (num);alert(subfactor)
+			ret = (shu.rendinner(subfactor,subleft,subright,hdelta2,up,true));
 		}
 	} else {
-		ret = (shu.rendinner(subfactor,subleft,subright,hdelta2,up,true));
+		var X = (!up)? subleft[0] - subright[0]:subright[0] - subleft[0];
+		var Y = subleft[1];//alert(hdelta3)
+		ret = [subleft[0],subright[0],subleft[1]+(hdelta3)];
 	}
 
 	if (newshu )MSVG.line( left, right,{strokewidth:2,stroke:'red'});
 
-	if (subshu % 3 == 2) {
-		subshu = subshu - 2;
-		var hdelta = h*usableHfraction,head;
+	if (num % 3 == 2) {
+		num = num - 2;
+		var hdelta = h*headroom,head;
 		var base =left[1]; //y coord
 		if (up) head = base + hdelta;
 		else head = base - hdelta;
 
 		cap.push([left[0],head]);
 		cap.push([right[0],head]);
-
+		MSVG.path (cap,{stroke:'red',strokewidth:2});
 	} 
-	else if (subshu % 3 == 1) {
-		subshu -=4;
-		var hdelta=h*usableHfraction,head;
+	else if (num % 3 == 1) {
+		num -=4;
+		var hdelta=h*headroom,head;
 		var ear;
 		var base =left[1]; //y coord
 		if (up) {head = base + hdelta;ear = hdelta*shu.ears}
@@ -263,33 +240,27 @@ shu.rendinner = function(num, left, right, h, up,newshu,usableHfraction) {
 		cap.push([left[0],head]);
 		cap.push([right[0],head]);
 		cap.push([right[0],head+ear]);
-
+		MSVG.path (cap,{stroke:'red',strokewidth:2});
 	}
 	else { //divisable by 3 - no cap
 		neck = 0;
-		var hdelta = h*usableHfraction,head;
+		var hdelta = h*headroom,head;
 		var base =left[1]; //y coord
 		if (up) head = base + hdelta;
 		else head = base - hdelta;
 	}
 	/**** now draw the cape *****/
-	subshu = subshu /3;
+	num = num /3;
 	var width = right[0] -left[0];
 	var instep = (1 - neck)/2;
 	var capeleft =[left[0]+instep*width,head];
 	var caperight =[right[0]-instep*width,head];
-	var hdelta1 = hdelta * shu.subshuheight(subfactor,subshu);
-	//render subshu 
-	if (subshu > 1) {
-		
-		//if the subshuber is a three?
-		shu.rendinner(subshu,capeleft,caperight,hdelta1,!up);
 
-	}
-	if (neck !=0) 		MSVG.path (cap,{stroke:'red',strokewidth:2});
 	MSVG.line(left,capeleft,{strokewidth:2,stroke:'red'});
 	MSVG.line(right,caperight,{strokewidth:2,stroke:'red'});
-
+	var hdelta1 = hdelta * shu.subshuheight(subfactor,num);
+	//render subshu
+	if (num > 1) shu.rendinner(num,capeleft,caperight,hdelta1,!up);
 
 return ret;
 

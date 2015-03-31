@@ -1,6 +1,6 @@
 created: 20150328074233740
 list: [[Icons vs Symbols]] [[Iconic Numerals]] [[Numbers as a description]] [[The number 1]] [[icons 1 to 5]] [[simple calculations 1 + 2]] [[simple calculations 2 + 3]] [[simple calculations 3*2=2*3]] Shumerals [[Draft of 'simple calculations 3*2=2*3']] ShumeralCreater
-modified: 20150328074318829
+modified: 20150330124637417
 tags: ToC
 title: Introduction
 type: text/vnd.tiddlywiki
@@ -9,4 +9,4 @@ type: text/vnd.tiddlywiki
 <$taglist class="btn btn-primary" >{{||taglisttemplate}}</$taglist>
 </$set><hr/>
 
-!!!Next: [[ How It Works]]
+!!!Next: [[How It Works]]

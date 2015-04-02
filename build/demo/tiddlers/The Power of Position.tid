@@ -1,0 +1,39 @@
+created: 20150401061729778
+modified: 20150402072913263
+tags: [[The Positional System]]
+title: The Power of Position
+type: text/vnd.tiddlywiki
+
+One way then we use numbers is describe positions eg, the dot is in the first position on the right side
+
+|<$micon class="SVGgraph" options='width:50,height:50'></$micon>|<$micon class="SVGgraph" options='width:50,height:50'></$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(1,1,25,20,50,0)`</$micon>|
+
+this dot is at the third position
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(1,1,25,20,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'></$micon>|<$micon class="SVGgraph" options='width:50,height:50'></$micon>|
+
+Represenstation of numbers can use position, we use the second position to mean ten, the third one hundred, and so on.
+So the shumeral 'ten' can be written:
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(10,25,20,50,0)`</$micon>|
+
+and as
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(1,1,25,20,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'></$micon>|
+The shumeral 'thirty'
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(30,25,20,50,0)`</$micon>|
+
+=
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(3,1,25,20,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'></$micon>|
+
+Generally an ordinary shmeral can be converted to one using position by first rewriting it as a sum of a multiple of ten and a number less then  ten, then replacing amount of tens with a positional representation, eg the number fifteen can be written as a shumeral like so:
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(15,25,20,50,0)`</$micon>|
+which can be written as ten + 5:
+
+|<$micon class="SVGgraph" options='width:50,height:100'>`shu.draw(5,25,70,50,0);shu.draw(10,25,20,50,0)`</$micon>|
+Finally we can use the common convention that the second position represents 'ten'
+
+|<$micon class="SVGgraph" options='width:50,height:50'>`shu.icon(1,1,25,20,50,0)`</$micon>|<$micon class="SVGgraph" options='width:50,height:50'>`shu.draw(5,25,20,50,0)`</$micon>|

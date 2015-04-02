@@ -1,6 +1,6 @@
 created: 20150330163713270
-modified: 20150330221640347
-tags: [[Visual Calculations]]
+modified: 20150402074952980
+tags: [[How It Works]]
 title: composing Shumerals
 type: text/vnd.tiddlywiki
 
@@ -34,7 +34,7 @@ shu.rend($vinner$,ret[0],ret[1],ret[2]*2,true,true);
 \end
 As seen [[here|Shumerals]], prime numbers can be represented by composition of a multiple of 3 plus 2 or 4, eg 7 can be represented as a condensed form of 4 +3:
 <<condense 1 4 3>>
-Shumerals with a common factor can be combined.
+The dot in the centre of the figures represents 'an object', and as such can replaced with any object, including other numbers Thus. Shumerals with a common factor can be combined.
 eg 4*4 + 3*4  is 7*4
 <<condense 4 4 3>> 
 

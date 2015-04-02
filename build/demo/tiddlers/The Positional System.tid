@@ -1,0 +1,12 @@
+created: 20150401061713483
+list: [[The Power of Position]] [[place system calculations]]
+modified: 20150402073150546
+tags: ToC
+title: The Positional System
+type: text/vnd.tiddlywiki
+
+ <$set name="loop1" value=<<qualify "$:/temp/taglist">>>
+<$taglist class="btn btn-primary" >{{||taglisttemplate}}</$taglist>
+</$set><hr/>
+
+!!!Next: [[Visual Calculations]]

@@ -126,6 +126,7 @@ shu.rendplus = function(num, left, right, h, up,newshu,neck,ears,usableHfraction
 	shu.ears = ears1;
 }
 shu.draw =function (num,X,Y,size) {
+	if (num == 0) return;
 	size = size * 0.707;
 	shu.rend(num,[X-size/2,Y-size/2],[X + size/2,Y-size/2],size,true,true);
 	
@@ -228,9 +229,9 @@ shu.rendinner = function(num, left, right, h, up,newshu,usableHfraction) {
 		//alert (subshu);alert(subfactor)
 		    if (curshu % 3 == 0 && subfactor % 3 !=0 ) {
 				// there is less usable space inside a triangle
-				subleft[0]	= left[0]+4*instep*width;
-				subright[0]	= right[0]-4*instep*width;
-				ret = (shu.rendinner(subfactor,subleft,subright,hdelta2/2,up,true));
+				subleft[0]	= left[0]+5*instep*width;
+				subright[0]	= right[0]-5*instep*width;
+				ret = (shu.rendinner(subfactor,subleft,subright,hdelta2*2/3,up,true));
 			}
 		    else 
 				ret = (shu.rendinner(subfactor,subleft,subright,hdelta2,up,true));

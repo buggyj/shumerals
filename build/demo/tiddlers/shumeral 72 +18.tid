@@ -1,0 +1,30 @@
+created: 20150409065651678
+modified: 20150410060830355
+tags: 
+title: shumeral 72 +18
+type: text/vnd.tiddlywiki
+
+<$micon class="SVGgraph" options='width:340,height:150
+'>`
+var X = 70;
+var Y = 100;
+var size = 80;
+var ret =shu.drawouter(4,X,Y,size);
+shu.rend(18,ret[0],ret[1],ret[2],true,true);
+
+var X = 70;
+var Y = 30;
+var size = 80;
+var ret =shu.drawouter(1,X,Y,size);
+shu.rend(18,ret[0],ret[1],ret[2],true,true);
+`</$micon>
+=
+<$micon class="SVGgraph" options='width:340,height:100
+'>`
+var X = 70;
+var Y = 50;
+var size = 80;
+var ret =shu.draw(90,X,Y,size);
+
+
+`</$micon>

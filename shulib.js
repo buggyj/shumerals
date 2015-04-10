@@ -184,17 +184,17 @@ shu.rendinner = function(num, left, right, h, up,newshu,usableHfraction) {
 		return [left,right,(h)];
 	}
 	if (num % 4 == 0) {
-		var hdelta = h*0.05;
+		var hdelta = h*0.1;
 		var righttop = [];
 		righttop[0] = right[0];
 		righttop[1] = right[1] + h; 
 		
-	var capeleft =[left[0]+hdelta,left[1]+hdelta];
-	var caperight =[right[0]-hdelta,right[1]+hdelta];
+	var innerLeft =[left[0]+hdelta,left[1]+hdelta];
+	var innerRight =[right[0]-hdelta,right[1]+hdelta];
 		//var scales = MSVG.getAllScales();
 		//scales[3] *=0.5;
 		//MSVG.reScales(scales);	
-		ret =(shu.rendinner(num / 4,capeleft,caperight,h-2*hdelta,up,true,1-shu.ears));
+		ret =(shu.rendinner(num / 4,innerLeft,innerRight,h-2*hdelta,up,true,1-shu.ears));
 
 		MSVG.rect(left,righttop,{stroke:'red'});
 		return ret;

@@ -46,6 +46,10 @@ nullWidget.prototype.execute = function() {
 	var attrs = {id: "currentGraph",};
 	var opts,scale = true;
 	var options = this.getAttribute("options");
+		/*see if variable minconopts has been set, if so read it in 
+		 * setoptions = this.getVariable("minconopts");
+		 * now override setoptions with 'inline'options
+		 * */
 	if (options) {
 		if (options.indexOf("scales")== -1) {
 			scale = false; 
@@ -64,6 +68,9 @@ nullWidget.prototype.execute = function() {
 			options = JSON.stringify(opts).replace(/^\{([\s\S]*)\}$/,"$1")  ;      
 
     }
+
+		
+
 	$tw.utils.each(this.attributes,function(attribute,name) {
 			attrs[name] =attribute;			
 	});

@@ -1,0 +1,66 @@
+created: 20150409064758462
+modified: 20150410182118351
+tags: [[Exploring Patterns]]
+title: Sums of Consecutive Even Numbers
+type: text/vnd.tiddlywiki
+
+Here we will Explore the sum of a run consecutive numbers. The runs are given in the table columns and the sums of the columns are show underneath. 
+
+<table><tr><$list filter="0 00 000 0000 00000 000000 0000000  2"><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr><tr><$list filter="0 00 000 0000 000000 0000000 2 4"><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr><tr><$list filter="0 00 000 0000 00000 2 4 6 "><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr><tr><$list filter="0 00 000 0000 0 2 4 6 8 "><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr><tr><$list filter="0 00 000 2 4 6 8 10 "><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr><tr><$list filter="0 00 2 4 6 8 10 12"><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr><tr><$list filter="0 2 4 6 8 10 12 14 "><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr><tr><$list filter=" 2 4 6 8 10 12 14 16 "><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr></table>
+=
+<table><tr><$list filter=" 2 6 12 20 30 42 56 72"><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr></table>
+
+
+Does this pattern repeat? Numbering the postion of the sums in the table gives
+<table><tr><td style=" border: none;">sum</td><$list filter=" 2 6 12 20 30 42 56 72"><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr>
+<tr><td style=" border: none;">pos</td><$list filter=" 1 2 3 4 5 6 7 8"><td><<currentTiddler>></td></$list>
+</tr>
+<tr><td style=" border: none;">val</td><$list filter=" 2 4 6 8 10 12 14 16 "><td><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(<<currentTiddler>>,25,20,50,0)</$micon></td></$list>
+</tr></table>
+We can see that the sum is related to the position, ie the sum at position 4 (sum4) = pos5 *pos4  = 5*4
+
+Also  we know that that the sum4 is
+the sum at position 3 (sum3) plus the value at position 4 (val4) so
+
+sum4 =  sum3 + val4
+
+examples:
+The sum at  position 2 is
+
+<table  style=" border: none;"><tr  style=" border: none;"><td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(2,25,20,50,0)</$micon></td><td style=" border: none;">+</td>
+<td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(4,25,20,50,0)</$micon></td><td style=" border: none;">=</td>
+<td style=" border: none;"><$micon class="SVGgraph" 
+options='width:50,height:50'>shu.draw(6,25,20,50,0)</$micon></td>
+</tr></table>
+
+The sum at position 3 is
+
+<table  style=" border: none;"><tr  style=" border: none;">
+<td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(2,25,20,50,0)</$micon></td>
+<td style=" border: none;">+</td>
+<td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(4,25,20,50,0)</$micon></td>
+<td style=" border: none;">+</td>
+<td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(6,25,20,50,0)</$micon></td>
+<td style=" border: none;">=</td>
+<td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(6,25,20,50,0)</$micon></td>
+<td style=" border: none;">+</td>
+<td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(6,25,20,50,0)</$micon></td>
+<td style=" border: none;">=</td>
+<td style=" border: none;"><$micon class="SVGgraph" 
+options='width:50,height:50'>shu.draw(12,25,20,50,0)</$micon></td>
+</tr></table>
+
+We can also see that sum2 = pos2*pos3 and that val3 = pos3 * 2 also
+also
+sum3 = sum2 + pos3 = pos2*pos3 + pos3*2 = pos3*(pos2 +2) =pos3*pos4
+which we see in the table

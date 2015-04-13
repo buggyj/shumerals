@@ -1,10 +1,10 @@
 created: 20150311172545087
-modified: 20150322221312498
+modified: 20150411225634907
 tags: [[How It Works]]
-title: icons 1 to 5
+title: icons 1 to 6
 type: text/vnd.tiddlywiki
 
-The first five numbers as shaped icons are:
+The first six numbers as shaped icons are:
 <$micon class="SVGgraph" options='width:240,height:60'>`
 a = []
     size = 30,

@@ -1,8 +1,8 @@
-created: 20140801123132954
+created: 20150412074935847
 list: [[Icons and Symbols]] [[Iconic Numerals]] [[Numbers as a description]] [[The number 1]] [[icons 1 to 6]] [[simple calculations 1 + 2]] [[simple calculations 2 + 3]] [[simple calculations 3*2=2*3]] Shumerals [[composing Shumerals]] [[Combining Shumerals example 1]] [[Combining Shumerals example 2]] ShumeralCreater
-modified: 20150412073507676
+modified: 20150412143346090
 tags: ToC
-title: How It Works
+title: Same Different logic
 type: text/vnd.tiddlywiki
 
  <$set name="loop1" value=<<qualify "$:/temp/taglist">>>

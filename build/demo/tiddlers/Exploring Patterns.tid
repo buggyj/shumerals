@@ -1,6 +1,6 @@
 created: 20150406060852923
 list: [[Combining Shumerals example 1]] [[Combining Shumerals example 2]] [[place system calculations]] [[composing Shumerals]]
-modified: 20150406061003258
+modified: 20150411225153248
 tags: ToC
 title: Exploring Patterns
 type: text/vnd.tiddlywiki
@@ -8,3 +8,7 @@ type: text/vnd.tiddlywiki
  <$set name="loop1" value=<<qualify "$:/temp/taglist">>>
 <$taglist class="btn btn-primary" >{{||taglisttemplate}}</$taglist>
 </$set>
+
+----
+
+Next [[The Positional System]]

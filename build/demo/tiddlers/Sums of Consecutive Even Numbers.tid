@@ -1,5 +1,5 @@
 created: 20150409064758462
-modified: 20150410182118351
+modified: 20150411222111454
 tags: [[Exploring Patterns]]
 title: Sums of Consecutive Even Numbers
 type: text/vnd.tiddlywiki
@@ -56,11 +56,18 @@ The sum at position 3 is
 <td style=" border: none;">+</td>
 <td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(6,25,20,50,0)</$micon></td>
 <td style=" border: none;">=</td>
+<td style=" border: none;">sum2</td>
+<td style=" border: none;">+</td>
+<td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:50'>shu.draw(6,25,20,50,0)</$micon></td>
+<td style=" border: none;">=</td>
 <td style=" border: none;"><$micon class="SVGgraph" 
 options='width:50,height:50'>shu.draw(12,25,20,50,0)</$micon></td>
 </tr></table>
 
-We can also see that sum2 = pos2*pos3 and that val3 = pos3 * 2 also
-also
-sum3 = sum2 + pos3 = pos2*pos3 + pos3*2 = pos3*(pos2 +2) =pos3*pos4
-which we see in the table
+Now the sum at position 4 is
+
+{{Combining Shumerals example 8 + 12}}
+And  at the 5th position
+{{Combining Shumerals example 10 + 20}}
+
+We see that the adding val to the previous sum adds 2 to the lower multiple of the sum, and in so produces the next sum in the sequence.

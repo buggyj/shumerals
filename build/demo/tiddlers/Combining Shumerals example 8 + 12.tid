@@ -1,0 +1,50 @@
+created: 20150411145305136
+modified: 20150411153138777
+title: Combining Shumerals example 8 + 12
+type: text/vnd.tiddlywiki
+
+\define condense(vinner:3 v1:3 v2:4)
+<table  style=" border: none;"><tr  style=" border: none;">
+<td style=" border: none;"><$micon class="SVGgraph" options='width:60,height:100'>`
+var X = 30;
+var Y = 70;
+var size = 50;
+var ret =shu.drawouter($vinner$,X,Y,size);
+shu.rend($v1$,ret[0],ret[1],ret[2],true,true);
+
+var X = 30;
+var Y = 30;
+var size = 50;
+var ret =shu.drawouter($vinner$,X,Y,size);
+shu.rend($v2$,ret[0],ret[1],ret[2],true,true);
+`</$micon></td>
+<td style=" border: none;">=</td>
+<td style=" border: none;"><$micon class="SVGgraph" options='width:60,height:100'>`
+var X = 30;
+var Y = 50;
+var size = 60;
+var ret =shu.drawouter($vinner$,X,Y,size,1,1.5);
+shu.rend($v2$,ret[0],ret[1],ret[2]/2,true,true);
+ret[2] =ret[2]/2;
+ret[0][1]+=ret[2];
+ret[1][1]+=ret[2];
+shu.rend($v1$,ret[0],ret[1],ret[2],true,true);
+`</$micon>
+</td>
+<td style=" border: none;">=</td>
+<td style=" border: none;"><$micon class="SVGgraph" options='width:50,height:100'>`
+var X = 30;
+var Y = 50;
+var size = 50;
+var ret =shu.drawouter($vinner$,X,Y,size);
+var cent = shu.tocent(ret);
+var ret = shu.tobase(cent,1,1);
+shu.rend($v1$+$v2$,ret[0],ret[1],ret[2],true,true);
+
+`</$micon>
+</td>
+</tr></table>
+\end
+<<condense 4 2 3>>
+
+

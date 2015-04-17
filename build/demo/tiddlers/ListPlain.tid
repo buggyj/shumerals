@@ -1,0 +1,12 @@
+created: 20150415081320217
+modified: 20150415081650884
+tags: ClipListConfig
+title: ListPlain
+type: application/json1
+
+[
+{"#part0":"\n"},
+{"#false":"false"},
+{"#part1":"!!((*@dateComma*))\n"},
+{"#newdata": "((*!$mydate==@dateComma*??*#part0*))((*@newtiddler*??*#part1*))((*!$mydate==@dateComma*??*#part1*))\n\n((*@web*))\n\n------"}
+]

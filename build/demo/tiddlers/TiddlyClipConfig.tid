@@ -1,5 +1,5 @@
-created: 20150304120955161
-modified: 20150304120957431
+created: 20141105001056774
+modified: 20150415081906487
 title: TiddlyClipConfig
 type: text/vnd.tiddlywiki
 
@@ -8,3 +8,19 @@ type: text/vnd.tiddlywiki
 |Tip|copy tids||[[defaultTip]]|tiddlers|
 |Snip|copy||[[defaultSnip]]||
 |Pin|pin it||[[defaultPin]]||
+|Snap|screen shot||[[defaultSnap]]|snap|
+|HtmlEnts|logbook|log|ListConfig||
+|highlight||||highlight|
+
+!ClipLists
+|!Category|!Tip|!Tags|!Rule Tid|!Modes|
+|highlight||||highlight|
+|HoPe||clips|WebLstRule||
+|AnXious||clips|WebLstRule||
+!PjotoLists
+|!Category|!Tip|!Tags|!Rule Tid|!Modes|
+|highlight||||highlight|
+|HoPe||clips|WebSnapRule|snap|
+|NiCa||clips|WebSnapRule|snap|
+|GuateMala||clips|WebSnapRule|snap|
+|BeliZe||clips|WebSnapRule|snap|

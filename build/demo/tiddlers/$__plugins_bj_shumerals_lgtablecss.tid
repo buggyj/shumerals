@@ -1,0 +1,11 @@
+created: 20150417073934129
+modified: 20150417075132388
+tags: $:/tags/Stylesheet
+title: $:/plugins/bj/shumerals/lgtablecss
+type: text/vnd.tiddlywiki
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+.lgclass {
+	border-collapse:seperate;
+}

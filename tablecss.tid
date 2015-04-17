@@ -1,0 +1,8 @@
+title: $:/plugins/bj/shumerals/lgtablecss
+tags: [[$:/tags/Stylesheet]]
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+.lgclass {
+	
+}

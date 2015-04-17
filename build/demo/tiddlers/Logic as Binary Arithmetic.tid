@@ -1,0 +1,66 @@
+created: 20150416063235494
+modified: 20150416155122517
+tags: [[Same Different logic]]
+title: Logic as Binary Arithmetic
+type: text/vnd.tiddlywiki
+
+Binary logic and binary number follow the same patterns. As most of us are familiar with numbers it is easier to recongnise the simplicity of the patterns when we write them as binary numbers.
+
+There are only two binary numbers 0 and 1. Multiplication is the same as ordinary numbers so 
+
+0*0 = 0
+
+0*1 = 0
+
+1*0 = 0
+
+1*1 = 1
+
+so we see that when multiplying if there is one or more zeros then the result is zero, eg
+
+1*0*1*0*1  = 0
+
+and
+
+1*1*1*1*1 = 1
+
+addition gives
+
+0+0 = 0
+
+0+1 = 1
+
+1+0 = 1
+
+1+1 = 0
+
+we can see that adding the same number to itself give 0 i.e
+
+0+0 = 0
+
+1+1 = 0
+
+so adding the same number to itself is zero, so if B is a binary number:
+
+B+B = 0
+
+If A and B are binary numbers asking the question "Are A and B the same number" is the same as asking "is A+B=0"
+
+A+B = 0
+
+=>
+
+A+B+B=B
+
+=> (note  B+B = 0)
+
+A+0 = B
+
+=> 
+
+A = B
+
+
+We also note that there is only one even number (0) and one odd (1).
+
+

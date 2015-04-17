@@ -1,0 +1,280 @@
+created: 20150415082414395
+modified: 20150415161948417
+mydate: 15:April:2015
+new: 3
+tags: log
+title: HtmlEnts/201504 1
+type: text/vnd.tiddlywiki
+
+!!15:April:2015
+&#10571;
+
+<br>
+
+<table class="reference">
+<tbody><tr>
+<th>Char</th>
+<th>Dec</th>
+<th>Hex</th>
+<th>Entity</th>
+<th>Name</th>
+</tr>
+<tr><td>∀</td><td>8704</td><td>2200</td><td>&amp;forall;</td><td>FOR ALL</td></tr>
+<tr><td>∁</td><td>8705</td><td>2201</td><td>&nbsp;</td><td>COMPLEMENT</td></tr>
+<tr><td>∂</td><td>8706</td><td>2202</td><td>&amp;part;</td><td>PARTIAL DIFFERENTIAL</td></tr>
+<tr><td>∃</td><td>8707</td><td>2203</td><td>&amp;exist;</td><td>THERE EXISTS</td></tr>
+<tr><td>∄</td><td>8708</td><td>2204</td><td>&nbsp;</td><td>THERE DOES NOT EXIST</td></tr>
+<tr><td>∅</td><td>8709</td><td>2205</td><td>&amp;empty;</td><td>EMPTY SET</td></tr>
+<tr><td>∆</td><td>8710</td><td>2206</td><td>&nbsp;</td><td>INCREMENT</td></tr>
+<tr><td>∇</td><td>8711</td><td>2207</td><td>&amp;nabla;</td><td>NABLA</td></tr>
+<tr><td>∈</td><td>8712</td><td>2208</td><td>&amp;isin;</td><td>ELEMENT OF</td></tr>
+<tr><td>∉</td><td>8713</td><td>2209</td><td>&amp;notin;</td><td>NOT AN ELEMENT OF</td></tr>
+<tr><td>∊</td><td>8714</td><td>220A</td><td>&nbsp;</td><td>SMALL ELEMENT OF</td></tr>
+<tr><td>∋</td><td>8715</td><td>220B</td><td>&amp;ni;</td><td>CONTAINS AS MEMBER</td></tr>
+<tr><td>∌</td><td>8716</td><td>220C</td><td>&nbsp;</td><td>DOES NOT CONTAIN AS MEMBER</td></tr>
+<tr><td>∍</td><td>8717</td><td>220D</td><td>&nbsp;</td><td>SMALL CONTAINS AS MEMBER</td></tr>
+<tr><td>∎</td><td>8718</td><td>220E</td><td>&nbsp;</td><td>END OF PROOF</td></tr>
+<tr><td>∏</td><td>8719</td><td>220F</td><td>&amp;prod;</td><td>N-ARY PRODUCT</td></tr>
+<tr><td>∐</td><td>8720</td><td>2210</td><td>&nbsp;</td><td>N-ARY COPRODUCT</td></tr>
+<tr><td>∑</td><td>8721</td><td>2211</td><td>&amp;sum;</td><td>N-ARY SUMMATION</td></tr>
+<tr><td>−</td><td>8722</td><td>2212</td><td>&amp;minus;</td><td>MINUS SIGN</td></tr>
+<tr><td>∓</td><td>8723</td><td>2213</td><td>&nbsp;</td><td>MINUS-OR-PLUS SIGN</td></tr>
+<tr><td>∔</td><td>8724</td><td>2214</td><td>&nbsp;</td><td>DOT PLUS</td></tr>
+<tr><td>∕</td><td>8725</td><td>2215</td><td>&nbsp;</td><td>DIVISION SLASH</td></tr>
+<tr><td>∖</td><td>8726</td><td>2216</td><td>&nbsp;</td><td>SET MINUS</td></tr>
+<tr><td>∗</td><td>8727</td><td>2217</td><td>&amp;lowast;</td><td>ASTERISK OPERATOR</td></tr>
+<tr><td>∘</td><td>8728</td><td>2218</td><td>&nbsp;</td><td>RING OPERATOR</td></tr>
+<tr><td>∙</td><td>8729</td><td>2219</td><td>&nbsp;</td><td>BULLET OPERATOR</td></tr>
+<tr><td>√</td><td>8730</td><td>221A</td><td>&amp;radic;</td><td>SQUARE ROOT</td></tr>
+<tr><td>∛</td><td>8731</td><td>221B</td><td>&nbsp;</td><td>CUBE ROOT</td></tr>
+<tr><td>∜</td><td>8732</td><td>221C</td><td>&nbsp;</td><td>FOURTH ROOT</td></tr>
+<tr><td>∝</td><td>8733</td><td>221D</td><td>&amp;prop;</td><td>PROPORTIONAL TO</td></tr>
+<tr><td>∞</td><td>8734</td><td>221E</td><td>&amp;infin;</td><td>INFINITY</td></tr>
+<tr><td>∟</td><td>8735</td><td>221F</td><td>&nbsp;</td><td>RIGHT ANGLE</td></tr>
+<tr><td>∠</td><td>8736</td><td>2220</td><td>&amp;ang;</td><td>ANGLE</td></tr>
+<tr><td>∡</td><td>8737</td><td>2221</td><td>&nbsp;</td><td>MEASURED ANGLE</td></tr>
+<tr><td>∢</td><td>8738</td><td>2222</td><td>&nbsp;</td><td>SPHERICAL ANGLE</td></tr>
+<tr><td>∣</td><td>8739</td><td>2223</td><td>&nbsp;</td><td>DIVIDES</td></tr>
+<tr><td>∤</td><td>8740</td><td>2224</td><td>&nbsp;</td><td>DOES NOT DIVIDE</td></tr>
+<tr><td>∥</td><td>8741</td><td>2225</td><td>&nbsp;</td><td>PARALLEL TO</td></tr>
+<tr><td>∦</td><td>8742</td><td>2226</td><td>&nbsp;</td><td>NOT PARALLEL TO</td></tr>
+<tr><td>∧</td><td>8743</td><td>2227</td><td>&amp;and;</td><td>LOGICAL AND</td></tr>
+<tr><td>∨</td><td>8744</td><td>2228</td><td>&amp;or;</td><td>LOGICAL OR</td></tr>
+<tr><td>∩</td><td>8745</td><td>2229</td><td>&amp;cap;</td><td>INTERSECTION</td></tr>
+<tr><td>∪</td><td>8746</td><td>222A</td><td>&amp;cup;</td><td>UNION</td></tr>
+<tr><td>∫</td><td>8747</td><td>222B</td><td>&amp;int;</td><td>INTEGRAL</td></tr>
+<tr><td>∬</td><td>8748</td><td>222C</td><td>&nbsp;</td><td>DOUBLE INTEGRAL</td></tr>
+<tr><td>∭</td><td>8749</td><td>222D</td><td>&nbsp;</td><td>TRIPLE INTEGRAL</td></tr>
+<tr><td>∮</td><td>8750</td><td>222E</td><td>&nbsp;</td><td>CONTOUR INTEGRAL</td></tr>
+<tr><td>∯</td><td>8751</td><td>222F</td><td>&nbsp;</td><td>SURFACE INTEGRAL</td></tr>
+<tr><td>∰</td><td>8752</td><td>2230</td><td>&nbsp;</td><td>VOLUME INTEGRAL</td></tr>
+<tr><td>∱</td><td>8753</td><td>2231</td><td>&nbsp;</td><td>CLOCKWISE INTEGRAL</td></tr>
+<tr><td>∲</td><td>8754</td><td>2232</td><td>&nbsp;</td><td>CLOCKWISE CONTOUR INTEGRAL</td></tr>
+<tr><td>∳</td><td>8755</td><td>2233</td><td>&nbsp;</td><td>ANTICLOCKWISE CONTOUR INTEGRAL</td></tr>
+<tr><td>∴</td><td>8756</td><td>2234</td><td>&amp;there4;</td><td>THEREFORE</td></tr>
+<tr><td>∵</td><td>8757</td><td>2235</td><td>&nbsp;</td><td>BECAUSE</td></tr>
+<tr><td>∶</td><td>8758</td><td>2236</td><td>&nbsp;</td><td>RATIO</td></tr>
+<tr><td>∷</td><td>8759</td><td>2237</td><td>&nbsp;</td><td>PROPORTION</td></tr>
+<tr><td>∸</td><td>8760</td><td>2238</td><td>&nbsp;</td><td>DOT MINUS</td></tr>
+<tr><td>∹</td><td>8761</td><td>2239</td><td>&nbsp;</td><td>EXCESS</td></tr>
+<tr><td>∺</td><td>8762</td><td>223A</td><td>&nbsp;</td><td>GEOMETRIC PROPORTION</td></tr>
+<tr><td>∻</td><td>8763</td><td>223B</td><td>&nbsp;</td><td>HOMOTHETIC</td></tr>
+<tr><td>∼</td><td>8764</td><td>223C</td><td>&amp;sim;</td><td>TILDE OPERATOR</td></tr>
+<tr><td>∽</td><td>8765</td><td>223D</td><td>&nbsp;</td><td>REVERSED TILDE</td></tr>
+<tr><td>∾</td><td>8766</td><td>223E</td><td>&nbsp;</td><td>INVERTED LAZY S</td></tr>
+<tr><td>∿</td><td>8767</td><td>223F</td><td>&nbsp;</td><td>SINE WAVE</td></tr>
+<tr><td>≀</td><td>8768</td><td>2240</td><td>&nbsp;</td><td>WREATH PRODUCT</td></tr>
+<tr><td>≁</td><td>8769</td><td>2241</td><td>&nbsp;</td><td>NOT TILDE</td></tr>
+<tr><td>≂</td><td>8770</td><td>2242</td><td>&nbsp;</td><td>MINUS TILDE</td></tr>
+<tr><td>≃</td><td>8771</td><td>2243</td><td>&nbsp;</td><td>ASYMPTOTICALLY EQUAL TO</td></tr>
+<tr><td>≄</td><td>8772</td><td>2244</td><td>&nbsp;</td><td>NOT ASYMPTOTICALLY EQUAL TO</td></tr>
+<tr><td>≅</td><td>8773</td><td>2245</td><td>&amp;cong;</td><td>APPROXIMATELY EQUAL TO</td></tr>
+<tr><td>≆</td><td>8774</td><td>2246</td><td>&nbsp;</td><td>APPROXIMATELY BUT NOT ACTUALLY EQUAL TO</td></tr>
+<tr><td>≇</td><td>8775</td><td>2247</td><td>&nbsp;</td><td>NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO</td></tr>
+<tr><td>≈</td><td>8776</td><td>2248</td><td>&amp;asymp;</td><td>ALMOST EQUAL TO</td></tr>
+<tr><td>≉</td><td>8777</td><td>2249</td><td>&nbsp;</td><td>NOT ALMOST EQUAL TO</td></tr>
+<tr><td>≊</td><td>8778</td><td>224A</td><td>&nbsp;</td><td>ALMOST EQUAL OR EQUAL TO</td></tr>
+<tr><td>≋</td><td>8779</td><td>224B</td><td>&nbsp;</td><td>TRIPLE TILDE</td></tr>
+<tr><td>≌</td><td>8780</td><td>224C</td><td>&nbsp;</td><td>ALL EQUAL TO</td></tr>
+<tr><td>≍</td><td>8781</td><td>224D</td><td>&nbsp;</td><td>EQUIVALENT TO</td></tr>
+<tr><td>≎</td><td>8782</td><td>224E</td><td>&nbsp;</td><td>GEOMETRICALLY EQUIVALENT TO</td></tr>
+<tr><td>≏</td><td>8783</td><td>224F</td><td>&nbsp;</td><td>DIFFERENCE BETWEEN</td></tr>
+<tr><td>≐</td><td>8784</td><td>2250</td><td>&nbsp;</td><td>APPROACHES THE LIMIT</td></tr>
+<tr><td>≑</td><td>8785</td><td>2251</td><td>&nbsp;</td><td>GEOMETRICALLY EQUAL TO</td></tr>
+<tr><td>≒</td><td>8786</td><td>2252</td><td>&nbsp;</td><td>APPROXIMATELY EQUAL TO OR THE IMAGE OF</td></tr>
+<tr><td>≓</td><td>8787</td><td>2253</td><td>&nbsp;</td><td>IMAGE OF OR APPROXIMATELY EQUAL TO</td></tr>
+<tr><td>≔</td><td>8788</td><td>2254</td><td>&nbsp;</td><td>COLON EQUALS</td></tr>
+<tr><td>≕</td><td>8789</td><td>2255</td><td>&nbsp;</td><td>EQUALS COLON</td></tr>
+<tr><td>≖</td><td>8790</td><td>2256</td><td>&nbsp;</td><td>RING IN EQUAL TO</td></tr>
+<tr><td>≗</td><td>8791</td><td>2257</td><td>&nbsp;</td><td>RING EQUAL TO</td></tr>
+<tr><td>≘</td><td>8792</td><td>2258</td><td>&nbsp;</td><td>CORRESPONDS TO</td></tr>
+<tr><td>≙</td><td>8793</td><td>2259</td><td>&nbsp;</td><td>ESTIMATES</td></tr>
+<tr><td>≚</td><td>8794</td><td>225A</td><td>&nbsp;</td><td>EQUIANGULAR TO</td></tr>
+<tr><td>≛</td><td>8795</td><td>225B</td><td>&nbsp;</td><td>STAR EQUALS</td></tr>
+<tr><td>≜</td><td>8796</td><td>225C</td><td>&nbsp;</td><td>DELTA EQUAL TO</td></tr>
+<tr><td>≝</td><td>8797</td><td>225D</td><td>&nbsp;</td><td>EQUAL TO BY DEFINITION</td></tr>
+<tr><td>≞</td><td>8798</td><td>225E</td><td>&nbsp;</td><td>MEASURED BY</td></tr>
+<tr><td>≟</td><td>8799</td><td>225F</td><td>&nbsp;</td><td>QUESTIONED EQUAL TO</td></tr>
+<tr><td>≠</td><td>8800</td><td>2260</td><td>&amp;ne;</td><td>NOT EQUAL TO</td></tr>
+<tr><td>≡</td><td>8801</td><td>2261</td><td>&amp;equiv;</td><td>IDENTICAL TO</td></tr>
+<tr><td>≢</td><td>8802</td><td>2262</td><td>&nbsp;</td><td>NOT IDENTICAL TO</td></tr>
+<tr><td>≣</td><td>8803</td><td>2263</td><td>&nbsp;</td><td>STRICTLY EQUIVALENT TO</td></tr>
+<tr><td>≤</td><td>8804</td><td>2264</td><td>&amp;le;</td><td>LESS-THAN OR EQUAL TO</td></tr>
+<tr><td>≥</td><td>8805</td><td>2265</td><td>&amp;ge;</td><td>GREATER-THAN OR EQUAL TO</td></tr>
+<tr><td>≦</td><td>8806</td><td>2266</td><td>&nbsp;</td><td>LESS-THAN OVER EQUAL TO</td></tr>
+<tr><td>≧</td><td>8807</td><td>2267</td><td>&nbsp;</td><td>GREATER-THAN OVER EQUAL TO</td></tr>
+<tr><td>≨</td><td>8808</td><td>2268</td><td>&nbsp;</td><td>LESS-THAN BUT NOT EQUAL TO</td></tr>
+<tr><td>≩</td><td>8809</td><td>2269</td><td>&nbsp;</td><td>GREATER-THAN BUT NOT EQUAL TO</td></tr>
+<tr><td>≪</td><td>8810</td><td>226A</td><td>&nbsp;</td><td>MUCH LESS-THAN</td></tr>
+<tr><td>≫</td><td>8811</td><td>226B</td><td>&nbsp;</td><td>MUCH GREATER-THAN</td></tr>
+<tr><td>≬</td><td>8812</td><td>226C</td><td>&nbsp;</td><td>BETWEEN</td></tr>
+<tr><td>≭</td><td>8813</td><td>226D</td><td>&nbsp;</td><td>NOT EQUIVALENT TO</td></tr>
+<tr><td>≮</td><td>8814</td><td>226E</td><td>&nbsp;</td><td>NOT LESS-THAN</td></tr>
+<tr><td>≯</td><td>8815</td><td>226F</td><td>&nbsp;</td><td>NOT GREATER-THAN</td></tr>
+<tr><td>≰</td><td>8816</td><td>2270</td><td>&nbsp;</td><td>NEITHER LESS-THAN NOR EQUAL TO</td></tr>
+<tr><td>≱</td><td>8817</td><td>2271</td><td>&nbsp;</td><td>NEITHER GREATER-THAN NOR EQUAL TO</td></tr>
+<tr><td>≲</td><td>8818</td><td>2272</td><td>&nbsp;</td><td>LESS-THAN OR EQUIVALENT TO</td></tr>
+<tr><td>≳</td><td>8819</td><td>2273</td><td>&nbsp;</td><td>GREATER-THAN OR EQUIVALENT TO</td></tr>
+<tr><td>≴</td><td>8820</td><td>2274</td><td>&nbsp;</td><td>NEITHER LESS-THAN NOR EQUIVALENT TO</td></tr>
+<tr><td>≵</td><td>8821</td><td>2275</td><td>&nbsp;</td><td>NEITHER GREATER-THAN NOR EQUIVALENT TO</td></tr>
+<tr><td>≶</td><td>8822</td><td>2276</td><td>&nbsp;</td><td>LESS-THAN OR GREATER-THAN</td></tr>
+<tr><td>≷</td><td>8823</td><td>2277</td><td>&nbsp;</td><td>GREATER-THAN OR LESS-THAN</td></tr>
+<tr><td>≸</td><td>8824</td><td>2278</td><td>&nbsp;</td><td>NEITHER LESS-THAN NOR GREATER-THAN</td></tr>
+<tr><td>≹</td><td>8825</td><td>2279</td><td>&nbsp;</td><td>NEITHER GREATER-THAN NOR LESS-THAN</td></tr>
+<tr><td>≺</td><td>8826</td><td>227A</td><td>&nbsp;</td><td>PRECEDES</td></tr>
+<tr><td>≻</td><td>8827</td><td>227B</td><td>&nbsp;</td><td>SUCCEEDS</td></tr>
+<tr><td>≼</td><td>8828</td><td>227C</td><td>&nbsp;</td><td>PRECEDES OR EQUAL TO</td></tr>
+<tr><td>≽</td><td>8829</td><td>227D</td><td>&nbsp;</td><td>SUCCEEDS OR EQUAL TO</td></tr>
+<tr><td>≾</td><td>8830</td><td>227E</td><td>&nbsp;</td><td>PRECEDES OR EQUIVALENT TO</td></tr>
+<tr><td>≿</td><td>8831</td><td>227F</td><td>&nbsp;</td><td>SUCCEEDS OR EQUIVALENT TO</td></tr>
+<tr><td>⊀</td><td>8832</td><td>2280</td><td>&nbsp;</td><td>DOES NOT PRECEDE</td></tr>
+<tr><td>⊁</td><td>8833</td><td>2281</td><td>&nbsp;</td><td>DOES NOT SUCCEED</td></tr>
+<tr><td>⊂</td><td>8834</td><td>2282</td><td>&amp;sub;</td><td>SUBSET OF</td></tr>
+<tr><td>⊃</td><td>8835</td><td>2283</td><td>&amp;sup;</td><td>SUPERSET OF</td></tr>
+<tr><td>⊄</td><td>8836</td><td>2284</td><td>&amp;nsub;</td><td>NOT A SUBSET OF</td></tr>
+<tr><td>⊅</td><td>8837</td><td>2285</td><td>&nbsp;</td><td>NOT A SUPERSET OF</td></tr>
+<tr><td>⊆</td><td>8838</td><td>2286</td><td>&amp;sube;</td><td>SUBSET OF OR EQUAL TO</td></tr>
+<tr><td>⊇</td><td>8839</td><td>2287</td><td>&amp;supe;</td><td>SUPERSET OF OR EQUAL TO</td></tr>
+<tr><td>⊈</td><td>8840</td><td>2288</td><td>&nbsp;</td><td>NEITHER A SUBSET OF NOR EQUAL TO</td></tr>
+<tr><td>⊉</td><td>8841</td><td>2289</td><td>&nbsp;</td><td>NEITHER A SUPERSET OF NOR EQUAL TO</td></tr>
+<tr><td>⊊</td><td>8842</td><td>228A</td><td>&nbsp;</td><td>SUBSET OF WITH NOT EQUAL TO</td></tr>
+<tr><td>⊋</td><td>8843</td><td>228B</td><td>&nbsp;</td><td>SUPERSET OF WITH NOT EQUAL TO</td></tr>
+<tr><td>⊌</td><td>8844</td><td>228C</td><td>&nbsp;</td><td>MULTISET</td></tr>
+<tr><td>⊍</td><td>8845</td><td>228D</td><td>&nbsp;</td><td>MULTISET MULTIPLICATION</td></tr>
+<tr><td>⊎</td><td>8846</td><td>228E</td><td>&nbsp;</td><td>MULTISET UNION</td></tr>
+<tr><td>⊏</td><td>8847</td><td>228F</td><td>&nbsp;</td><td>SQUARE IMAGE OF</td></tr>
+<tr><td>⊐</td><td>8848</td><td>2290</td><td>&nbsp;</td><td>SQUARE ORIGINAL OF</td></tr>
+<tr><td>⊑</td><td>8849</td><td>2291</td><td>&nbsp;</td><td>SQUARE IMAGE OF OR EQUAL TO</td></tr>
+<tr><td>⊒</td><td>8850</td><td>2292</td><td>&nbsp;</td><td>SQUARE ORIGINAL OF OR EQUAL TO</td></tr>
+<tr><td>⊓</td><td>8851</td><td>2293</td><td>&nbsp;</td><td>SQUARE CAP</td></tr>
+<tr><td>⊔</td><td>8852</td><td>2294</td><td>&nbsp;</td><td>SQUARE CUP</td></tr>
+<tr><td>⊕</td><td>8853</td><td>2295</td><td>&amp;oplus;</td><td>CIRCLED PLUS</td></tr>
+<tr><td>⊖</td><td>8854</td><td>2296</td><td>&nbsp;</td><td>CIRCLED MINUS</td></tr>
+<tr><td>⊗</td><td>8855</td><td>2297</td><td>&amp;otimes;</td><td>CIRCLED TIMES</td></tr>
+<tr><td>⊘</td><td>8856</td><td>2298</td><td>&nbsp;</td><td>CIRCLED DIVISION SLASH</td></tr>
+<tr><td>⊙</td><td>8857</td><td>2299</td><td>&nbsp;</td><td>CIRCLED DOT OPERATOR</td></tr>
+<tr><td>⊚</td><td>8858</td><td>229A</td><td>&nbsp;</td><td>CIRCLED RING OPERATOR</td></tr>
+<tr><td>⊛</td><td>8859</td><td>229B</td><td>&nbsp;</td><td>CIRCLED ASTERISK OPERATOR</td></tr>
+<tr><td>⊜</td><td>8860</td><td>229C</td><td>&nbsp;</td><td>CIRCLED EQUALS</td></tr>
+<tr><td>⊝</td><td>8861</td><td>229D</td><td>&nbsp;</td><td>CIRCLED DASH</td></tr>
+<tr><td>⊞</td><td>8862</td><td>229E</td><td>&nbsp;</td><td>SQUARED PLUS</td></tr>
+<tr><td>⊟</td><td>8863</td><td>229F</td><td>&nbsp;</td><td>SQUARED MINUS</td></tr>
+<tr><td>⊠</td><td>8864</td><td>22A0</td><td>&nbsp;</td><td>SQUARED TIMES</td></tr>
+<tr><td>⊡</td><td>8865</td><td>22A1</td><td>&nbsp;</td><td>SQUARED DOT OPERATOR</td></tr>
+<tr><td>⊢</td><td>8866</td><td>22A2</td><td>&nbsp;</td><td>RIGHT TACK</td></tr>
+<tr><td>⊣</td><td>8867</td><td>22A3</td><td>&nbsp;</td><td>LEFT TACK</td></tr>
+<tr><td>⊤</td><td>8868</td><td>22A4</td><td>&nbsp;</td><td>DOWN TACK</td></tr>
+<tr><td>⊥</td><td>8869</td><td>22A5</td><td>&amp;perp;</td><td>UP TACK</td></tr>
+<tr><td>⊦</td><td>8870</td><td>22A6</td><td>&nbsp;</td><td>ASSERTION</td></tr>
+<tr><td>⊧</td><td>8871</td><td>22A7</td><td>&nbsp;</td><td>MODELS</td></tr>
+<tr><td>⊨</td><td>8872</td><td>22A8</td><td>&nbsp;</td><td>TRUE</td></tr>
+<tr><td>⊩</td><td>8873</td><td>22A9</td><td>&nbsp;</td><td>FORCES</td></tr>
+<tr><td>⊪</td><td>8874</td><td>22AA</td><td>&nbsp;</td><td>TRIPLE VERTICAL BAR RIGHT TURNSTILE</td></tr>
+<tr><td>⊫</td><td>8875</td><td>22AB</td><td>&nbsp;</td><td>DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE</td></tr>
+<tr><td>⊬</td><td>8876</td><td>22AC</td><td>&nbsp;</td><td>DOES NOT PROVE</td></tr>
+<tr><td>⊭</td><td>8877</td><td>22AD</td><td>&nbsp;</td><td>NOT TRUE</td></tr>
+<tr><td>⊮</td><td>8878</td><td>22AE</td><td>&nbsp;</td><td>DOES NOT FORCE</td></tr>
+<tr><td>⊯</td><td>8879</td><td>22AF</td><td>&nbsp;</td><td>NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE</td></tr>
+<tr><td>⊰</td><td>8880</td><td>22B0</td><td>&nbsp;</td><td>PRECEDES UNDER RELATION</td></tr>
+<tr><td>⊱</td><td>8881</td><td>22B1</td><td>&nbsp;</td><td>SUCCEEDS UNDER RELATION</td></tr>
+<tr><td>⊲</td><td>8882</td><td>22B2</td><td>&nbsp;</td><td>NORMAL SUBGROUP OF</td></tr>
+<tr><td>⊳</td><td>8883</td><td>22B3</td><td>&nbsp;</td><td>CONTAINS AS NORMAL SUBGROUP</td></tr>
+<tr><td>⊴</td><td>8884</td><td>22B4</td><td>&nbsp;</td><td>NORMAL SUBGROUP OF OR EQUAL TO</td></tr>
+<tr><td>⊵</td><td>8885</td><td>22B5</td><td>&nbsp;</td><td>CONTAINS AS NORMAL SUBGROUP OR EQUAL TO</td></tr>
+<tr><td>⊶</td><td>8886</td><td>22B6</td><td>&nbsp;</td><td>ORIGINAL OF</td></tr>
+<tr><td>⊷</td><td>8887</td><td>22B7</td><td>&nbsp;</td><td>IMAGE OF</td></tr>
+<tr><td>⊸</td><td>8888</td><td>22B8</td><td>&nbsp;</td><td>MULTIMAP</td></tr>
+<tr><td>⊹</td><td>8889</td><td>22B9</td><td>&nbsp;</td><td>HERMITIAN CONJUGATE MATRIX</td></tr>
+<tr><td>⊺</td><td>8890</td><td>22BA</td><td>&nbsp;</td><td>INTERCALATE</td></tr>
+<tr><td>⊻</td><td>8891</td><td>22BB</td><td>&nbsp;</td><td>XOR</td></tr>
+<tr><td>⊼</td><td>8892</td><td>22BC</td><td>&nbsp;</td><td>NAND</td></tr>
+<tr><td>⊽</td><td>8893</td><td>22BD</td><td>&nbsp;</td><td>NOR</td></tr>
+<tr><td>⊾</td><td>8894</td><td>22BE</td><td>&nbsp;</td><td>RIGHT ANGLE WITH ARC</td></tr>
+<tr><td>⊿</td><td>8895</td><td>22BF</td><td>&nbsp;</td><td>RIGHT TRIANGLE</td></tr>
+<tr><td>⋀</td><td>8896</td><td>22C0</td><td>&nbsp;</td><td>N-ARY LOGICAL AND</td></tr>
+<tr><td>⋁</td><td>8897</td><td>22C1</td><td>&nbsp;</td><td>N-ARY LOGICAL OR</td></tr>
+<tr><td>⋂</td><td>8898</td><td>22C2</td><td>&nbsp;</td><td>N-ARY INTERSECTION</td></tr>
+<tr><td>⋃</td><td>8899</td><td>22C3</td><td>&nbsp;</td><td>N-ARY UNION</td></tr>
+<tr><td>⋄</td><td>8900</td><td>22C4</td><td>&nbsp;</td><td>DIAMOND OPERATOR</td></tr>
+<tr><td>⋅</td><td>8901</td><td>22C5</td><td>&amp;sdot;</td><td>DOT OPERATOR</td></tr>
+<tr><td>⋆</td><td>8902</td><td>22C6</td><td>&nbsp;</td><td>STAR OPERATOR</td></tr>
+<tr><td>⋇</td><td>8903</td><td>22C7</td><td>&nbsp;</td><td>DIVISION TIMES</td></tr>
+<tr><td>⋈</td><td>8904</td><td>22C8</td><td>&nbsp;</td><td>BOWTIE</td></tr>
+<tr><td>⋉</td><td>8905</td><td>22C9</td><td>&nbsp;</td><td>LEFT NORMAL FACTOR SEMIDIRECT PRODUCT</td></tr>
+<tr><td>⋊</td><td>8906</td><td>22CA</td><td>&nbsp;</td><td>RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT</td></tr>
+<tr><td>⋋</td><td>8907</td><td>22CB</td><td>&nbsp;</td><td>LEFT SEMIDIRECT PRODUCT</td></tr>
+<tr><td>⋌</td><td>8908</td><td>22CC</td><td>&nbsp;</td><td>RIGHT SEMIDIRECT PRODUCT</td></tr>
+<tr><td>⋍</td><td>8909</td><td>22CD</td><td>&nbsp;</td><td>REVERSED TILDE EQUALS</td></tr>
+<tr><td>⋎</td><td>8910</td><td>22CE</td><td>&nbsp;</td><td>CURLY LOGICAL OR</td></tr>
+<tr><td>⋏</td><td>8911</td><td>22CF</td><td>&nbsp;</td><td>CURLY LOGICAL AND</td></tr>
+<tr><td>⋐</td><td>8912</td><td>22D0</td><td>&nbsp;</td><td>DOUBLE SUBSET</td></tr>
+<tr><td>⋑</td><td>8913</td><td>22D1</td><td>&nbsp;</td><td>DOUBLE SUPERSET</td></tr>
+<tr><td>⋒</td><td>8914</td><td>22D2</td><td>&nbsp;</td><td>DOUBLE INTERSECTION</td></tr>
+<tr><td>⋓</td><td>8915</td><td>22D3</td><td>&nbsp;</td><td>DOUBLE UNION</td></tr>
+<tr><td>⋔</td><td>8916</td><td>22D4</td><td>&nbsp;</td><td>PITCHFORK</td></tr>
+<tr><td>⋕</td><td>8917</td><td>22D5</td><td>&nbsp;</td><td>EQUAL AND PARALLEL TO</td></tr>
+<tr><td>⋖</td><td>8918</td><td>22D6</td><td>&nbsp;</td><td>LESS-THAN WITH DOT</td></tr>
+<tr><td>⋗</td><td>8919</td><td>22D7</td><td>&nbsp;</td><td>GREATER-THAN WITH DOT</td></tr>
+<tr><td>⋘</td><td>8920</td><td>22D8</td><td>&nbsp;</td><td>VERY MUCH LESS-THAN</td></tr>
+<tr><td>⋙</td><td>8921</td><td>22D9</td><td>&nbsp;</td><td>VERY MUCH GREATER-THAN</td></tr>
+<tr><td>⋚</td><td>8922</td><td>22DA</td><td>&nbsp;</td><td>LESS-THAN EQUAL TO OR GREATER-THAN</td></tr>
+<tr><td>⋛</td><td>8923</td><td>22DB</td><td>&nbsp;</td><td>GREATER-THAN EQUAL TO OR LESS-THAN</td></tr>
+<tr><td>⋜</td><td>8924</td><td>22DC</td><td>&nbsp;</td><td>EQUAL TO OR LESS-THAN</td></tr>
+<tr><td>⋝</td><td>8925</td><td>22DD</td><td>&nbsp;</td><td>EQUAL TO OR GREATER-THAN</td></tr>
+<tr><td>⋞</td><td>8926</td><td>22DE</td><td>&nbsp;</td><td>EQUAL TO OR PRECEDES</td></tr>
+<tr><td>⋟</td><td>8927</td><td>22DF</td><td>&nbsp;</td><td>EQUAL TO OR SUCCEEDS</td></tr>
+<tr><td>⋠</td><td>8928</td><td>22E0</td><td>&nbsp;</td><td>DOES NOT PRECEDE OR EQUAL</td></tr>
+<tr><td>⋡</td><td>8929</td><td>22E1</td><td>&nbsp;</td><td>DOES NOT SUCCEED OR EQUAL</td></tr>
+<tr><td>⋢</td><td>8930</td><td>22E2</td><td>&nbsp;</td><td>NOT SQUARE IMAGE OF OR EQUAL TO</td></tr>
+<tr><td>⋣</td><td>8931</td><td>22E3</td><td>&nbsp;</td><td>NOT SQUARE ORIGINAL OF OR EQUAL TO</td></tr>
+<tr><td>⋤</td><td>8932</td><td>22E4</td><td>&nbsp;</td><td>SQUARE IMAGE OF OR NOT EQUAL TO</td></tr>
+<tr><td>⋥</td><td>8933</td><td>22E5</td><td>&nbsp;</td><td>SQUARE ORIGINAL OF OR NOT EQUAL TO</td></tr>
+<tr><td>⋦</td><td>8934</td><td>22E6</td><td>&nbsp;</td><td>LESS-THAN BUT NOT EQUIVALENT TO</td></tr>
+<tr><td>⋧</td><td>8935</td><td>22E7</td><td>&nbsp;</td><td>GREATER-THAN BUT NOT EQUIVALENT TO</td></tr>
+<tr><td>⋨</td><td>8936</td><td>22E8</td><td>&nbsp;</td><td>PRECEDES BUT NOT EQUIVALENT TO</td></tr>
+<tr><td>⋩</td><td>8937</td><td>22E9</td><td>&nbsp;</td><td>SUCCEEDS BUT NOT EQUIVALENT TO</td></tr>
+<tr><td>⋪</td><td>8938</td><td>22EA</td><td>&nbsp;</td><td>NOT NORMAL SUBGROUP OF</td></tr>
+<tr><td>⋫</td><td>8939</td><td>22EB</td><td>&nbsp;</td><td>DOES NOT CONTAIN AS NORMAL SUBGROUP</td></tr>
+<tr><td>⋬</td><td>8940</td><td>22EC</td><td>&nbsp;</td><td>NOT NORMAL SUBGROUP OF OR EQUAL TO</td></tr>
+<tr><td>⋭</td><td>8941</td><td>22ED</td><td>&nbsp;</td><td>DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL</td></tr>
+<tr><td>⋮</td><td>8942</td><td>22EE</td><td>&nbsp;</td><td>VERTICAL ELLIPSIS</td></tr>
+<tr><td>⋯</td><td>8943</td><td>22EF</td><td>&nbsp;</td><td>MIDLINE HORIZONTAL ELLIPSIS</td></tr>
+<tr><td>⋰</td><td>8944</td><td>22F0</td><td>&nbsp;</td><td>UP RIGHT DIAGONAL ELLIPSIS</td></tr>
+<tr><td>⋱</td><td>8945</td><td>22F1</td><td>&nbsp;</td><td>DOWN RIGHT DIAGONAL ELLIPSIS</td></tr>
+<tr><td>⋲</td><td>8946</td><td>22F2</td><td>&nbsp;</td><td>ELEMENT OF WITH LONG HORIZONTAL STROKE</td></tr>
+<tr><td>⋳</td><td>8947</td><td>22F3</td><td>&nbsp;</td><td>ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE</td></tr>
+<tr><td>⋴</td><td>8948</td><td>22F4</td><td>&nbsp;</td><td>SMALL ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE</td></tr>
+<tr><td>⋵</td><td>8949</td><td>22F5</td><td>&nbsp;</td><td>ELEMENT OF WITH DOT ABOVE</td></tr>
+<tr><td>⋶</td><td>8950</td><td>22F6</td><td>&nbsp;</td><td>ELEMENT OF WITH OVERBAR</td></tr>
+<tr><td>⋷</td><td>8951</td><td>22F7</td><td>&nbsp;</td><td>SMALL ELEMENT OF WITH OVERBAR</td></tr>
+<tr><td>⋸</td><td>8952</td><td>22F8</td><td>&nbsp;</td><td>ELEMENT OF WITH UNDERBAR</td></tr>
+<tr><td>⋹</td><td>8953</td><td>22F9</td><td>&nbsp;</td><td>ELEMENT OF WITH TWO HORIZONTAL STROKES</td></tr>
+<tr><td>⋺</td><td>8954</td><td>22FA</td><td>&nbsp;</td><td>CONTAINS WITH LONG HORIZONTAL STROKE</td></tr>
+<tr><td>⋻</td><td>8955</td><td>22FB</td><td>&nbsp;</td><td>CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE</td></tr>
+<tr><td>⋼</td><td>8956</td><td>22FC</td><td>&nbsp;</td><td>SMALL CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE</td></tr>
+<tr><td>⋽</td><td>8957</td><td>22FD</td><td>&nbsp;</td><td>CONTAINS WITH OVERBAR</td></tr>
+<tr><td>⋾</td><td>8958</td><td>22FE</td><td>&nbsp;</td><td>SMALL CONTAINS WITH OVERBAR</td></tr>
+<tr><td>⋿</td><td>8959</td><td>22FF</td><td>&nbsp;</td><td>Z NOTATION BAG MEMBERSHIP</td></tr></tbody></table>
+
+------
+

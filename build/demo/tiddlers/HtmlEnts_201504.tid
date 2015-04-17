@@ -1,0 +1,1149 @@
+created: 20150415082035231
+modified: 20150415162436455
+mydate: 15:April:2015
+new: 6
+tags: log
+title: HtmlEnts/201504
+type: text/vnd.tiddlywiki
+
+!!15:April:2015
+
+
+<br>
+
+<table class="reference">
+<tbody><tr>
+<th>Char</th>
+<th>Dec</th>
+<th>Hex</th>
+<th>Entity</th>
+<th>Name</th>
+</tr>
+<tr><td>∀</td><td>8704</td><td>2200</td><td>&amp;forall;</td><td>FOR ALL</td></tr>
+<tr><td>∁</td><td>8705</td><td>2201</td><td>&nbsp;</td><td>COMPLEMENT</td></tr>
+<tr><td>∂</td><td>8706</td><td>2202</td><td>&amp;part;</td><td>PARTIAL DIFFERENTIAL</td></tr>
+<tr><td>∃</td><td>8707</td><td>2203</td><td>&amp;exist;</td><td>THERE EXISTS</td></tr>
+<tr><td>∄</td><td>8708</td><td>2204</td><td>&nbsp;</td><td>THERE DOES NOT EXIST</td></tr>
+<tr><td>∅</td><td>8709</td><td>2205</td><td>&amp;empty;</td><td>EMPTY SET</td></tr>
+<tr><td>∆</td><td>8710</td><td>2206</td><td>&nbsp;</td><td>INCREMENT</td></tr>
+<tr><td>∇</td><td>8711</td><td>2207</td><td>&amp;nabla;</td><td>NABLA</td></tr>
+<tr><td>∈</td><td>8712</td><td>2208</td><td>&amp;isin;</td><td>ELEMENT OF</td></tr>
+<tr><td>∉</td><td>8713</td><td>2209</td><td>&amp;notin;</td><td>NOT AN ELEMENT OF</td></tr>
+<tr><td>∊</td><td>8714</td><td>220A</td><td>&nbsp;</td><td>SMALL ELEMENT OF</td></tr>
+<tr><td>∋</td><td>8715</td><td>220B</td><td>&amp;ni;</td><td>CONTAINS AS MEMBER</td></tr>
+<tr><td>∌</td><td>8716</td><td>220C</td><td>&nbsp;</td><td>DOES NOT CONTAIN AS MEMBER</td></tr>
+<tr><td>∍</td><td>8717</td><td>220D</td><td>&nbsp;</td><td>SMALL CONTAINS AS MEMBER</td></tr>
+<tr><td>∎</td><td>8718</td><td>220E</td><td>&nbsp;</td><td>END OF PROOF</td></tr>
+<tr><td>∏</td><td>8719</td><td>220F</td><td>&amp;prod;</td><td>N-ARY PRODUCT</td></tr>
+<tr><td>∐</td><td>8720</td><td>2210</td><td>&nbsp;</td><td>N-ARY COPRODUCT</td></tr>
+<tr><td>∑</td><td>8721</td><td>2211</td><td>&amp;sum;</td><td>N-ARY SUMMATION</td></tr>
+<tr><td>−</td><td>8722</td><td>2212</td><td>&amp;minus;</td><td>MINUS SIGN</td></tr>
+<tr><td>∓</td><td>8723</td><td>2213</td><td>&nbsp;</td><td>MINUS-OR-PLUS SIGN</td></tr>
+<tr><td>∔</td><td>8724</td><td>2214</td><td>&nbsp;</td><td>DOT PLUS</td></tr>
+<tr><td>∕</td><td>8725</td><td>2215</td><td>&nbsp;</td><td>DIVISION SLASH</td></tr>
+<tr><td>∖</td><td>8726</td><td>2216</td><td>&nbsp;</td><td>SET MINUS</td></tr>
+<tr><td>∗</td><td>8727</td><td>2217</td><td>&amp;lowast;</td><td>ASTERISK OPERATOR</td></tr>
+<tr><td>∘</td><td>8728</td><td>2218</td><td>&nbsp;</td><td>RING OPERATOR</td></tr>
+<tr><td>∙</td><td>8729</td><td>2219</td><td>&nbsp;</td><td>BULLET OPERATOR</td></tr>
+<tr><td>√</td><td>8730</td><td>221A</td><td>&amp;radic;</td><td>SQUARE ROOT</td></tr>
+<tr><td>∛</td><td>8731</td><td>221B</td><td>&nbsp;</td><td>CUBE ROOT</td></tr>
+<tr><td>∜</td><td>8732</td><td>221C</td><td>&nbsp;</td><td>FOURTH ROOT</td></tr>
+<tr><td>∝</td><td>8733</td><td>221D</td><td>&amp;prop;</td><td>PROPORTIONAL TO</td></tr>
+<tr><td>∞</td><td>8734</td><td>221E</td><td>&amp;infin;</td><td>INFINITY</td></tr>
+<tr><td>∟</td><td>8735</td><td>221F</td><td>&nbsp;</td><td>RIGHT ANGLE</td></tr>
+<tr><td>∠</td><td>8736</td><td>2220</td><td>&amp;ang;</td><td>ANGLE</td></tr>
+<tr><td>∡</td><td>8737</td><td>2221</td><td>&nbsp;</td><td>MEASURED ANGLE</td></tr>
+<tr><td>∢</td><td>8738</td><td>2222</td><td>&nbsp;</td><td>SPHERICAL ANGLE</td></tr>
+<tr><td>∣</td><td>8739</td><td>2223</td><td>&nbsp;</td><td>DIVIDES</td></tr>
+<tr><td>∤</td><td>8740</td><td>2224</td><td>&nbsp;</td><td>DOES NOT DIVIDE</td></tr>
+<tr><td>∥</td><td>8741</td><td>2225</td><td>&nbsp;</td><td>PARALLEL TO</td></tr>
+<tr><td>∦</td><td>8742</td><td>2226</td><td>&nbsp;</td><td>NOT PARALLEL TO</td></tr>
+<tr><td>∧</td><td>8743</td><td>2227</td><td>&amp;and;</td><td>LOGICAL AND</td></tr>
+<tr><td>∨</td><td>8744</td><td>2228</td><td>&amp;or;</td><td>LOGICAL OR</td></tr>
+<tr><td>∩</td><td>8745</td><td>2229</td><td>&amp;cap;</td><td>INTERSECTION</td></tr>
+<tr><td>∪</td><td>8746</td><td>222A</td><td>&amp;cup;</td><td>UNION</td></tr>
+<tr><td>∫</td><td>8747</td><td>222B</td><td>&amp;int;</td><td>INTEGRAL</td></tr>
+<tr><td>∬</td><td>8748</td><td>222C</td><td>&nbsp;</td><td>DOUBLE INTEGRAL</td></tr>
+<tr><td>∭</td><td>8749</td><td>222D</td><td>&nbsp;</td><td>TRIPLE INTEGRAL</td></tr>
+<tr><td>∮</td><td>8750</td><td>222E</td><td>&nbsp;</td><td>CONTOUR INTEGRAL</td></tr>
+<tr><td>∯</td><td>8751</td><td>222F</td><td>&nbsp;</td><td>SURFACE INTEGRAL</td></tr>
+<tr><td>∰</td><td>8752</td><td>2230</td><td>&nbsp;</td><td>VOLUME INTEGRAL</td></tr>
+<tr><td>∱</td><td>8753</td><td>2231</td><td>&nbsp;</td><td>CLOCKWISE INTEGRAL</td></tr>
+<tr><td>∲</td><td>8754</td><td>2232</td><td>&nbsp;</td><td>CLOCKWISE CONTOUR INTEGRAL</td></tr>
+<tr><td>∳</td><td>8755</td><td>2233</td><td>&nbsp;</td><td>ANTICLOCKWISE CONTOUR INTEGRAL</td></tr>
+<tr><td>∴</td><td>8756</td><td>2234</td><td>&amp;there4;</td><td>THEREFORE</td></tr>
+<tr><td>∵</td><td>8757</td><td>2235</td><td>&nbsp;</td><td>BECAUSE</td></tr>
+<tr><td>∶</td><td>8758</td><td>2236</td><td>&nbsp;</td><td>RATIO</td></tr>
+<tr><td>∷</td><td>8759</td><td>2237</td><td>&nbsp;</td><td>PROPORTION</td></tr>
+<tr><td>∸</td><td>8760</td><td>2238</td><td>&nbsp;</td><td>DOT MINUS</td></tr>
+<tr><td>∹</td><td>8761</td><td>2239</td><td>&nbsp;</td><td>EXCESS</td></tr>
+<tr><td>∺</td><td>8762</td><td>223A</td><td>&nbsp;</td><td>GEOMETRIC PROPORTION</td></tr>
+<tr><td>∻</td><td>8763</td><td>223B</td><td>&nbsp;</td><td>HOMOTHETIC</td></tr>
+<tr><td>∼</td><td>8764</td><td>223C</td><td>&amp;sim;</td><td>TILDE OPERATOR</td></tr>
+<tr><td>∽</td><td>8765</td><td>223D</td><td>&nbsp;</td><td>REVERSED TILDE</td></tr>
+<tr><td>∾</td><td>8766</td><td>223E</td><td>&nbsp;</td><td>INVERTED LAZY S</td></tr>
+<tr><td>∿</td><td>8767</td><td>223F</td><td>&nbsp;</td><td>SINE WAVE</td></tr>
+<tr><td>≀</td><td>8768</td><td>2240</td><td>&nbsp;</td><td>WREATH PRODUCT</td></tr>
+<tr><td>≁</td><td>8769</td><td>2241</td><td>&nbsp;</td><td>NOT TILDE</td></tr>
+<tr><td>≂</td><td>8770</td><td>2242</td><td>&nbsp;</td><td>MINUS TILDE</td></tr>
+<tr><td>≃</td><td>8771</td><td>2243</td><td>&nbsp;</td><td>ASYMPTOTICALLY EQUAL TO</td></tr>
+<tr><td>≄</td><td>8772</td><td>2244</td><td>&nbsp;</td><td>NOT ASYMPTOTICALLY EQUAL TO</td></tr>
+<tr><td>≅</td><td>8773</td><td>2245</td><td>&amp;cong;</td><td>APPROXIMATELY EQUAL TO</td></tr>
+<tr><td>≆</td><td>8774</td><td>2246</td><td>&nbsp;</td><td>APPROXIMATELY BUT NOT ACTUALLY EQUAL TO</td></tr>
+<tr><td>≇</td><td>8775</td><td>2247</td><td>&nbsp;</td><td>NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO</td></tr>
+<tr><td>≈</td><td>8776</td><td>2248</td><td>&amp;asymp;</td><td>ALMOST EQUAL TO</td></tr>
+<tr><td>≉</td><td>8777</td><td>2249</td><td>&nbsp;</td><td>NOT ALMOST EQUAL TO</td></tr>
+<tr><td>≊</td><td>8778</td><td>224A</td><td>&nbsp;</td><td>ALMOST EQUAL OR EQUAL TO</td></tr>
+<tr><td>≋</td><td>8779</td><td>224B</td><td>&nbsp;</td><td>TRIPLE TILDE</td></tr>
+<tr><td>≌</td><td>8780</td><td>224C</td><td>&nbsp;</td><td>ALL EQUAL TO</td></tr>
+<tr><td>≍</td><td>8781</td><td>224D</td><td>&nbsp;</td><td>EQUIVALENT TO</td></tr>
+<tr><td>≎</td><td>8782</td><td>224E</td><td>&nbsp;</td><td>GEOMETRICALLY EQUIVALENT TO</td></tr>
+<tr><td>≏</td><td>8783</td><td>224F</td><td>&nbsp;</td><td>DIFFERENCE BETWEEN</td></tr>
+<tr><td>≐</td><td>8784</td><td>2250</td><td>&nbsp;</td><td>APPROACHES THE LIMIT</td></tr>
+<tr><td>≑</td><td>8785</td><td>2251</td><td>&nbsp;</td><td>GEOMETRICALLY EQUAL TO</td></tr>
+<tr><td>≒</td><td>8786</td><td>2252</td><td>&nbsp;</td><td>APPROXIMATELY EQUAL TO OR THE IMAGE OF</td></tr>
+<tr><td>≓</td><td>8787</td><td>2253</td><td>&nbsp;</td><td>IMAGE OF OR APPROXIMATELY EQUAL TO</td></tr>
+<tr><td>≔</td><td>8788</td><td>2254</td><td>&nbsp;</td><td>COLON EQUALS</td></tr>
+<tr><td>≕</td><td>8789</td><td>2255</td><td>&nbsp;</td><td>EQUALS COLON</td></tr>
+<tr><td>≖</td><td>8790</td><td>2256</td><td>&nbsp;</td><td>RING IN EQUAL TO</td></tr>
+<tr><td>≗</td><td>8791</td><td>2257</td><td>&nbsp;</td><td>RING EQUAL TO</td></tr>
+<tr><td>≘</td><td>8792</td><td>2258</td><td>&nbsp;</td><td>CORRESPONDS TO</td></tr>
+<tr><td>≙</td><td>8793</td><td>2259</td><td>&nbsp;</td><td>ESTIMATES</td></tr>
+<tr><td>≚</td><td>8794</td><td>225A</td><td>&nbsp;</td><td>EQUIANGULAR TO</td></tr>
+<tr><td>≛</td><td>8795</td><td>225B</td><td>&nbsp;</td><td>STAR EQUALS</td></tr>
+<tr><td>≜</td><td>8796</td><td>225C</td><td>&nbsp;</td><td>DELTA EQUAL TO</td></tr>
+<tr><td>≝</td><td>8797</td><td>225D</td><td>&nbsp;</td><td>EQUAL TO BY DEFINITION</td></tr>
+<tr><td>≞</td><td>8798</td><td>225E</td><td>&nbsp;</td><td>MEASURED BY</td></tr>
+<tr><td>≟</td><td>8799</td><td>225F</td><td>&nbsp;</td><td>QUESTIONED EQUAL TO</td></tr>
+<tr><td>≠</td><td>8800</td><td>2260</td><td>&amp;ne;</td><td>NOT EQUAL TO</td></tr>
+<tr><td>≡</td><td>8801</td><td>2261</td><td>&amp;equiv;</td><td>IDENTICAL TO</td></tr>
+<tr><td>≢</td><td>8802</td><td>2262</td><td>&nbsp;</td><td>NOT IDENTICAL TO</td></tr>
+<tr><td>≣</td><td>8803</td><td>2263</td><td>&nbsp;</td><td>STRICTLY EQUIVALENT TO</td></tr>
+<tr><td>≤</td><td>8804</td><td>2264</td><td>&amp;le;</td><td>LESS-THAN OR EQUAL TO</td></tr>
+<tr><td>≥</td><td>8805</td><td>2265</td><td>&amp;ge;</td><td>GREATER-THAN OR EQUAL TO</td></tr>
+<tr><td>≦</td><td>8806</td><td>2266</td><td>&nbsp;</td><td>LESS-THAN OVER EQUAL TO</td></tr>
+<tr><td>≧</td><td>8807</td><td>2267</td><td>&nbsp;</td><td>GREATER-THAN OVER EQUAL TO</td></tr>
+<tr><td>≨</td><td>8808</td><td>2268</td><td>&nbsp;</td><td>LESS-THAN BUT NOT EQUAL TO</td></tr>
+<tr><td>≩</td><td>8809</td><td>2269</td><td>&nbsp;</td><td>GREATER-THAN BUT NOT EQUAL TO</td></tr>
+<tr><td>≪</td><td>8810</td><td>226A</td><td>&nbsp;</td><td>MUCH LESS-THAN</td></tr>
+<tr><td>≫</td><td>8811</td><td>226B</td><td>&nbsp;</td><td>MUCH GREATER-THAN</td></tr>
+<tr><td>≬</td><td>8812</td><td>226C</td><td>&nbsp;</td><td>BETWEEN</td></tr>
+<tr><td>≭</td><td>8813</td><td>226D</td><td>&nbsp;</td><td>NOT EQUIVALENT TO</td></tr>
+<tr><td>≮</td><td>8814</td><td>226E</td><td>&nbsp;</td><td>NOT LESS-THAN</td></tr>
+<tr><td>≯</td><td>8815</td><td>226F</td><td>&nbsp;</td><td>NOT GREATER-THAN</td></tr>
+<tr><td>≰</td><td>8816</td><td>2270</td><td>&nbsp;</td><td>NEITHER LESS-THAN NOR EQUAL TO</td></tr>
+<tr><td>≱</td><td>8817</td><td>2271</td><td>&nbsp;</td><td>NEITHER GREATER-THAN NOR EQUAL TO</td></tr>
+<tr><td>≲</td><td>8818</td><td>2272</td><td>&nbsp;</td><td>LESS-THAN OR EQUIVALENT TO</td></tr>
+<tr><td>≳</td><td>8819</td><td>2273</td><td>&nbsp;</td><td>GREATER-THAN OR EQUIVALENT TO</td></tr>
+<tr><td>≴</td><td>8820</td><td>2274</td><td>&nbsp;</td><td>NEITHER LESS-THAN NOR EQUIVALENT TO</td></tr>
+<tr><td>≵</td><td>8821</td><td>2275</td><td>&nbsp;</td><td>NEITHER GREATER-THAN NOR EQUIVALENT TO</td></tr>
+<tr><td>≶</td><td>8822</td><td>2276</td><td>&nbsp;</td><td>LESS-THAN OR GREATER-THAN</td></tr>
+<tr><td>≷</td><td>8823</td><td>2277</td><td>&nbsp;</td><td>GREATER-THAN OR LESS-THAN</td></tr>
+<tr><td>≸</td><td>8824</td><td>2278</td><td>&nbsp;</td><td>NEITHER LESS-THAN NOR GREATER-THAN</td></tr>
+<tr><td>≹</td><td>8825</td><td>2279</td><td>&nbsp;</td><td>NEITHER GREATER-THAN NOR LESS-THAN</td></tr>
+<tr><td>≺</td><td>8826</td><td>227A</td><td>&nbsp;</td><td>PRECEDES</td></tr>
+<tr><td>≻</td><td>8827</td><td>227B</td><td>&nbsp;</td><td>SUCCEEDS</td></tr>
+<tr><td>≼</td><td>8828</td><td>227C</td><td>&nbsp;</td><td>PRECEDES OR EQUAL TO</td></tr>
+<tr><td>≽</td><td>8829</td><td>227D</td><td>&nbsp;</td><td>SUCCEEDS OR EQUAL TO</td></tr>
+<tr><td>≾</td><td>8830</td><td>227E</td><td>&nbsp;</td><td>PRECEDES OR EQUIVALENT TO</td></tr>
+<tr><td>≿</td><td>8831</td><td>227F</td><td>&nbsp;</td><td>SUCCEEDS OR EQUIVALENT TO</td></tr>
+<tr><td>⊀</td><td>8832</td><td>2280</td><td>&nbsp;</td><td>DOES NOT PRECEDE</td></tr>
+<tr><td>⊁</td><td>8833</td><td>2281</td><td>&nbsp;</td><td>DOES NOT SUCCEED</td></tr>
+<tr><td>⊂</td><td>8834</td><td>2282</td><td>&amp;sub;</td><td>SUBSET OF</td></tr>
+<tr><td>⊃</td><td>8835</td><td>2283</td><td>&amp;sup;</td><td>SUPERSET OF</td></tr>
+<tr><td>⊄</td><td>8836</td><td>2284</td><td>&amp;nsub;</td><td>NOT A SUBSET OF</td></tr>
+<tr><td>⊅</td><td>8837</td><td>2285</td><td>&nbsp;</td><td>NOT A SUPERSET OF</td></tr>
+<tr><td>⊆</td><td>8838</td><td>2286</td><td>&amp;sube;</td><td>SUBSET OF OR EQUAL TO</td></tr>
+<tr><td>⊇</td><td>8839</td><td>2287</td><td>&amp;supe;</td><td>SUPERSET OF OR EQUAL TO</td></tr>
+<tr><td>⊈</td><td>8840</td><td>2288</td><td>&nbsp;</td><td>NEITHER A SUBSET OF NOR EQUAL TO</td></tr>
+<tr><td>⊉</td><td>8841</td><td>2289</td><td>&nbsp;</td><td>NEITHER A SUPERSET OF NOR EQUAL TO</td></tr>
+<tr><td>⊊</td><td>8842</td><td>228A</td><td>&nbsp;</td><td>SUBSET OF WITH NOT EQUAL TO</td></tr>
+<tr><td>⊋</td><td>8843</td><td>228B</td><td>&nbsp;</td><td>SUPERSET OF WITH NOT EQUAL TO</td></tr>
+<tr><td>⊌</td><td>8844</td><td>228C</td><td>&nbsp;</td><td>MULTISET</td></tr>
+<tr><td>⊍</td><td>8845</td><td>228D</td><td>&nbsp;</td><td>MULTISET MULTIPLICATION</td></tr>
+<tr><td>⊎</td><td>8846</td><td>228E</td><td>&nbsp;</td><td>MULTISET UNION</td></tr>
+<tr><td>⊏</td><td>8847</td><td>228F</td><td>&nbsp;</td><td>SQUARE IMAGE OF</td></tr>
+<tr><td>⊐</td><td>8848</td><td>2290</td><td>&nbsp;</td><td>SQUARE ORIGINAL OF</td></tr>
+<tr><td>⊑</td><td>8849</td><td>2291</td><td>&nbsp;</td><td>SQUARE IMAGE OF OR EQUAL TO</td></tr>
+<tr><td>⊒</td><td>8850</td><td>2292</td><td>&nbsp;</td><td>SQUARE ORIGINAL OF OR EQUAL TO</td></tr>
+<tr><td>⊓</td><td>8851</td><td>2293</td><td>&nbsp;</td><td>SQUARE CAP</td></tr>
+<tr><td>⊔</td><td>8852</td><td>2294</td><td>&nbsp;</td><td>SQUARE CUP</td></tr>
+<tr><td>⊕</td><td>8853</td><td>2295</td><td>&amp;oplus;</td><td>CIRCLED PLUS</td></tr>
+<tr><td>⊖</td><td>8854</td><td>2296</td><td>&nbsp;</td><td>CIRCLED MINUS</td></tr>
+<tr><td>⊗</td><td>8855</td><td>2297</td><td>&amp;otimes;</td><td>CIRCLED TIMES</td></tr>
+<tr><td>⊘</td><td>8856</td><td>2298</td><td>&nbsp;</td><td>CIRCLED DIVISION SLASH</td></tr>
+<tr><td>⊙</td><td>8857</td><td>2299</td><td>&nbsp;</td><td>CIRCLED DOT OPERATOR</td></tr>
+<tr><td>⊚</td><td>8858</td><td>229A</td><td>&nbsp;</td><td>CIRCLED RING OPERATOR</td></tr>
+<tr><td>⊛</td><td>8859</td><td>229B</td><td>&nbsp;</td><td>CIRCLED ASTERISK OPERATOR</td></tr>
+<tr><td>⊜</td><td>8860</td><td>229C</td><td>&nbsp;</td><td>CIRCLED EQUALS</td></tr>
+<tr><td>⊝</td><td>8861</td><td>229D</td><td>&nbsp;</td><td>CIRCLED DASH</td></tr>
+<tr><td>⊞</td><td>8862</td><td>229E</td><td>&nbsp;</td><td>SQUARED PLUS</td></tr>
+<tr><td>⊟</td><td>8863</td><td>229F</td><td>&nbsp;</td><td>SQUARED MINUS</td></tr>
+<tr><td>⊠</td><td>8864</td><td>22A0</td><td>&nbsp;</td><td>SQUARED TIMES</td></tr>
+<tr><td>⊡</td><td>8865</td><td>22A1</td><td>&nbsp;</td><td>SQUARED DOT OPERATOR</td></tr>
+<tr><td>⊢</td><td>8866</td><td>22A2</td><td>&nbsp;</td><td>RIGHT TACK</td></tr>
+<tr><td>⊣</td><td>8867</td><td>22A3</td><td>&nbsp;</td><td>LEFT TACK</td></tr>
+<tr><td>⊤</td><td>8868</td><td>22A4</td><td>&nbsp;</td><td>DOWN TACK</td></tr>
+<tr><td>⊥</td><td>8869</td><td>22A5</td><td>&amp;perp;</td><td>UP TACK</td></tr>
+<tr><td>⊦</td><td>8870</td><td>22A6</td><td>&nbsp;</td><td>ASSERTION</td></tr>
+<tr><td>⊧</td><td>8871</td><td>22A7</td><td>&nbsp;</td><td>MODELS</td></tr>
+<tr><td>⊨</td><td>8872</td><td>22A8</td><td>&nbsp;</td><td>TRUE</td></tr>
+<tr><td>⊩</td><td>8873</td><td>22A9</td><td>&nbsp;</td><td>FORCES</td></tr>
+<tr><td>⊪</td><td>8874</td><td>22AA</td><td>&nbsp;</td><td>TRIPLE VERTICAL BAR RIGHT TURNSTILE</td></tr>
+<tr><td>⊫</td><td>8875</td><td>22AB</td><td>&nbsp;</td><td>DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE</td></tr>
+<tr><td>⊬</td><td>8876</td><td>22AC</td><td>&nbsp;</td><td>DOES NOT PROVE</td></tr>
+<tr><td>⊭</td><td>8877</td><td>22AD</td><td>&nbsp;</td><td>NOT TRUE</td></tr>
+<tr><td>⊮</td><td>8878</td><td>22AE</td><td>&nbsp;</td><td>DOES NOT FORCE</td></tr>
+<tr><td>⊯</td><td>8879</td><td>22AF</td><td>&nbsp;</td><td>NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE</td></tr>
+<tr><td>⊰</td><td>8880</td><td>22B0</td><td>&nbsp;</td><td>PRECEDES UNDER RELATION</td></tr>
+<tr><td>⊱</td><td>8881</td><td>22B1</td><td>&nbsp;</td><td>SUCCEEDS UNDER RELATION</td></tr>
+<tr><td>⊲</td><td>8882</td><td>22B2</td><td>&nbsp;</td><td>NORMAL SUBGROUP OF</td></tr>
+<tr><td>⊳</td><td>8883</td><td>22B3</td><td>&nbsp;</td><td>CONTAINS AS NORMAL SUBGROUP</td></tr>
+<tr><td>⊴</td><td>8884</td><td>22B4</td><td>&nbsp;</td><td>NORMAL SUBGROUP OF OR EQUAL TO</td></tr>
+<tr><td>⊵</td><td>8885</td><td>22B5</td><td>&nbsp;</td><td>CONTAINS AS NORMAL SUBGROUP OR EQUAL TO</td></tr>
+<tr><td>⊶</td><td>8886</td><td>22B6</td><td>&nbsp;</td><td>ORIGINAL OF</td></tr>
+<tr><td>⊷</td><td>8887</td><td>22B7</td><td>&nbsp;</td><td>IMAGE OF</td></tr>
+<tr><td>⊸</td><td>8888</td><td>22B8</td><td>&nbsp;</td><td>MULTIMAP</td></tr>
+<tr><td>⊹</td><td>8889</td><td>22B9</td><td>&nbsp;</td><td>HERMITIAN CONJUGATE MATRIX</td></tr>
+<tr><td>⊺</td><td>8890</td><td>22BA</td><td>&nbsp;</td><td>INTERCALATE</td></tr>
+<tr><td>⊻</td><td>8891</td><td>22BB</td><td>&nbsp;</td><td>XOR</td></tr>
+<tr><td>⊼</td><td>8892</td><td>22BC</td><td>&nbsp;</td><td>NAND</td></tr>
+<tr><td>⊽</td><td>8893</td><td>22BD</td><td>&nbsp;</td><td>NOR</td></tr>
+<tr><td>⊾</td><td>8894</td><td>22BE</td><td>&nbsp;</td><td>RIGHT ANGLE WITH ARC</td></tr>
+<tr><td>⊿</td><td>8895</td><td>22BF</td><td>&nbsp;</td><td>RIGHT TRIANGLE</td></tr>
+<tr><td>⋀</td><td>8896</td><td>22C0</td><td>&nbsp;</td><td>N-ARY LOGICAL AND</td></tr>
+<tr><td>⋁</td><td>8897</td><td>22C1</td><td>&nbsp;</td><td>N-ARY LOGICAL OR</td></tr>
+<tr><td>⋂</td><td>8898</td><td>22C2</td><td>&nbsp;</td><td>N-ARY INTERSECTION</td></tr>
+<tr><td>⋃</td><td>8899</td><td>22C3</td><td>&nbsp;</td><td>N-ARY UNION</td></tr>
+<tr><td>⋄</td><td>8900</td><td>22C4</td><td>&nbsp;</td><td>DIAMOND OPERATOR</td></tr>
+<tr><td>⋅</td><td>8901</td><td>22C5</td><td>&amp;sdot;</td><td>DOT OPERATOR</td></tr>
+<tr><td>⋆</td><td>8902</td><td>22C6</td><td>&nbsp;</td><td>STAR OPERATOR</td></tr>
+<tr><td>⋇</td><td>8903</td><td>22C7</td><td>&nbsp;</td><td>DIVISION TIMES</td></tr>
+<tr><td>⋈</td><td>8904</td><td>22C8</td><td>&nbsp;</td><td>BOWTIE</td></tr>
+<tr><td>⋉</td><td>8905</td><td>22C9</td><td>&nbsp;</td><td>LEFT NORMAL FACTOR SEMIDIRECT PRODUCT</td></tr>
+<tr><td>⋊</td><td>8906</td><td>22CA</td><td>&nbsp;</td><td>RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT</td></tr>
+<tr><td>⋋</td><td>8907</td><td>22CB</td><td>&nbsp;</td><td>LEFT SEMIDIRECT PRODUCT</td></tr>
+<tr><td>⋌</td><td>8908</td><td>22CC</td><td>&nbsp;</td><td>RIGHT SEMIDIRECT PRODUCT</td></tr>
+<tr><td>⋍</td><td>8909</td><td>22CD</td><td>&nbsp;</td><td>REVERSED TILDE EQUALS</td></tr>
+<tr><td>⋎</td><td>8910</td><td>22CE</td><td>&nbsp;</td><td>CURLY LOGICAL OR</td></tr>
+<tr><td>⋏</td><td>8911</td><td>22CF</td><td>&nbsp;</td><td>CURLY LOGICAL AND</td></tr>
+<tr><td>⋐</td><td>8912</td><td>22D0</td><td>&nbsp;</td><td>DOUBLE SUBSET</td></tr>
+<tr><td>⋑</td><td>8913</td><td>22D1</td><td>&nbsp;</td><td>DOUBLE SUPERSET</td></tr>
+<tr><td>⋒</td><td>8914</td><td>22D2</td><td>&nbsp;</td><td>DOUBLE INTERSECTION</td></tr>
+<tr><td>⋓</td><td>8915</td><td>22D3</td><td>&nbsp;</td><td>DOUBLE UNION</td></tr>
+<tr><td>⋔</td><td>8916</td><td>22D4</td><td>&nbsp;</td><td>PITCHFORK</td></tr>
+<tr><td>⋕</td><td>8917</td><td>22D5</td><td>&nbsp;</td><td>EQUAL AND PARALLEL TO</td></tr>
+<tr><td>⋖</td><td>8918</td><td>22D6</td><td>&nbsp;</td><td>LESS-THAN WITH DOT</td></tr>
+<tr><td>⋗</td><td>8919</td><td>22D7</td><td>&nbsp;</td><td>GREATER-THAN WITH DOT</td></tr>
+<tr><td>⋘</td><td>8920</td><td>22D8</td><td>&nbsp;</td><td>VERY MUCH LESS-THAN</td></tr>
+<tr><td>⋙</td><td>8921</td><td>22D9</td><td>&nbsp;</td><td>VERY MUCH GREATER-THAN</td></tr>
+<tr><td>⋚</td><td>8922</td><td>22DA</td><td>&nbsp;</td><td>LESS-THAN EQUAL TO OR GREATER-THAN</td></tr>
+<tr><td>⋛</td><td>8923</td><td>22DB</td><td>&nbsp;</td><td>GREATER-THAN EQUAL TO OR LESS-THAN</td></tr>
+<tr><td>⋜</td><td>8924</td><td>22DC</td><td>&nbsp;</td><td>EQUAL TO OR LESS-THAN</td></tr>
+<tr><td>⋝</td><td>8925</td><td>22DD</td><td>&nbsp;</td><td>EQUAL TO OR GREATER-THAN</td></tr>
+<tr><td>⋞</td><td>8926</td><td>22DE</td><td>&nbsp;</td><td>EQUAL TO OR PRECEDES</td></tr>
+<tr><td>⋟</td><td>8927</td><td>22DF</td><td>&nbsp;</td><td>EQUAL TO OR SUCCEEDS</td></tr>
+<tr><td>⋠</td><td>8928</td><td>22E0</td><td>&nbsp;</td><td>DOES NOT PRECEDE OR EQUAL</td></tr>
+<tr><td>⋡</td><td>8929</td><td>22E1</td><td>&nbsp;</td><td>DOES NOT SUCCEED OR EQUAL</td></tr>
+<tr><td>⋢</td><td>8930</td><td>22E2</td><td>&nbsp;</td><td>NOT SQUARE IMAGE OF OR EQUAL TO</td></tr>
+<tr><td>⋣</td><td>8931</td><td>22E3</td><td>&nbsp;</td><td>NOT SQUARE ORIGINAL OF OR EQUAL TO</td></tr>
+<tr><td>⋤</td><td>8932</td><td>22E4</td><td>&nbsp;</td><td>SQUARE IMAGE OF OR NOT EQUAL TO</td></tr>
+<tr><td>⋥</td><td>8933</td><td>22E5</td><td>&nbsp;</td><td>SQUARE ORIGINAL OF OR NOT EQUAL TO</td></tr>
+<tr><td>⋦</td><td>8934</td><td>22E6</td><td>&nbsp;</td><td>LESS-THAN BUT NOT EQUIVALENT TO</td></tr>
+<tr><td>⋧</td><td>8935</td><td>22E7</td><td>&nbsp;</td><td>GREATER-THAN BUT NOT EQUIVALENT TO</td></tr>
+<tr><td>⋨</td><td>8936</td><td>22E8</td><td>&nbsp;</td><td>PRECEDES BUT NOT EQUIVALENT TO</td></tr>
+<tr><td>⋩</td><td>8937</td><td>22E9</td><td>&nbsp;</td><td>SUCCEEDS BUT NOT EQUIVALENT TO</td></tr>
+<tr><td>⋪</td><td>8938</td><td>22EA</td><td>&nbsp;</td><td>NOT NORMAL SUBGROUP OF</td></tr>
+<tr><td>⋫</td><td>8939</td><td>22EB</td><td>&nbsp;</td><td>DOES NOT CONTAIN AS NORMAL SUBGROUP</td></tr>
+<tr><td>⋬</td><td>8940</td><td>22EC</td><td>&nbsp;</td><td>NOT NORMAL SUBGROUP OF OR EQUAL TO</td></tr>
+<tr><td>⋭</td><td>8941</td><td>22ED</td><td>&nbsp;</td><td>DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL</td></tr>
+<tr><td>⋮</td><td>8942</td><td>22EE</td><td>&nbsp;</td><td>VERTICAL ELLIPSIS</td></tr>
+<tr><td>⋯</td><td>8943</td><td>22EF</td><td>&nbsp;</td><td>MIDLINE HORIZONTAL ELLIPSIS</td></tr>
+<tr><td>⋰</td><td>8944</td><td>22F0</td><td>&nbsp;</td><td>UP RIGHT DIAGONAL ELLIPSIS</td></tr>
+<tr><td>⋱</td><td>8945</td><td>22F1</td><td>&nbsp;</td><td>DOWN RIGHT DIAGONAL ELLIPSIS</td></tr>
+<tr><td>⋲</td><td>8946</td><td>22F2</td><td>&nbsp;</td><td>ELEMENT OF WITH LONG HORIZONTAL STROKE</td></tr>
+<tr><td>⋳</td><td>8947</td><td>22F3</td><td>&nbsp;</td><td>ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE</td></tr>
+<tr><td>⋴</td><td>8948</td><td>22F4</td><td>&nbsp;</td><td>SMALL ELEMENT OF WITH VERTICAL BAR AT END OF HORIZONTAL STROKE</td></tr>
+<tr><td>⋵</td><td>8949</td><td>22F5</td><td>&nbsp;</td><td>ELEMENT OF WITH DOT ABOVE</td></tr>
+<tr><td>⋶</td><td>8950</td><td>22F6</td><td>&nbsp;</td><td>ELEMENT OF WITH OVERBAR</td></tr>
+<tr><td>⋷</td><td>8951</td><td>22F7</td><td>&nbsp;</td><td>SMALL ELEMENT OF WITH OVERBAR</td></tr>
+<tr><td>⋸</td><td>8952</td><td>22F8</td><td>&nbsp;</td><td>ELEMENT OF WITH UNDERBAR</td></tr>
+<tr><td>⋹</td><td>8953</td><td>22F9</td><td>&nbsp;</td><td>ELEMENT OF WITH TWO HORIZONTAL STROKES</td></tr>
+<tr><td>⋺</td><td>8954</td><td>22FA</td><td>&nbsp;</td><td>CONTAINS WITH LONG HORIZONTAL STROKE</td></tr>
+<tr><td>⋻</td><td>8955</td><td>22FB</td><td>&nbsp;</td><td>CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE</td></tr>
+<tr><td>⋼</td><td>8956</td><td>22FC</td><td>&nbsp;</td><td>SMALL CONTAINS WITH VERTICAL BAR AT END OF HORIZONTAL STROKE</td></tr>
+<tr><td>⋽</td><td>8957</td><td>22FD</td><td>&nbsp;</td><td>CONTAINS WITH OVERBAR</td></tr>
+<tr><td>⋾</td><td>8958</td><td>22FE</td><td>&nbsp;</td><td>SMALL CONTAINS WITH OVERBAR</td></tr>
+<tr><td>⋿</td><td>8959</td><td>22FF</td><td>&nbsp;</td><td>Z NOTATION BAG MEMBERSHIP</td></tr></tbody></table>
+
+------
+
+Char
+Dec
+Hex
+Entity
+Name
+─94722500&nbsp;BOX DRAWINGS LIGHT HORIZONTAL
+━94732501&nbsp;BOX DRAWINGS HEAVY HORIZONTAL
+│94742502&nbsp;BOX DRAWINGS LIGHT VERTICAL
+┃94752503&nbsp;BOX DRAWINGS HEAVY VERTICAL
+┄94762504&nbsp;BOX DRAWINGS LIGHT TRIPLE DASH HORIZONTAL
+┅94772505&nbsp;BOX DRAWINGS HEAVY TRIPLE DASH HORIZONTAL
+┆94782506&nbsp;BOX DRAWINGS LIGHT TRIPLE DASH VERTICAL
+┇94792507&nbsp;BOX DRAWINGS HEAVY TRIPLE DASH VERTICAL
+┈94802508&nbsp;BOX DRAWINGS LIGHT QUADRUPLE DASH HORIZONTAL
+┉94812509&nbsp;BOX DRAWINGS HEAVY QUADRUPLE DASH HORIZONTAL
+┊9482250A&nbsp;BOX DRAWINGS LIGHT QUADRUPLE DASH VERTICAL
+┋9483250B&nbsp;BOX DRAWINGS HEAVY QUADRUPLE DASH VERTICAL
+┌9484250C&nbsp;BOX DRAWINGS LIGHT DOWN AND RIGHT
+┍9485250D&nbsp;BOX DRAWINGS DOWN LIGHT AND RIGHT HEAVY
+┎9486250E&nbsp;BOX DRAWINGS DOWN HEAVY AND RIGHT LIGHT
+┏9487250F&nbsp;BOX DRAWINGS HEAVY DOWN AND RIGHT
+┐94882510&nbsp;BOX DRAWINGS LIGHT DOWN AND LEFT
+┑94892511&nbsp;BOX DRAWINGS DOWN LIGHT AND LEFT HEAVY
+┒94902512&nbsp;BOX DRAWINGS DOWN HEAVY AND LEFT LIGHT
+┓94912513&nbsp;BOX DRAWINGS HEAVY DOWN AND LEFT
+└94922514&nbsp;BOX DRAWINGS LIGHT UP AND RIGHT
+┕94932515&nbsp;BOX DRAWINGS UP LIGHT AND RIGHT HEAVY
+┖94942516&nbsp;BOX DRAWINGS UP HEAVY AND RIGHT LIGHT
+┗94952517&nbsp;BOX DRAWINGS HEAVY UP AND RIGHT
+┘94962518&nbsp;BOX DRAWINGS LIGHT UP AND LEFT
+┙94972519&nbsp;BOX DRAWINGS UP LIGHT AND LEFT HEAVY
+┚9498251A&nbsp;BOX DRAWINGS UP HEAVY AND LEFT LIGHT
+┛9499251B&nbsp;BOX DRAWINGS HEAVY UP AND LEFT
+├9500251C&nbsp;BOX DRAWINGS LIGHT VERTICAL AND RIGHT
+┝9501251D&nbsp;BOX DRAWINGS VERTICAL LIGHT AND RIGHT HEAVY
+┞9502251E&nbsp;BOX DRAWINGS UP HEAVY AND RIGHT DOWN LIGHT
+┟9503251F&nbsp;BOX DRAWINGS DOWN HEAVY AND RIGHT UP LIGHT
+┠95042520&nbsp;BOX DRAWINGS VERTICAL HEAVY AND RIGHT LIGHT
+┡95052521&nbsp;BOX DRAWINGS DOWN LIGHT AND RIGHT UP HEAVY
+┢95062522&nbsp;BOX DRAWINGS UP LIGHT AND RIGHT DOWN HEAVY
+┣95072523&nbsp;BOX DRAWINGS HEAVY VERTICAL AND RIGHT
+┤95082524&nbsp;BOX DRAWINGS LIGHT VERTICAL AND LEFT
+┥95092525&nbsp;BOX DRAWINGS VERTICAL LIGHT AND LEFT HEAVY
+┦95102526&nbsp;BOX DRAWINGS UP HEAVY AND LEFT DOWN LIGHT
+┧95112527&nbsp;BOX DRAWINGS DOWN HEAVY AND LEFT UP LIGHT
+┨95122528&nbsp;BOX DRAWINGS VERTICAL HEAVY AND LEFT LIGHT
+┩95132529&nbsp;BOX DRAWINGS DOWN LIGHT AND LEFT UP HEAVY
+┪9514252A&nbsp;BOX DRAWINGS UP LIGHT AND LEFT DOWN HEAVY
+┫9515252B&nbsp;BOX DRAWINGS HEAVY VERTICAL AND LEFT
+┬9516252C&nbsp;BOX DRAWINGS LIGHT DOWN AND HORIZONTAL
+┭9517252D&nbsp;BOX DRAWINGS LEFT HEAVY AND RIGHT DOWN LIGHT
+┮9518252E&nbsp;BOX DRAWINGS RIGHT HEAVY AND LEFT DOWN LIGHT
+┯9519252F&nbsp;BOX DRAWINGS DOWN LIGHT AND HORIZONTAL HEAVY
+┰95202530&nbsp;BOX DRAWINGS DOWN HEAVY AND HORIZONTAL LIGHT
+┱95212531&nbsp;BOX DRAWINGS RIGHT LIGHT AND LEFT DOWN HEAVY
+┲95222532&nbsp;BOX DRAWINGS LEFT LIGHT AND RIGHT DOWN HEAVY
+┳95232533&nbsp;BOX DRAWINGS HEAVY DOWN AND HORIZONTAL
+┴95242534&nbsp;BOX DRAWINGS LIGHT UP AND HORIZONTAL
+┵95252535&nbsp;BOX DRAWINGS LEFT HEAVY AND RIGHT UP LIGHT
+┶95262536&nbsp;BOX DRAWINGS RIGHT HEAVY AND LEFT UP LIGHT
+┷95272537&nbsp;BOX DRAWINGS UP LIGHT AND HORIZONTAL HEAVY
+┸95282538&nbsp;BOX DRAWINGS UP HEAVY AND HORIZONTAL LIGHT
+┹95292539&nbsp;BOX DRAWINGS RIGHT LIGHT AND LEFT UP HEAVY
+┺9530253A&nbsp;BOX DRAWINGS LEFT LIGHT AND RIGHT UP HEAVY
+┻9531253B&nbsp;BOX DRAWINGS HEAVY UP AND HORIZONTAL
+┼9532253C&nbsp;BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL
+┽9533253D&nbsp;BOX DRAWINGS LEFT HEAVY AND RIGHT VERTICAL LIGHT
+┾9534253E&nbsp;BOX DRAWINGS RIGHT HEAVY AND LEFT VERTICAL LIGHT
+┿9535253F&nbsp;BOX DRAWINGS VERTICAL LIGHT AND HORIZONTAL HEAVY
+╀95362540&nbsp;BOX DRAWINGS UP HEAVY AND DOWN HORIZONTAL LIGHT
+╁95372541&nbsp;BOX DRAWINGS DOWN HEAVY AND UP HORIZONTAL LIGHT
+╂95382542&nbsp;BOX DRAWINGS VERTICAL HEAVY AND HORIZONTAL LIGHT
+╃95392543&nbsp;BOX DRAWINGS LEFT UP HEAVY AND RIGHT DOWN LIGHT
+╄95402544&nbsp;BOX DRAWINGS RIGHT UP HEAVY AND LEFT DOWN LIGHT
+╅95412545&nbsp;BOX DRAWINGS LEFT DOWN HEAVY AND RIGHT UP LIGHT
+╆95422546&nbsp;BOX DRAWINGS RIGHT DOWN HEAVY AND LEFT UP LIGHT
+╇95432547&nbsp;BOX DRAWINGS DOWN LIGHT AND UP HORIZONTAL HEAVY
+╈95442548&nbsp;BOX DRAWINGS UP LIGHT AND DOWN HORIZONTAL HEAVY
+╉95452549&nbsp;BOX DRAWINGS RIGHT LIGHT AND LEFT VERTICAL HEAVY
+╊9546254A&nbsp;BOX DRAWINGS LEFT LIGHT AND RIGHT VERTICAL HEAVY
+╋9547254B&nbsp;BOX DRAWINGS HEAVY VERTICAL AND HORIZONTAL
+╌9548254C&nbsp;BOX DRAWINGS LIGHT DOUBLE DASH HORIZONTAL
+╍9549254D&nbsp;BOX DRAWINGS HEAVY DOUBLE DASH HORIZONTAL
+╎9550254E&nbsp;BOX DRAWINGS LIGHT DOUBLE DASH VERTICAL
+╏9551254F&nbsp;BOX DRAWINGS HEAVY DOUBLE DASH VERTICAL
+═95522550&nbsp;BOX DRAWINGS DOUBLE HORIZONTAL
+║95532551&nbsp;BOX DRAWINGS DOUBLE VERTICAL
+╒95542552&nbsp;BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE
+╓95552553&nbsp;BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE
+╔95562554&nbsp;BOX DRAWINGS DOUBLE DOWN AND RIGHT
+╕95572555&nbsp;BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE
+╖95582556&nbsp;BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE
+╗95592557&nbsp;BOX DRAWINGS DOUBLE DOWN AND LEFT
+╘95602558&nbsp;BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE
+╙95612559&nbsp;BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE
+╚9562255A&nbsp;BOX DRAWINGS DOUBLE UP AND RIGHT
+╛9563255B&nbsp;BOX DRAWINGS UP SINGLE AND LEFT DOUBLE
+╜9564255C&nbsp;BOX DRAWINGS UP DOUBLE AND LEFT SINGLE
+╝9565255D&nbsp;BOX DRAWINGS DOUBLE UP AND LEFT
+╞9566255E&nbsp;BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE
+╟9567255F&nbsp;BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE
+╠95682560&nbsp;BOX DRAWINGS DOUBLE VERTICAL AND RIGHT
+╡95692561&nbsp;BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE
+╢95702562&nbsp;BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE
+╣95712563&nbsp;BOX DRAWINGS DOUBLE VERTICAL AND LEFT
+╤95722564&nbsp;BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE
+╥95732565&nbsp;BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE
+╦95742566&nbsp;BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
+╧95752567&nbsp;BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE
+╨95762568&nbsp;BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE
+╩95772569&nbsp;BOX DRAWINGS DOUBLE UP AND HORIZONTAL
+╪9578256A&nbsp;BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE
+╫9579256B&nbsp;BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE
+╬9580256C&nbsp;BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
+╭9581256D&nbsp;BOX DRAWINGS LIGHT ARC DOWN AND RIGHT
+╮9582256E&nbsp;BOX DRAWINGS LIGHT ARC DOWN AND LEFT
+╯9583256F&nbsp;BOX DRAWINGS LIGHT ARC UP AND LEFT
+╰95842570&nbsp;BOX DRAWINGS LIGHT ARC UP AND RIGHT
+╱95852571&nbsp;BOX DRAWINGS LIGHT DIAGONAL UPPER RIGHT TO LOWER LEFT
+╲95862572&nbsp;BOX DRAWINGS LIGHT DIAGONAL UPPER LEFT TO LOWER RIGHT
+╳95872573&nbsp;BOX DRAWINGS LIGHT DIAGONAL CROSS
+╴95882574&nbsp;BOX DRAWINGS LIGHT LEFT
+╵95892575&nbsp;BOX DRAWINGS LIGHT UP
+╶95902576&nbsp;BOX DRAWINGS LIGHT RIGHT
+╷95912577&nbsp;BOX DRAWINGS LIGHT DOWN
+╸95922578&nbsp;BOX DRAWINGS HEAVY LEFT
+╹95932579&nbsp;BOX DRAWINGS HEAVY UP
+╺9594257A&nbsp;BOX DRAWINGS HEAVY RIGHT
+╻9595257B&nbsp;BOX DRAWINGS HEAVY DOWN
+╼9596257C&nbsp;BOX DRAWINGS LIGHT LEFT AND HEAVY RIGHT
+╽9597257D&nbsp;BOX DRAWINGS LIGHT UP AND HEAVY DOWN
+╾9598257E&nbsp;BOX DRAWINGS HEAVY LEFT AND LIGHT RIGHT
+╿9599257F&nbsp;BOX DRAWINGS HEAVY UP AND LIGHT DOWN
+
+------
+
+Char
+Dec
+Hex
+Entity
+Name
+▀96002580&nbsp;UPPER HALF BLOCK
+▁96012581&nbsp;LOWER ONE EIGHTH BLOCK
+▂96022582&nbsp;LOWER ONE QUARTER BLOCK
+▃96032583&nbsp;LOWER THREE EIGHTHS BLOCK
+▄96042584&nbsp;LOWER HALF BLOCK
+▅96052585&nbsp;LOWER FIVE EIGHTHS BLOCK
+▆96062586&nbsp;LOWER THREE QUARTERS BLOCK
+▇96072587&nbsp;LOWER SEVEN EIGHTHS BLOCK
+█96082588&nbsp;FULL BLOCK
+▉96092589&nbsp;LEFT SEVEN EIGHTHS BLOCK
+▊9610258A&nbsp;LEFT THREE QUARTERS BLOCK
+▋9611258B&nbsp;LEFT FIVE EIGHTHS BLOCK
+▌9612258C&nbsp;LEFT HALF BLOCK
+▍9613258D&nbsp;LEFT THREE EIGHTHS BLOCK
+▎9614258E&nbsp;LEFT ONE QUARTER BLOCK
+▏9615258F&nbsp;LEFT ONE EIGHTH BLOCK
+▐96162590&nbsp;RIGHT HALF BLOCK
+░96172591&nbsp;LIGHT SHADE
+▒96182592&nbsp;MEDIUM SHADE
+▓96192593&nbsp;DARK SHADE
+▔96202594&nbsp;UPPER ONE EIGHTH BLOCK
+▕96212595&nbsp;RIGHT ONE EIGHTH BLOCK
+▖96222596&nbsp;QUADRANT LOWER LEFT
+▗96232597&nbsp;QUADRANT LOWER RIGHT
+▘96242598&nbsp;QUADRANT UPPER LEFT
+▙96252599&nbsp;QUADRANT UPPER LEFT AND LOWER LEFT AND LOWER RIGHT
+▚9626259A&nbsp;QUADRANT UPPER LEFT AND LOWER RIGHT
+▛9627259B&nbsp;QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER LEFT
+▜9628259C&nbsp;QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER RIGHT
+▝9629259D&nbsp;QUADRANT UPPER RIGHT
+▞9630259E&nbsp;QUADRANT UPPER RIGHT AND LOWER LEFT
+▟9631259F&nbsp;QUADRANT UPPER RIGHT AND LOWER LEFT AND LOWER RIGHT
+
+------
+
+<br>
+
+<table class="reference">
+<tbody><tr>
+<th>Char</th>
+<th>Dec</th>
+<th>Hex</th>
+<th>Entity</th>
+<th>Name</th>
+</tr><tr><td>☀</td><td>9728</td><td>2600</td><td>&nbsp;</td><td>BLACK SUN WITH RAYS</td></tr>
+<tr><td>☁</td><td>9729</td><td>2601</td><td>&nbsp;</td><td>CLOUD</td></tr>
+<tr><td>☂</td><td>9730</td><td>2602</td><td>&nbsp;</td><td>UMBRELLA</td></tr>
+<tr><td>☃</td><td>9731</td><td>2603</td><td>&nbsp;</td><td>SNOWMAN</td></tr>
+<tr><td>☄</td><td>9732</td><td>2604</td><td>&nbsp;</td><td>COMET</td></tr>
+<tr><td>★</td><td>9733</td><td>2605</td><td>&nbsp;</td><td>BLACK STAR</td></tr>
+<tr><td>☆</td><td>9734</td><td>2606</td><td>&nbsp;</td><td>WHITE STAR</td></tr>
+<tr><td>☇</td><td>9735</td><td>2607</td><td>&nbsp;</td><td>LIGHTNING</td></tr>
+<tr><td>☈</td><td>9736</td><td>2608</td><td>&nbsp;</td><td>THUNDERSTORM</td></tr>
+<tr><td>☉</td><td>9737</td><td>2609</td><td>&nbsp;</td><td>SUN</td></tr>
+<tr><td>☊</td><td>9738</td><td>260A</td><td>&nbsp;</td><td>ASCENDING NODE</td></tr>
+<tr><td>☋</td><td>9739</td><td>260B</td><td>&nbsp;</td><td>DESCENDING NODE</td></tr>
+<tr><td>☌</td><td>9740</td><td>260C</td><td>&nbsp;</td><td>CONJUNCTION</td></tr>
+<tr><td>☍</td><td>9741</td><td>260D</td><td>&nbsp;</td><td>OPPOSITION</td></tr>
+<tr><td>☎</td><td>9742</td><td>260E</td><td>&nbsp;</td><td>BLACK TELEPHONE</td></tr>
+<tr><td>☏</td><td>9743</td><td>260F</td><td>&nbsp;</td><td>WHITE TELEPHONE</td></tr>
+<tr><td>☐</td><td>9744</td><td>2610</td><td>&nbsp;</td><td>BALLOT BOX</td></tr>
+<tr><td>☑</td><td>9745</td><td>2611</td><td>&nbsp;</td><td>BALLOT BOX WITH CHECK</td></tr>
+<tr><td>☒</td><td>9746</td><td>2612</td><td>&nbsp;</td><td>BALLOT BOX WITH X</td></tr>
+<tr><td>☓</td><td>9747</td><td>2613</td><td>&nbsp;</td><td>SALTIRE</td></tr>
+<tr><td>☔</td><td>9748</td><td>2614</td><td>&nbsp;</td><td>UMBRELLA WITH RAIN DROPS</td></tr>
+<tr><td>☕</td><td>9749</td><td>2615</td><td>&nbsp;</td><td>HOT BEVERAGE</td></tr>
+<tr><td>☖</td><td>9750</td><td>2616</td><td>&nbsp;</td><td>WHITE SHOGI PIECE</td></tr>
+<tr><td>☗</td><td>9751</td><td>2617</td><td>&nbsp;</td><td>BLACK SHOGI PIECE</td></tr>
+<tr><td>☘</td><td>9752</td><td>2618</td><td>&nbsp;</td><td>SHAMROCK</td></tr>
+<tr><td>☙</td><td>9753</td><td>2619</td><td>&nbsp;</td><td>REVERSED ROTATED FLORAL HEART BULLET</td></tr>
+<tr><td>☚</td><td>9754</td><td>261A</td><td>&nbsp;</td><td>BLACK LEFT POINTING INDEX</td></tr>
+<tr><td>☛</td><td>9755</td><td>261B</td><td>&nbsp;</td><td>BLACK RIGHT POINTING INDEX</td></tr>
+<tr><td>☜</td><td>9756</td><td>261C</td><td>&nbsp;</td><td>WHITE LEFT POINTING INDEX</td></tr>
+<tr><td>☝</td><td>9757</td><td>261D</td><td>&nbsp;</td><td>WHITE UP POINTING INDEX</td></tr>
+<tr><td>☞</td><td>9758</td><td>261E</td><td>&nbsp;</td><td>WHITE RIGHT POINTING INDEX</td></tr>
+<tr><td>☟</td><td>9759</td><td>261F</td><td>&nbsp;</td><td>WHITE DOWN POINTING INDEX</td></tr>
+<tr><td>☠</td><td>9760</td><td>2620</td><td>&nbsp;</td><td>SKULL AND CROSSBONES</td></tr>
+<tr><td>☡</td><td>9761</td><td>2621</td><td>&nbsp;</td><td>CAUTION SIGN</td></tr>
+<tr><td>☢</td><td>9762</td><td>2622</td><td>&nbsp;</td><td>RADIOACTIVE SIGN</td></tr>
+<tr><td>☣</td><td>9763</td><td>2623</td><td>&nbsp;</td><td>BIOHAZARD SIGN</td></tr>
+<tr><td>☤</td><td>9764</td><td>2624</td><td>&nbsp;</td><td>CADUCEUS</td></tr>
+<tr><td>☥</td><td>9765</td><td>2625</td><td>&nbsp;</td><td>ANKH</td></tr>
+<tr><td>☦</td><td>9766</td><td>2626</td><td>&nbsp;</td><td>ORTHODOX CROSS</td></tr>
+<tr><td>☧</td><td>9767</td><td>2627</td><td>&nbsp;</td><td>CHI RHO</td></tr>
+<tr><td>☨</td><td>9768</td><td>2628</td><td>&nbsp;</td><td>CROSS OF LORRAINE</td></tr>
+<tr><td>☩</td><td>9769</td><td>2629</td><td>&nbsp;</td><td>CROSS OF JERUSALEM</td></tr>
+<tr><td>☪</td><td>9770</td><td>262A</td><td>&nbsp;</td><td>STAR AND CRESCENT</td></tr>
+<tr><td>☫</td><td>9771</td><td>262B</td><td>&nbsp;</td><td>FARSI SYMBOL</td></tr>
+<tr><td>☬</td><td>9772</td><td>262C</td><td>&nbsp;</td><td>ADI SHAKTI</td></tr>
+<tr><td>☭</td><td>9773</td><td>262D</td><td>&nbsp;</td><td>HAMMER AND SICKLE</td></tr>
+<tr><td>☮</td><td>9774</td><td>262E</td><td>&nbsp;</td><td>PEACE SYMBOL</td></tr>
+<tr><td>☯</td><td>9775</td><td>262F</td><td>&nbsp;</td><td>YIN YANG</td></tr>
+<tr><td>☰</td><td>9776</td><td>2630</td><td>&nbsp;</td><td>TRIGRAM FOR HEAVEN</td></tr>
+<tr><td>☱</td><td>9777</td><td>2631</td><td>&nbsp;</td><td>TRIGRAM FOR LAKE</td></tr>
+<tr><td>☲</td><td>9778</td><td>2632</td><td>&nbsp;</td><td>TRIGRAM FOR FIRE</td></tr>
+<tr><td>☳</td><td>9779</td><td>2633</td><td>&nbsp;</td><td>TRIGRAM FOR THUNDER</td></tr>
+<tr><td>☴</td><td>9780</td><td>2634</td><td>&nbsp;</td><td>TRIGRAM FOR WIND</td></tr>
+<tr><td>☵</td><td>9781</td><td>2635</td><td>&nbsp;</td><td>TRIGRAM FOR WATER</td></tr>
+<tr><td>☶</td><td>9782</td><td>2636</td><td>&nbsp;</td><td>TRIGRAM FOR MOUNTAIN</td></tr>
+<tr><td>☷</td><td>9783</td><td>2637</td><td>&nbsp;</td><td>TRIGRAM FOR EARTH</td></tr>
+<tr><td>☸</td><td>9784</td><td>2638</td><td>&nbsp;</td><td>WHEEL OF DHARMA</td></tr>
+<tr><td>☹</td><td>9785</td><td>2639</td><td>&nbsp;</td><td>WHITE FROWNING FACE</td></tr>
+<tr><td>☺</td><td>9786</td><td>263A</td><td>&nbsp;</td><td>WHITE SMILING FACE</td></tr>
+<tr><td>☻</td><td>9787</td><td>263B</td><td>&nbsp;</td><td>BLACK SMILING FACE</td></tr>
+<tr><td>☼</td><td>9788</td><td>263C</td><td>&nbsp;</td><td>WHITE SUN WITH RAYS</td></tr>
+<tr><td>☽</td><td>9789</td><td>263D</td><td>&nbsp;</td><td>FIRST QUARTER MOON</td></tr>
+<tr><td>☾</td><td>9790</td><td>263E</td><td>&nbsp;</td><td>LAST QUARTER MOON</td></tr>
+<tr><td>☿</td><td>9791</td><td>263F</td><td>&nbsp;</td><td>MERCURY</td></tr>
+<tr><td>♀</td><td>9792</td><td>2640</td><td>&nbsp;</td><td>FEMALE SIGN</td></tr>
+<tr><td>♁</td><td>9793</td><td>2641</td><td>&nbsp;</td><td>EARTH</td></tr>
+<tr><td>♂</td><td>9794</td><td>2642</td><td>&nbsp;</td><td>MALE SIGN</td></tr>
+<tr><td>♃</td><td>9795</td><td>2643</td><td>&nbsp;</td><td>JUPITER</td></tr>
+<tr><td>♄</td><td>9796</td><td>2644</td><td>&nbsp;</td><td>SATURN</td></tr>
+<tr><td>♅</td><td>9797</td><td>2645</td><td>&nbsp;</td><td>URANUS</td></tr>
+<tr><td>♆</td><td>9798</td><td>2646</td><td>&nbsp;</td><td>NEPTUNE</td></tr>
+<tr><td>♇</td><td>9799</td><td>2647</td><td>&nbsp;</td><td>PLUTO</td></tr>
+<tr><td>♈</td><td>9800</td><td>2648</td><td>&nbsp;</td><td>ARIES</td></tr>
+<tr><td>♉</td><td>9801</td><td>2649</td><td>&nbsp;</td><td>TAURUS</td></tr>
+<tr><td>♊</td><td>9802</td><td>264A</td><td>&nbsp;</td><td>GEMINI</td></tr>
+<tr><td>♋</td><td>9803</td><td>264B</td><td>&nbsp;</td><td>CANCER</td></tr>
+<tr><td>♌</td><td>9804</td><td>264C</td><td>&nbsp;</td><td>LEO</td></tr>
+<tr><td>♍</td><td>9805</td><td>264D</td><td>&nbsp;</td><td>VIRGO</td></tr>
+<tr><td>♎</td><td>9806</td><td>264E</td><td>&nbsp;</td><td>LIBRA</td></tr>
+<tr><td>♏</td><td>9807</td><td>264F</td><td>&nbsp;</td><td>SCORPIUS</td></tr>
+<tr><td>♐</td><td>9808</td><td>2650</td><td>&nbsp;</td><td>SAGITTARIUS</td></tr>
+<tr><td>♑</td><td>9809</td><td>2651</td><td>&nbsp;</td><td>CAPRICORN</td></tr>
+<tr><td>♒</td><td>9810</td><td>2652</td><td>&nbsp;</td><td>AQUARIUS</td></tr>
+<tr><td>♓</td><td>9811</td><td>2653</td><td>&nbsp;</td><td>PISCES</td></tr>
+<tr><td>♔</td><td>9812</td><td>2654</td><td>&nbsp;</td><td>WHITE CHESS KING</td></tr>
+<tr><td>♕</td><td>9813</td><td>2655</td><td>&nbsp;</td><td>WHITE CHESS QUEEN</td></tr>
+<tr><td>♖</td><td>9814</td><td>2656</td><td>&nbsp;</td><td>WHITE CHESS ROOK</td></tr>
+<tr><td>♗</td><td>9815</td><td>2657</td><td>&nbsp;</td><td>WHITE CHESS BISHOP</td></tr>
+<tr><td>♘</td><td>9816</td><td>2658</td><td>&nbsp;</td><td>WHITE CHESS KNIGHT</td></tr>
+<tr><td>♙</td><td>9817</td><td>2659</td><td>&nbsp;</td><td>WHITE CHESS PAWN</td></tr>
+<tr><td>♚</td><td>9818</td><td>265A</td><td>&nbsp;</td><td>BLACK CHESS KING</td></tr>
+<tr><td>♛</td><td>9819</td><td>265B</td><td>&nbsp;</td><td>BLACK CHESS QUEEN</td></tr>
+<tr><td>♜</td><td>9820</td><td>265C</td><td>&nbsp;</td><td>BLACK CHESS ROOK</td></tr>
+<tr><td>♝</td><td>9821</td><td>265D</td><td>&nbsp;</td><td>BLACK CHESS BISHOP</td></tr>
+<tr><td>♞</td><td>9822</td><td>265E</td><td>&nbsp;</td><td>BLACK CHESS KNIGHT</td></tr>
+<tr><td>♟</td><td>9823</td><td>265F</td><td>&nbsp;</td><td>BLACK CHESS PAWN</td></tr>
+<tr><td>♠</td><td>9824</td><td>2660</td><td>&amp;spades;</td><td>BLACK SPADE SUIT</td></tr>
+<tr><td>♡</td><td>9825</td><td>2661</td><td>&nbsp;</td><td>WHITE HEART SUIT</td></tr>
+<tr><td>♢</td><td>9826</td><td>2662</td><td>&nbsp;</td><td>WHITE DIAMOND SUIT</td></tr>
+<tr><td>♣</td><td>9827</td><td>2663</td><td>&amp;clubs;</td><td>BLACK CLUB SUIT</td></tr>
+<tr><td>♤</td><td>9828</td><td>2664</td><td>&nbsp;</td><td>WHITE SPADE SUIT</td></tr>
+<tr><td>♥</td><td>9829</td><td>2665</td><td>&amp;hearts;</td><td>BLACK HEART SUIT</td></tr>
+<tr><td>♦</td><td>9830</td><td>2666</td><td>&amp;diams;</td><td>BLACK DIAMOND SUIT</td></tr>
+<tr><td>♧</td><td>9831</td><td>2667</td><td>&nbsp;</td><td>WHITE CLUB SUIT</td></tr>
+<tr><td>♨</td><td>9832</td><td>2668</td><td>&nbsp;</td><td>HOT SPRINGS</td></tr>
+<tr><td>♩</td><td>9833</td><td>2669</td><td>&nbsp;</td><td>QUARTER NOTE</td></tr>
+<tr><td>♪</td><td>9834</td><td>266A</td><td>&nbsp;</td><td>EIGHTH NOTE</td></tr>
+<tr><td>♫</td><td>9835</td><td>266B</td><td>&nbsp;</td><td>BEAMED EIGHTH NOTES</td></tr>
+<tr><td>♬</td><td>9836</td><td>266C</td><td>&nbsp;</td><td>BEAMED SIXTEENTH NOTES</td></tr>
+<tr><td>♭</td><td>9837</td><td>266D</td><td>&nbsp;</td><td>MUSIC FLAT SIGN</td></tr>
+<tr><td>♮</td><td>9838</td><td>266E</td><td>&nbsp;</td><td>MUSIC NATURAL SIGN</td></tr>
+<tr><td>♯</td><td>9839</td><td>266F</td><td>&nbsp;</td><td>MUSIC SHARP SIGN</td></tr>
+<tr><td>♰</td><td>9840</td><td>2670</td><td>&nbsp;</td><td>WEST SYRIAC CROSS</td></tr>
+<tr><td>♱</td><td>9841</td><td>2671</td><td>&nbsp;</td><td>EAST SYRIAC CROSS</td></tr>
+<tr><td>♲</td><td>9842</td><td>2672</td><td>&nbsp;</td><td>UNIVERSAL RECYCLING SYMBOL</td></tr>
+<tr><td>♳</td><td>9843</td><td>2673</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-1 PLASTICS</td></tr>
+<tr><td>♴</td><td>9844</td><td>2674</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-2 PLASTICS</td></tr>
+<tr><td>♵</td><td>9845</td><td>2675</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-3 PLASTICS</td></tr>
+<tr><td>♶</td><td>9846</td><td>2676</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-4 PLASTICS</td></tr>
+<tr><td>♷</td><td>9847</td><td>2677</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-5 PLASTICS</td></tr>
+<tr><td>♸</td><td>9848</td><td>2678</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-6 PLASTICS</td></tr>
+<tr><td>♹</td><td>9849</td><td>2679</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-7 PLASTICS</td></tr>
+<tr><td>♺</td><td>9850</td><td>267A</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR GENERIC MATERIALS</td></tr>
+<tr><td>♻</td><td>9851</td><td>267B</td><td>&nbsp;</td><td>BLACK UNIVERSAL RECYCLING SYMBOL</td></tr>
+<tr><td>♼</td><td>9852</td><td>267C</td><td>&nbsp;</td><td>RECYCLED PAPER SYMBOL</td></tr>
+<tr><td>♽</td><td>9853</td><td>267D</td><td>&nbsp;</td><td>PARTIALLY-RECYCLED PAPER SYMBOL</td></tr>
+<tr><td>♾</td><td>9854</td><td>267E</td><td>&nbsp;</td><td>PERMANENT PAPER SIGN</td></tr>
+<tr><td>♿</td><td>9855</td><td>267F</td><td>&nbsp;</td><td>WHEELCHAIR SYMBOL</td></tr>
+<tr><td>⚀</td><td>9856</td><td>2680</td><td>&nbsp;</td><td>DIE FACE-1</td></tr>
+<tr><td>⚁</td><td>9857</td><td>2681</td><td>&nbsp;</td><td>DIE FACE-2</td></tr>
+<tr><td>⚂</td><td>9858</td><td>2682</td><td>&nbsp;</td><td>DIE FACE-3</td></tr>
+<tr><td>⚃</td><td>9859</td><td>2683</td><td>&nbsp;</td><td>DIE FACE-4</td></tr>
+<tr><td>⚄</td><td>9860</td><td>2684</td><td>&nbsp;</td><td>DIE FACE-5</td></tr>
+<tr><td>⚅</td><td>9861</td><td>2685</td><td>&nbsp;</td><td>DIE FACE-6</td></tr>
+<tr><td>⚆</td><td>9862</td><td>2686</td><td>&nbsp;</td><td>WHITE CIRCLE WITH DOT RIGHT</td></tr>
+<tr><td>⚇</td><td>9863</td><td>2687</td><td>&nbsp;</td><td>WHITE CIRCLE WITH TWO DOTS</td></tr>
+<tr><td>⚈</td><td>9864</td><td>2688</td><td>&nbsp;</td><td>BLACK CIRCLE WITH WHITE DOT RIGHT</td></tr>
+<tr><td>⚉</td><td>9865</td><td>2689</td><td>&nbsp;</td><td>BLACK CIRCLE WITH TWO WHITE DOTS</td></tr>
+<tr><td>⚊</td><td>9866</td><td>268A</td><td>&nbsp;</td><td>MONOGRAM FOR YANG</td></tr>
+<tr><td>⚋</td><td>9867</td><td>268B</td><td>&nbsp;</td><td>MONOGRAM FOR YIN</td></tr>
+<tr><td>⚌</td><td>9868</td><td>268C</td><td>&nbsp;</td><td>DIGRAM FOR GREATER YANG</td></tr>
+<tr><td>⚍</td><td>9869</td><td>268D</td><td>&nbsp;</td><td>DIGRAM FOR LESSER YIN</td></tr>
+<tr><td>⚎</td><td>9870</td><td>268E</td><td>&nbsp;</td><td>DIGRAM FOR LESSER YANG</td></tr>
+<tr><td>⚏</td><td>9871</td><td>268F</td><td>&nbsp;</td><td>DIGRAM FOR GREATER YIN</td></tr>
+<tr><td>⚐</td><td>9872</td><td>2690</td><td>&nbsp;</td><td>WHITE FLAG</td></tr>
+<tr><td>⚑</td><td>9873</td><td>2691</td><td>&nbsp;</td><td>BLACK FLAG</td></tr>
+<tr><td>⚒</td><td>9874</td><td>2692</td><td>&nbsp;</td><td>HAMMER AND PICK</td></tr>
+<tr><td>⚓</td><td>9875</td><td>2693</td><td>&nbsp;</td><td>ANCHOR</td></tr>
+<tr><td>⚔</td><td>9876</td><td>2694</td><td>&nbsp;</td><td>CROSSED SWORDS</td></tr>
+<tr><td>⚕</td><td>9877</td><td>2695</td><td>&nbsp;</td><td>STAFF OF AESCULAPIUS</td></tr>
+<tr><td>⚖</td><td>9878</td><td>2696</td><td>&nbsp;</td><td>SCALES</td></tr>
+<tr><td>⚗</td><td>9879</td><td>2697</td><td>&nbsp;</td><td>ALEMBIC</td></tr>
+<tr><td>⚘</td><td>9880</td><td>2698</td><td>&nbsp;</td><td>FLOWER</td></tr>
+<tr><td>⚙</td><td>9881</td><td>2699</td><td>&nbsp;</td><td>GEAR</td></tr>
+<tr><td>⚚</td><td>9882</td><td>269A</td><td>&nbsp;</td><td>STAFF OF HERMES</td></tr>
+<tr><td>⚛</td><td>9883</td><td>269B</td><td>&nbsp;</td><td>ATOM SYMBOL</td></tr>
+<tr><td>⚜</td><td>9884</td><td>269C</td><td>&nbsp;</td><td>FLEUR-DE-LIS</td></tr>
+<tr><td>⚝</td><td>9885</td><td>269D</td><td>&nbsp;</td><td>OUTLINED WHITE STAR</td></tr>
+<tr><td>⚞</td><td>9886</td><td>269E</td><td>&nbsp;</td><td>THREE LINES CONVERGING RIGHT</td></tr>
+<tr><td>⚟</td><td>9887</td><td>269F</td><td>&nbsp;</td><td>THREE LINES CONVERGING LEFT</td></tr>
+<tr><td>⚠</td><td>9888</td><td>26A0</td><td>&nbsp;</td><td>WARNING SIGN</td></tr>
+<tr><td>⚡</td><td>9889</td><td>26A1</td><td>&nbsp;</td><td>HIGH VOLTAGE SIGN</td></tr>
+<tr><td>⚢</td><td>9890</td><td>26A2</td><td>&nbsp;</td><td>DOUBLED FEMALE SIGN</td></tr>
+<tr><td>⚣</td><td>9891</td><td>26A3</td><td>&nbsp;</td><td>DOUBLED MALE SIGN</td></tr>
+<tr><td>⚤</td><td>9892</td><td>26A4</td><td>&nbsp;</td><td>INTERLOCKED FEMALE AND MALE SIGN</td></tr>
+<tr><td>⚥</td><td>9893</td><td>26A5</td><td>&nbsp;</td><td>MALE AND FEMALE SIGN</td></tr>
+<tr><td>⚦</td><td>9894</td><td>26A6</td><td>&nbsp;</td><td>MALE WITH STROKE SIGN</td></tr>
+<tr><td>⚧</td><td>9895</td><td>26A7</td><td>&nbsp;</td><td>MALE WITH STROKE AND MALE AND FEMALE SIGN</td></tr>
+<tr><td>⚨</td><td>9896</td><td>26A8</td><td>&nbsp;</td><td>VERTICAL MALE WITH STROKE SIGN</td></tr>
+<tr><td>⚩</td><td>9897</td><td>26A9</td><td>&nbsp;</td><td>HORIZONTAL MALE WITH STROKE SIGN</td></tr>
+<tr><td>⚪</td><td>9898</td><td>26AA</td><td>&nbsp;</td><td>MEDIUM WHITE CIRCLE</td></tr>
+<tr><td>⚫</td><td>9899</td><td>26AB</td><td>&nbsp;</td><td>MEDIUM BLACK CIRCLE</td></tr>
+<tr><td>⚬</td><td>9900</td><td>26AC</td><td>&nbsp;</td><td>MEDIUM SMALL WHITE CIRCLE</td></tr>
+<tr><td>⚭</td><td>9901</td><td>26AD</td><td>&nbsp;</td><td>MARRIAGE SYMBOL</td></tr>
+<tr><td>⚮</td><td>9902</td><td>26AE</td><td>&nbsp;</td><td>DIVORCE SYMBOL</td></tr>
+<tr><td>⚯</td><td>9903</td><td>26AF</td><td>&nbsp;</td><td>UNMARRIED PARTNERSHIP SYMBOL</td></tr>
+<tr><td>⚰</td><td>9904</td><td>26B0</td><td>&nbsp;</td><td>COFFIN</td></tr>
+<tr><td>⚱</td><td>9905</td><td>26B1</td><td>&nbsp;</td><td>FUNERAL URN</td></tr>
+<tr><td>⚲</td><td>9906</td><td>26B2</td><td>&nbsp;</td><td>NEUTER</td></tr>
+<tr><td>⚳</td><td>9907</td><td>26B3</td><td>&nbsp;</td><td>CERES</td></tr>
+<tr><td>⚴</td><td>9908</td><td>26B4</td><td>&nbsp;</td><td>PALLAS</td></tr>
+<tr><td>⚵</td><td>9909</td><td>26B5</td><td>&nbsp;</td><td>JUNO</td></tr>
+<tr><td>⚶</td><td>9910</td><td>26B6</td><td>&nbsp;</td><td>VESTA</td></tr>
+<tr><td>⚷</td><td>9911</td><td>26B7</td><td>&nbsp;</td><td>CHIRON</td></tr>
+<tr><td>⚸</td><td>9912</td><td>26B8</td><td>&nbsp;</td><td>BLACK MOON LILITH</td></tr>
+<tr><td>⚹</td><td>9913</td><td>26B9</td><td>&nbsp;</td><td>SEXTILE</td></tr>
+<tr><td>⚺</td><td>9914</td><td>26BA</td><td>&nbsp;</td><td>SEMISEXTILE</td></tr>
+<tr><td>⚻</td><td>9915</td><td>26BB</td><td>&nbsp;</td><td>QUINCUNX</td></tr>
+<tr><td>⚼</td><td>9916</td><td>26BC</td><td>&nbsp;</td><td>SESQUIQUADRATE</td></tr>
+<tr><td>⚽</td><td>9917</td><td>26BD</td><td>&nbsp;</td><td>SOCCER BALL</td></tr>
+<tr><td>⚾</td><td>9918</td><td>26BE</td><td>&nbsp;</td><td>BASEBALL</td></tr>
+<tr><td>⚿</td><td>9919</td><td>26BF</td><td>&nbsp;</td><td>SQUARED KEY</td></tr>
+<tr><td>⛀</td><td>9920</td><td>26C0</td><td>&nbsp;</td><td>WHITE DRAUGHTS MAN</td></tr>
+<tr><td>⛁</td><td>9921</td><td>26C1</td><td>&nbsp;</td><td>WHITE DRAUGHTS KING</td></tr>
+<tr><td>⛂</td><td>9922</td><td>26C2</td><td>&nbsp;</td><td>BLACK DRAUGHTS MAN</td></tr>
+<tr><td>⛃</td><td>9923</td><td>26C3</td><td>&nbsp;</td><td>BLACK DRAUGHTS KING</td></tr>
+<tr><td>⛄</td><td>9924</td><td>26C4</td><td>&nbsp;</td><td>SNOWMAN WITHOUT SNOW</td></tr>
+<tr><td>⛅</td><td>9925</td><td>26C5</td><td>&nbsp;</td><td>SUN BEHIND CLOUD</td></tr>
+<tr><td>⛆</td><td>9926</td><td>26C6</td><td>&nbsp;</td><td>RAIN</td></tr>
+<tr><td>⛇</td><td>9927</td><td>26C7</td><td>&nbsp;</td><td>BLACK SNOWMAN</td></tr>
+<tr><td>⛈</td><td>9928</td><td>26C8</td><td>&nbsp;</td><td>THUNDER CLOUD AND RAIN</td></tr>
+<tr><td>⛉</td><td>9929</td><td>26C9</td><td>&nbsp;</td><td>TURNED WHITE SHOGI PIECE</td></tr>
+<tr><td>⛊</td><td>9930</td><td>26CA</td><td>&nbsp;</td><td>TURNED BLACK SHOGI PIECE</td></tr>
+<tr><td>⛋</td><td>9931</td><td>26CB</td><td>&nbsp;</td><td>WHITE DIAMOND IN SQUARE</td></tr>
+<tr><td>⛌</td><td>9932</td><td>26CC</td><td>&nbsp;</td><td>CROSSING LANES</td></tr>
+<tr><td>⛍</td><td>9933</td><td>26CD</td><td>&nbsp;</td><td>DISABLED CAR</td></tr>
+<tr><td>⛎</td><td>9934</td><td>26CE</td><td>&nbsp;</td><td>OPHIUCHUS</td></tr>
+<tr><td>⛏</td><td>9935</td><td>26CF</td><td>&nbsp;</td><td>PICK</td></tr>
+<tr><td>⛐</td><td>9936</td><td>26D0</td><td>&nbsp;</td><td>CAR SLIDING</td></tr>
+<tr><td>⛑</td><td>9937</td><td>26D1</td><td>&nbsp;</td><td>HELMET WITH WHITE CROSS</td></tr>
+<tr><td>⛒</td><td>9938</td><td>26D2</td><td>&nbsp;</td><td>CIRCLED CROSSING LANES</td></tr>
+<tr><td>⛓</td><td>9939</td><td>26D3</td><td>&nbsp;</td><td>CHAINS</td></tr>
+<tr><td>⛔</td><td>9940</td><td>26D4</td><td>&nbsp;</td><td>NO ENTRY</td></tr>
+<tr><td>⛕</td><td>9941</td><td>26D5</td><td>&nbsp;</td><td>ALTERNATE ONE-WAY LEFT WAY TRAFFIC</td></tr>
+<tr><td>⛖</td><td>9942</td><td>26D6</td><td>&nbsp;</td><td>BLACK TWO-WAY LEFT WAY TRAFFIC</td></tr>
+<tr><td>⛗</td><td>9943</td><td>26D7</td><td>&nbsp;</td><td>WHITE TWO-WAY LEFT WAY TRAFFIC</td></tr>
+<tr><td>⛘</td><td>9944</td><td>26D8</td><td>&nbsp;</td><td>BLACK LEFT LANE MERGE</td></tr>
+<tr><td>⛙</td><td>9945</td><td>26D9</td><td>&nbsp;</td><td>WHITE LEFT LANE MERGE</td></tr>
+<tr><td>⛚</td><td>9946</td><td>26DA</td><td>&nbsp;</td><td>DRIVE SLOW SIGN</td></tr>
+<tr><td>⛛</td><td>9947</td><td>26DB</td><td>&nbsp;</td><td>HEAVY WHITE DOWN-POINTING TRIANGLE</td></tr>
+<tr><td>⛜</td><td>9948</td><td>26DC</td><td>&nbsp;</td><td>LEFT CLOSED ENTRY</td></tr>
+<tr><td>⛝</td><td>9949</td><td>26DD</td><td>&nbsp;</td><td>SQUARED SALTIRE</td></tr>
+<tr><td>⛞</td><td>9950</td><td>26DE</td><td>&nbsp;</td><td>FALLING DIAGONAL IN WHITE CIRCLE IN BLACK SQUARE</td></tr>
+<tr><td>⛟</td><td>9951</td><td>26DF</td><td>&nbsp;</td><td>BLACK TRUCK</td></tr>
+<tr><td>⛠</td><td>9952</td><td>26E0</td><td>&nbsp;</td><td>RESTRICTED LEFT ENTRY-1</td></tr>
+<tr><td>⛡</td><td>9953</td><td>26E1</td><td>&nbsp;</td><td>RESTRICTED LEFT ENTRY-2</td></tr>
+<tr><td>⛢</td><td>9954</td><td>26E2</td><td>&nbsp;</td><td>ASTRONOMICAL SYMBOL FOR URANUS</td></tr>
+<tr><td>⛣</td><td>9955</td><td>26E3</td><td>&nbsp;</td><td>HEAVY CIRCLE WITH STROKE AND TWO DOTS ABOVE</td></tr>
+<tr><td>⛤</td><td>9956</td><td>26E4</td><td>&nbsp;</td><td>PENTAGRAM</td></tr>
+<tr><td>⛥</td><td>9957</td><td>26E5</td><td>&nbsp;</td><td>RIGHT-HANDED INTERLACED PENTAGRAM</td></tr>
+<tr><td>⛦</td><td>9958</td><td>26E6</td><td>&nbsp;</td><td>LEFT-HANDED INTERLACED PENTAGRAM</td></tr>
+<tr><td>⛧</td><td>9959</td><td>26E7</td><td>&nbsp;</td><td>INVERTED PENTAGRAM</td></tr>
+<tr><td>⛨</td><td>9960</td><td>26E8</td><td>&nbsp;</td><td>BLACK CROSS ON SHIELD</td></tr>
+<tr><td>⛩</td><td>9961</td><td>26E9</td><td>&nbsp;</td><td>SHINTO SHRINE</td></tr>
+<tr><td>⛪</td><td>9962</td><td>26EA</td><td>&nbsp;</td><td>CHURCH</td></tr>
+<tr><td>⛫</td><td>9963</td><td>26EB</td><td>&nbsp;</td><td>CASTLE</td></tr>
+<tr><td>⛬</td><td>9964</td><td>26EC</td><td>&nbsp;</td><td>HISTORIC SITE</td></tr>
+<tr><td>⛭</td><td>9965</td><td>26ED</td><td>&nbsp;</td><td>GEAR WITHOUT HUB</td></tr>
+<tr><td>⛮</td><td>9966</td><td>26EE</td><td>&nbsp;</td><td>GEAR WITH HANDLES</td></tr>
+<tr><td>⛯</td><td>9967</td><td>26EF</td><td>&nbsp;</td><td>MAP SYMBOL FOR LIGHTHOUSE</td></tr>
+<tr><td>⛰</td><td>9968</td><td>26F0</td><td>&nbsp;</td><td>MOUNTAIN</td></tr>
+<tr><td>⛱</td><td>9969</td><td>26F1</td><td>&nbsp;</td><td>UMBRELLA ON GROUND</td></tr>
+<tr><td>⛲</td><td>9970</td><td>26F2</td><td>&nbsp;</td><td>FOUNTAIN</td></tr>
+<tr><td>⛳</td><td>9971</td><td>26F3</td><td>&nbsp;</td><td>FLAG IN HOLE</td></tr>
+<tr><td>⛴</td><td>9972</td><td>26F4</td><td>&nbsp;</td><td>FERRY</td></tr>
+<tr><td>⛵</td><td>9973</td><td>26F5</td><td>&nbsp;</td><td>SAILBOAT</td></tr>
+<tr><td>⛶</td><td>9974</td><td>26F6</td><td>&nbsp;</td><td>SQUARE FOUR CORNERS</td></tr>
+<tr><td>⛷</td><td>9975</td><td>26F7</td><td>&nbsp;</td><td>SKIER</td></tr>
+<tr><td>⛸</td><td>9976</td><td>26F8</td><td>&nbsp;</td><td>ICE SKATE</td></tr>
+<tr><td>⛹</td><td>9977</td><td>26F9</td><td>&nbsp;</td><td>PERSON WITH BALL</td></tr>
+<tr><td>⛺</td><td>9978</td><td>26FA</td><td>&nbsp;</td><td>TENT</td></tr>
+<tr><td>⛻</td><td>9979</td><td>26FB</td><td>&nbsp;</td><td>JAPANESE BANK SYMBOL</td></tr>
+<tr><td>⛼</td><td>9980</td><td>26FC</td><td>&nbsp;</td><td>HEADSTONE GRAVEYARD SYMBOL</td></tr>
+<tr><td>⛽</td><td>9981</td><td>26FD</td><td>&nbsp;</td><td>FUEL PUMP</td></tr>
+<tr><td>⛾</td><td>9982</td><td>26FE</td><td>&nbsp;</td><td>CUP ON BLACK SQUARE</td></tr>
+<tr><td>⛿</td><td>9983</td><td>26FF</td><td>&nbsp;</td><td>WHITE FLAG WITH HORIZONTAL MIDDLE BLACK STRIPE</td></tr>
+</tbody></table>
+<br>
+
+
+------
+
+<br>
+
+<table class="reference">
+<tbody><tr>
+<th>Char</th>
+<th>Dec</th>
+<th>Hex</th>
+<th>Entity</th>
+<th>Name</th>
+</tr><tr><td>■</td><td>9632</td><td>25A0</td><td>&nbsp;</td><td>BLACK SQUARE</td></tr>
+<tr><td>□</td><td>9633</td><td>25A1</td><td>&nbsp;</td><td>WHITE SQUARE</td></tr>
+<tr><td>▢</td><td>9634</td><td>25A2</td><td>&nbsp;</td><td>WHITE SQUARE WITH ROUNDED CORNERS</td></tr>
+<tr><td>▣</td><td>9635</td><td>25A3</td><td>&nbsp;</td><td>WHITE SQUARE CONTAINING BLACK SMALL SQUARE</td></tr>
+<tr><td>▤</td><td>9636</td><td>25A4</td><td>&nbsp;</td><td>SQUARE WITH HORIZONTAL FILL</td></tr>
+<tr><td>▥</td><td>9637</td><td>25A5</td><td>&nbsp;</td><td>SQUARE WITH VERTICAL FILL</td></tr>
+<tr><td>▦</td><td>9638</td><td>25A6</td><td>&nbsp;</td><td>SQUARE WITH ORTHOGONAL CROSSHATCH FILL</td></tr>
+<tr><td>▧</td><td>9639</td><td>25A7</td><td>&nbsp;</td><td>SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL</td></tr>
+<tr><td>▨</td><td>9640</td><td>25A8</td><td>&nbsp;</td><td>SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL</td></tr>
+<tr><td>▩</td><td>9641</td><td>25A9</td><td>&nbsp;</td><td>SQUARE WITH DIAGONAL CROSSHATCH FILL</td></tr>
+<tr><td>▪</td><td>9642</td><td>25AA</td><td>&nbsp;</td><td>BLACK SMALL SQUARE</td></tr>
+<tr><td>▫</td><td>9643</td><td>25AB</td><td>&nbsp;</td><td>WHITE SMALL SQUARE</td></tr>
+<tr><td>▬</td><td>9644</td><td>25AC</td><td>&nbsp;</td><td>BLACK RECTANGLE</td></tr>
+<tr><td>▭</td><td>9645</td><td>25AD</td><td>&nbsp;</td><td>WHITE RECTANGLE</td></tr>
+<tr><td>▮</td><td>9646</td><td>25AE</td><td>&nbsp;</td><td>BLACK VERTICAL RECTANGLE</td></tr>
+<tr><td>▯</td><td>9647</td><td>25AF</td><td>&nbsp;</td><td>WHITE VERTICAL RECTANGLE</td></tr>
+<tr><td>▰</td><td>9648</td><td>25B0</td><td>&nbsp;</td><td>BLACK PARALLELOGRAM</td></tr>
+<tr><td>▱</td><td>9649</td><td>25B1</td><td>&nbsp;</td><td>WHITE PARALLELOGRAM</td></tr>
+<tr><td>▲</td><td>9650</td><td>25B2</td><td>&nbsp;</td><td>BLACK UP-POINTING TRIANGLE</td></tr>
+<tr><td>△</td><td>9651</td><td>25B3</td><td>&nbsp;</td><td>WHITE UP-POINTING TRIANGLE</td></tr>
+<tr><td>▴</td><td>9652</td><td>25B4</td><td>&nbsp;</td><td>BLACK UP-POINTING SMALL TRIANGLE</td></tr>
+<tr><td>▵</td><td>9653</td><td>25B5</td><td>&nbsp;</td><td>WHITE UP-POINTING SMALL TRIANGLE</td></tr>
+<tr><td>▶</td><td>9654</td><td>25B6</td><td>&nbsp;</td><td>BLACK RIGHT-POINTING TRIANGLE</td></tr>
+<tr><td>▷</td><td>9655</td><td>25B7</td><td>&nbsp;</td><td>WHITE RIGHT-POINTING TRIANGLE</td></tr>
+<tr><td>▸</td><td>9656</td><td>25B8</td><td>&nbsp;</td><td>BLACK RIGHT-POINTING SMALL TRIANGLE</td></tr>
+<tr><td>▹</td><td>9657</td><td>25B9</td><td>&nbsp;</td><td>WHITE RIGHT-POINTING SMALL TRIANGLE</td></tr>
+<tr><td>►</td><td>9658</td><td>25BA</td><td>&nbsp;</td><td>BLACK RIGHT-POINTING POINTER</td></tr>
+<tr><td>▻</td><td>9659</td><td>25BB</td><td>&nbsp;</td><td>WHITE RIGHT-POINTING POINTER</td></tr>
+<tr><td>▼</td><td>9660</td><td>25BC</td><td>&nbsp;</td><td>BLACK DOWN-POINTING TRIANGLE</td></tr>
+<tr><td>▽</td><td>9661</td><td>25BD</td><td>&nbsp;</td><td>WHITE DOWN-POINTING TRIANGLE</td></tr>
+<tr><td>▾</td><td>9662</td><td>25BE</td><td>&nbsp;</td><td>BLACK DOWN-POINTING SMALL TRIANGLE</td></tr>
+<tr><td>▿</td><td>9663</td><td>25BF</td><td>&nbsp;</td><td>WHITE DOWN-POINTING SMALL TRIANGLE</td></tr>
+<tr><td>◀</td><td>9664</td><td>25C0</td><td>&nbsp;</td><td>BLACK LEFT-POINTING TRIANGLE</td></tr>
+<tr><td>◁</td><td>9665</td><td>25C1</td><td>&nbsp;</td><td>WHITE LEFT-POINTING TRIANGLE</td></tr>
+<tr><td>◂</td><td>9666</td><td>25C2</td><td>&nbsp;</td><td>BLACK LEFT-POINTING SMALL TRIANGLE</td></tr>
+<tr><td>◃</td><td>9667</td><td>25C3</td><td>&nbsp;</td><td>WHITE LEFT-POINTING SMALL TRIANGLE</td></tr>
+<tr><td>◄</td><td>9668</td><td>25C4</td><td>&nbsp;</td><td>BLACK LEFT-POINTING POINTER</td></tr>
+<tr><td>◅</td><td>9669</td><td>25C5</td><td>&nbsp;</td><td>WHITE LEFT-POINTING POINTER</td></tr>
+<tr><td>◆</td><td>9670</td><td>25C6</td><td>&nbsp;</td><td>BLACK DIAMOND</td></tr>
+<tr><td>◇</td><td>9671</td><td>25C7</td><td>&nbsp;</td><td>WHITE DIAMOND</td></tr>
+<tr><td>◈</td><td>9672</td><td>25C8</td><td>&nbsp;</td><td>WHITE DIAMOND CONTAINING BLACK SMALL DIAMOND</td></tr>
+<tr><td>◉</td><td>9673</td><td>25C9</td><td>&nbsp;</td><td>FISHEYE</td></tr>
+<tr><td>◊</td><td>9674</td><td>25CA</td><td>&amp;loz;</td><td>LOZENGE</td></tr>
+<tr><td>○</td><td>9675</td><td>25CB</td><td>&nbsp;</td><td>WHITE CIRCLE</td></tr>
+<tr><td>◌</td><td>9676</td><td>25CC</td><td>&nbsp;</td><td>DOTTED CIRCLE</td></tr>
+<tr><td>◍</td><td>9677</td><td>25CD</td><td>&nbsp;</td><td>CIRCLE WITH VERTICAL FILL</td></tr>
+<tr><td>◎</td><td>9678</td><td>25CE</td><td>&nbsp;</td><td>BULLSEYE</td></tr>
+<tr><td>●</td><td>9679</td><td>25CF</td><td>&nbsp;</td><td>BLACK CIRCLE</td></tr>
+<tr><td>◐</td><td>9680</td><td>25D0</td><td>&nbsp;</td><td>CIRCLE WITH LEFT HALF BLACK</td></tr>
+<tr><td>◑</td><td>9681</td><td>25D1</td><td>&nbsp;</td><td>CIRCLE WITH RIGHT HALF BLACK</td></tr>
+<tr><td>◒</td><td>9682</td><td>25D2</td><td>&nbsp;</td><td>CIRCLE WITH LOWER HALF BLACK</td></tr>
+<tr><td>◓</td><td>9683</td><td>25D3</td><td>&nbsp;</td><td>CIRCLE WITH UPPER HALF BLACK</td></tr>
+<tr><td>◔</td><td>9684</td><td>25D4</td><td>&nbsp;</td><td>CIRCLE WITH UPPER RIGHT QUADRANT BLACK</td></tr>
+<tr><td>◕</td><td>9685</td><td>25D5</td><td>&nbsp;</td><td>CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK</td></tr>
+<tr><td>◖</td><td>9686</td><td>25D6</td><td>&nbsp;</td><td>LEFT HALF BLACK CIRCLE</td></tr>
+<tr><td>◗</td><td>9687</td><td>25D7</td><td>&nbsp;</td><td>RIGHT HALF BLACK CIRCLE</td></tr>
+<tr><td>◘</td><td>9688</td><td>25D8</td><td>&nbsp;</td><td>INVERSE BULLET</td></tr>
+<tr><td>◙</td><td>9689</td><td>25D9</td><td>&nbsp;</td><td>INVERSE WHITE CIRCLE</td></tr>
+<tr><td>◚</td><td>9690</td><td>25DA</td><td>&nbsp;</td><td>UPPER HALF INVERSE WHITE CIRCLE</td></tr>
+<tr><td>◛</td><td>9691</td><td>25DB</td><td>&nbsp;</td><td>LOWER HALF INVERSE WHITE CIRCLE</td></tr>
+<tr><td>◜</td><td>9692</td><td>25DC</td><td>&nbsp;</td><td>UPPER LEFT QUADRANT CIRCULAR ARC</td></tr>
+<tr><td>◝</td><td>9693</td><td>25DD</td><td>&nbsp;</td><td>UPPER RIGHT QUADRANT CIRCULAR ARC</td></tr>
+<tr><td>◞</td><td>9694</td><td>25DE</td><td>&nbsp;</td><td>LOWER RIGHT QUADRANT CIRCULAR ARC</td></tr>
+<tr><td>◟</td><td>9695</td><td>25DF</td><td>&nbsp;</td><td>LOWER LEFT QUADRANT CIRCULAR ARC</td></tr>
+<tr><td>◠</td><td>9696</td><td>25E0</td><td>&nbsp;</td><td>UPPER HALF CIRCLE</td></tr>
+<tr><td>◡</td><td>9697</td><td>25E1</td><td>&nbsp;</td><td>LOWER HALF CIRCLE</td></tr>
+<tr><td>◢</td><td>9698</td><td>25E2</td><td>&nbsp;</td><td>BLACK LOWER RIGHT TRIANGLE</td></tr>
+<tr><td>◣</td><td>9699</td><td>25E3</td><td>&nbsp;</td><td>BLACK LOWER LEFT TRIANGLE</td></tr>
+<tr><td>◤</td><td>9700</td><td>25E4</td><td>&nbsp;</td><td>BLACK UPPER LEFT TRIANGLE</td></tr>
+<tr><td>◥</td><td>9701</td><td>25E5</td><td>&nbsp;</td><td>BLACK UPPER RIGHT TRIANGLE</td></tr>
+<tr><td>◦</td><td>9702</td><td>25E6</td><td>&nbsp;</td><td>WHITE BULLET</td></tr>
+<tr><td>◧</td><td>9703</td><td>25E7</td><td>&nbsp;</td><td>SQUARE WITH LEFT HALF BLACK</td></tr>
+<tr><td>◨</td><td>9704</td><td>25E8</td><td>&nbsp;</td><td>SQUARE WITH RIGHT HALF BLACK</td></tr>
+<tr><td>◩</td><td>9705</td><td>25E9</td><td>&nbsp;</td><td>SQUARE WITH UPPER LEFT DIAGONAL HALF BLACK</td></tr>
+<tr><td>◪</td><td>9706</td><td>25EA</td><td>&nbsp;</td><td>SQUARE WITH LOWER RIGHT DIAGONAL HALF BLACK</td></tr>
+<tr><td>◫</td><td>9707</td><td>25EB</td><td>&nbsp;</td><td>WHITE SQUARE WITH VERTICAL BISECTING LINE</td></tr>
+<tr><td>◬</td><td>9708</td><td>25EC</td><td>&nbsp;</td><td>WHITE UP-POINTING TRIANGLE WITH DOT</td></tr>
+<tr><td>◭</td><td>9709</td><td>25ED</td><td>&nbsp;</td><td>UP-POINTING TRIANGLE WITH LEFT HALF BLACK</td></tr>
+<tr><td>◮</td><td>9710</td><td>25EE</td><td>&nbsp;</td><td>UP-POINTING TRIANGLE WITH RIGHT HALF BLACK</td></tr>
+<tr><td>◯</td><td>9711</td><td>25EF</td><td>&nbsp;</td><td>LARGE CIRCLE</td></tr>
+<tr><td>◰</td><td>9712</td><td>25F0</td><td>&nbsp;</td><td>WHITE SQUARE WITH UPPER LEFT QUADRANT</td></tr>
+<tr><td>◱</td><td>9713</td><td>25F1</td><td>&nbsp;</td><td>WHITE SQUARE WITH LOWER LEFT QUADRANT</td></tr>
+<tr><td>◲</td><td>9714</td><td>25F2</td><td>&nbsp;</td><td>WHITE SQUARE WITH LOWER RIGHT QUADRANT</td></tr>
+<tr><td>◳</td><td>9715</td><td>25F3</td><td>&nbsp;</td><td>WHITE SQUARE WITH UPPER RIGHT QUADRANT</td></tr>
+<tr><td>◴</td><td>9716</td><td>25F4</td><td>&nbsp;</td><td>WHITE CIRCLE WITH UPPER LEFT QUADRANT</td></tr>
+<tr><td>◵</td><td>9717</td><td>25F5</td><td>&nbsp;</td><td>WHITE CIRCLE WITH LOWER LEFT QUADRANT</td></tr>
+<tr><td>◶</td><td>9718</td><td>25F6</td><td>&nbsp;</td><td>WHITE CIRCLE WITH LOWER RIGHT QUADRANT</td></tr>
+<tr><td>◷</td><td>9719</td><td>25F7</td><td>&nbsp;</td><td>WHITE CIRCLE WITH UPPER RIGHT QUADRANT</td></tr>
+<tr><td>◸</td><td>9720</td><td>25F8</td><td>&nbsp;</td><td>UPPER LEFT TRIANGLE</td></tr>
+<tr><td>◹</td><td>9721</td><td>25F9</td><td>&nbsp;</td><td>UPPER RIGHT TRIANGLE</td></tr>
+<tr><td>◺</td><td>9722</td><td>25FA</td><td>&nbsp;</td><td>LOWER LEFT TRIANGLE</td></tr>
+<tr><td>◻</td><td>9723</td><td>25FB</td><td>&nbsp;</td><td>WHITE MEDIUM SQUARE</td></tr>
+<tr><td>◼</td><td>9724</td><td>25FC</td><td>&nbsp;</td><td>BLACK MEDIUM SQUARE</td></tr>
+<tr><td>◽</td><td>9725</td><td>25FD</td><td>&nbsp;</td><td>WHITE MEDIUM SMALL SQUARE</td></tr>
+<tr><td>◾</td><td>9726</td><td>25FE</td><td>&nbsp;</td><td>BLACK MEDIUM SMALL SQUARE</td></tr>
+<tr><td>◿</td><td>9727</td><td>25FF</td><td>&nbsp;</td><td>LOWER RIGHT TRIANGLE</td></tr>
+</tbody></table>
+
+
+<br>
+
+
+------
+
+<div class="row"><div class="col-lg-10 col-md-10 col-sm-12 main"><div><br>
+
+<table class="reference">
+<tbody><tr>
+<th>Char</th>
+<th>Dec</th>
+<th>Hex</th>
+<th>Entity</th>
+<th>Name</th>
+</tr><tr><td>☀</td><td>9728</td><td>2600</td><td>&nbsp;</td><td>BLACK SUN WITH RAYS</td></tr>
+<tr><td>☁</td><td>9729</td><td>2601</td><td>&nbsp;</td><td>CLOUD</td></tr>
+<tr><td>☂</td><td>9730</td><td>2602</td><td>&nbsp;</td><td>UMBRELLA</td></tr>
+<tr><td>☃</td><td>9731</td><td>2603</td><td>&nbsp;</td><td>SNOWMAN</td></tr>
+<tr><td>☄</td><td>9732</td><td>2604</td><td>&nbsp;</td><td>COMET</td></tr>
+<tr><td>★</td><td>9733</td><td>2605</td><td>&nbsp;</td><td>BLACK STAR</td></tr>
+<tr><td>☆</td><td>9734</td><td>2606</td><td>&nbsp;</td><td>WHITE STAR</td></tr>
+<tr><td>☇</td><td>9735</td><td>2607</td><td>&nbsp;</td><td>LIGHTNING</td></tr>
+<tr><td>☈</td><td>9736</td><td>2608</td><td>&nbsp;</td><td>THUNDERSTORM</td></tr>
+<tr><td>☉</td><td>9737</td><td>2609</td><td>&nbsp;</td><td>SUN</td></tr>
+<tr><td>☊</td><td>9738</td><td>260A</td><td>&nbsp;</td><td>ASCENDING NODE</td></tr>
+<tr><td>☋</td><td>9739</td><td>260B</td><td>&nbsp;</td><td>DESCENDING NODE</td></tr>
+<tr><td>☌</td><td>9740</td><td>260C</td><td>&nbsp;</td><td>CONJUNCTION</td></tr>
+<tr><td>☍</td><td>9741</td><td>260D</td><td>&nbsp;</td><td>OPPOSITION</td></tr>
+<tr><td>☎</td><td>9742</td><td>260E</td><td>&nbsp;</td><td>BLACK TELEPHONE</td></tr>
+<tr><td>☏</td><td>9743</td><td>260F</td><td>&nbsp;</td><td>WHITE TELEPHONE</td></tr>
+<tr><td>☐</td><td>9744</td><td>2610</td><td>&nbsp;</td><td>BALLOT BOX</td></tr>
+<tr><td>☑</td><td>9745</td><td>2611</td><td>&nbsp;</td><td>BALLOT BOX WITH CHECK</td></tr>
+<tr><td>☒</td><td>9746</td><td>2612</td><td>&nbsp;</td><td>BALLOT BOX WITH X</td></tr>
+<tr><td>☓</td><td>9747</td><td>2613</td><td>&nbsp;</td><td>SALTIRE</td></tr>
+<tr><td>☔</td><td>9748</td><td>2614</td><td>&nbsp;</td><td>UMBRELLA WITH RAIN DROPS</td></tr>
+<tr><td>☕</td><td>9749</td><td>2615</td><td>&nbsp;</td><td>HOT BEVERAGE</td></tr>
+<tr><td>☖</td><td>9750</td><td>2616</td><td>&nbsp;</td><td>WHITE SHOGI PIECE</td></tr>
+<tr><td>☗</td><td>9751</td><td>2617</td><td>&nbsp;</td><td>BLACK SHOGI PIECE</td></tr>
+<tr><td>☘</td><td>9752</td><td>2618</td><td>&nbsp;</td><td>SHAMROCK</td></tr>
+<tr><td>☙</td><td>9753</td><td>2619</td><td>&nbsp;</td><td>REVERSED ROTATED FLORAL HEART BULLET</td></tr>
+<tr><td>☚</td><td>9754</td><td>261A</td><td>&nbsp;</td><td>BLACK LEFT POINTING INDEX</td></tr>
+<tr><td>☛</td><td>9755</td><td>261B</td><td>&nbsp;</td><td>BLACK RIGHT POINTING INDEX</td></tr>
+<tr><td>☜</td><td>9756</td><td>261C</td><td>&nbsp;</td><td>WHITE LEFT POINTING INDEX</td></tr>
+<tr><td>☝</td><td>9757</td><td>261D</td><td>&nbsp;</td><td>WHITE UP POINTING INDEX</td></tr>
+<tr><td>☞</td><td>9758</td><td>261E</td><td>&nbsp;</td><td>WHITE RIGHT POINTING INDEX</td></tr>
+<tr><td>☟</td><td>9759</td><td>261F</td><td>&nbsp;</td><td>WHITE DOWN POINTING INDEX</td></tr>
+<tr><td>☠</td><td>9760</td><td>2620</td><td>&nbsp;</td><td>SKULL AND CROSSBONES</td></tr>
+<tr><td>☡</td><td>9761</td><td>2621</td><td>&nbsp;</td><td>CAUTION SIGN</td></tr>
+<tr><td>☢</td><td>9762</td><td>2622</td><td>&nbsp;</td><td>RADIOACTIVE SIGN</td></tr>
+<tr><td>☣</td><td>9763</td><td>2623</td><td>&nbsp;</td><td>BIOHAZARD SIGN</td></tr>
+<tr><td>☤</td><td>9764</td><td>2624</td><td>&nbsp;</td><td>CADUCEUS</td></tr>
+<tr><td>☥</td><td>9765</td><td>2625</td><td>&nbsp;</td><td>ANKH</td></tr>
+<tr><td>☦</td><td>9766</td><td>2626</td><td>&nbsp;</td><td>ORTHODOX CROSS</td></tr>
+<tr><td>☧</td><td>9767</td><td>2627</td><td>&nbsp;</td><td>CHI RHO</td></tr>
+<tr><td>☨</td><td>9768</td><td>2628</td><td>&nbsp;</td><td>CROSS OF LORRAINE</td></tr>
+<tr><td>☩</td><td>9769</td><td>2629</td><td>&nbsp;</td><td>CROSS OF JERUSALEM</td></tr>
+<tr><td>☪</td><td>9770</td><td>262A</td><td>&nbsp;</td><td>STAR AND CRESCENT</td></tr>
+<tr><td>☫</td><td>9771</td><td>262B</td><td>&nbsp;</td><td>FARSI SYMBOL</td></tr>
+<tr><td>☬</td><td>9772</td><td>262C</td><td>&nbsp;</td><td>ADI SHAKTI</td></tr>
+<tr><td>☭</td><td>9773</td><td>262D</td><td>&nbsp;</td><td>HAMMER AND SICKLE</td></tr>
+<tr><td>☮</td><td>9774</td><td>262E</td><td>&nbsp;</td><td>PEACE SYMBOL</td></tr>
+<tr><td>☯</td><td>9775</td><td>262F</td><td>&nbsp;</td><td>YIN YANG</td></tr>
+<tr><td>☰</td><td>9776</td><td>2630</td><td>&nbsp;</td><td>TRIGRAM FOR HEAVEN</td></tr>
+<tr><td>☱</td><td>9777</td><td>2631</td><td>&nbsp;</td><td>TRIGRAM FOR LAKE</td></tr>
+<tr><td>☲</td><td>9778</td><td>2632</td><td>&nbsp;</td><td>TRIGRAM FOR FIRE</td></tr>
+<tr><td>☳</td><td>9779</td><td>2633</td><td>&nbsp;</td><td>TRIGRAM FOR THUNDER</td></tr>
+<tr><td>☴</td><td>9780</td><td>2634</td><td>&nbsp;</td><td>TRIGRAM FOR WIND</td></tr>
+<tr><td>☵</td><td>9781</td><td>2635</td><td>&nbsp;</td><td>TRIGRAM FOR WATER</td></tr>
+<tr><td>☶</td><td>9782</td><td>2636</td><td>&nbsp;</td><td>TRIGRAM FOR MOUNTAIN</td></tr>
+<tr><td>☷</td><td>9783</td><td>2637</td><td>&nbsp;</td><td>TRIGRAM FOR EARTH</td></tr>
+<tr><td>☸</td><td>9784</td><td>2638</td><td>&nbsp;</td><td>WHEEL OF DHARMA</td></tr>
+<tr><td>☹</td><td>9785</td><td>2639</td><td>&nbsp;</td><td>WHITE FROWNING FACE</td></tr>
+<tr><td>☺</td><td>9786</td><td>263A</td><td>&nbsp;</td><td>WHITE SMILING FACE</td></tr>
+<tr><td>☻</td><td>9787</td><td>263B</td><td>&nbsp;</td><td>BLACK SMILING FACE</td></tr>
+<tr><td>☼</td><td>9788</td><td>263C</td><td>&nbsp;</td><td>WHITE SUN WITH RAYS</td></tr>
+<tr><td>☽</td><td>9789</td><td>263D</td><td>&nbsp;</td><td>FIRST QUARTER MOON</td></tr>
+<tr><td>☾</td><td>9790</td><td>263E</td><td>&nbsp;</td><td>LAST QUARTER MOON</td></tr>
+<tr><td>☿</td><td>9791</td><td>263F</td><td>&nbsp;</td><td>MERCURY</td></tr>
+<tr><td>♀</td><td>9792</td><td>2640</td><td>&nbsp;</td><td>FEMALE SIGN</td></tr>
+<tr><td>♁</td><td>9793</td><td>2641</td><td>&nbsp;</td><td>EARTH</td></tr>
+<tr><td>♂</td><td>9794</td><td>2642</td><td>&nbsp;</td><td>MALE SIGN</td></tr>
+<tr><td>♃</td><td>9795</td><td>2643</td><td>&nbsp;</td><td>JUPITER</td></tr>
+<tr><td>♄</td><td>9796</td><td>2644</td><td>&nbsp;</td><td>SATURN</td></tr>
+<tr><td>♅</td><td>9797</td><td>2645</td><td>&nbsp;</td><td>URANUS</td></tr>
+<tr><td>♆</td><td>9798</td><td>2646</td><td>&nbsp;</td><td>NEPTUNE</td></tr>
+<tr><td>♇</td><td>9799</td><td>2647</td><td>&nbsp;</td><td>PLUTO</td></tr>
+<tr><td>♈</td><td>9800</td><td>2648</td><td>&nbsp;</td><td>ARIES</td></tr>
+<tr><td>♉</td><td>9801</td><td>2649</td><td>&nbsp;</td><td>TAURUS</td></tr>
+<tr><td>♊</td><td>9802</td><td>264A</td><td>&nbsp;</td><td>GEMINI</td></tr>
+<tr><td>♋</td><td>9803</td><td>264B</td><td>&nbsp;</td><td>CANCER</td></tr>
+<tr><td>♌</td><td>9804</td><td>264C</td><td>&nbsp;</td><td>LEO</td></tr>
+<tr><td>♍</td><td>9805</td><td>264D</td><td>&nbsp;</td><td>VIRGO</td></tr>
+<tr><td>♎</td><td>9806</td><td>264E</td><td>&nbsp;</td><td>LIBRA</td></tr>
+<tr><td>♏</td><td>9807</td><td>264F</td><td>&nbsp;</td><td>SCORPIUS</td></tr>
+<tr><td>♐</td><td>9808</td><td>2650</td><td>&nbsp;</td><td>SAGITTARIUS</td></tr>
+<tr><td>♑</td><td>9809</td><td>2651</td><td>&nbsp;</td><td>CAPRICORN</td></tr>
+<tr><td>♒</td><td>9810</td><td>2652</td><td>&nbsp;</td><td>AQUARIUS</td></tr>
+<tr><td>♓</td><td>9811</td><td>2653</td><td>&nbsp;</td><td>PISCES</td></tr>
+<tr><td>♔</td><td>9812</td><td>2654</td><td>&nbsp;</td><td>WHITE CHESS KING</td></tr>
+<tr><td>♕</td><td>9813</td><td>2655</td><td>&nbsp;</td><td>WHITE CHESS QUEEN</td></tr>
+<tr><td>♖</td><td>9814</td><td>2656</td><td>&nbsp;</td><td>WHITE CHESS ROOK</td></tr>
+<tr><td>♗</td><td>9815</td><td>2657</td><td>&nbsp;</td><td>WHITE CHESS BISHOP</td></tr>
+<tr><td>♘</td><td>9816</td><td>2658</td><td>&nbsp;</td><td>WHITE CHESS KNIGHT</td></tr>
+<tr><td>♙</td><td>9817</td><td>2659</td><td>&nbsp;</td><td>WHITE CHESS PAWN</td></tr>
+<tr><td>♚</td><td>9818</td><td>265A</td><td>&nbsp;</td><td>BLACK CHESS KING</td></tr>
+<tr><td>♛</td><td>9819</td><td>265B</td><td>&nbsp;</td><td>BLACK CHESS QUEEN</td></tr>
+<tr><td>♜</td><td>9820</td><td>265C</td><td>&nbsp;</td><td>BLACK CHESS ROOK</td></tr>
+<tr><td>♝</td><td>9821</td><td>265D</td><td>&nbsp;</td><td>BLACK CHESS BISHOP</td></tr>
+<tr><td>♞</td><td>9822</td><td>265E</td><td>&nbsp;</td><td>BLACK CHESS KNIGHT</td></tr>
+<tr><td>♟</td><td>9823</td><td>265F</td><td>&nbsp;</td><td>BLACK CHESS PAWN</td></tr>
+<tr><td>♠</td><td>9824</td><td>2660</td><td>&amp;spades;</td><td>BLACK SPADE SUIT</td></tr>
+<tr><td>♡</td><td>9825</td><td>2661</td><td>&nbsp;</td><td>WHITE HEART SUIT</td></tr>
+<tr><td>♢</td><td>9826</td><td>2662</td><td>&nbsp;</td><td>WHITE DIAMOND SUIT</td></tr>
+<tr><td>♣</td><td>9827</td><td>2663</td><td>&amp;clubs;</td><td>BLACK CLUB SUIT</td></tr>
+<tr><td>♤</td><td>9828</td><td>2664</td><td>&nbsp;</td><td>WHITE SPADE SUIT</td></tr>
+<tr><td>♥</td><td>9829</td><td>2665</td><td>&amp;hearts;</td><td>BLACK HEART SUIT</td></tr>
+<tr><td>♦</td><td>9830</td><td>2666</td><td>&amp;diams;</td><td>BLACK DIAMOND SUIT</td></tr>
+<tr><td>♧</td><td>9831</td><td>2667</td><td>&nbsp;</td><td>WHITE CLUB SUIT</td></tr>
+<tr><td>♨</td><td>9832</td><td>2668</td><td>&nbsp;</td><td>HOT SPRINGS</td></tr>
+<tr><td>♩</td><td>9833</td><td>2669</td><td>&nbsp;</td><td>QUARTER NOTE</td></tr>
+<tr><td>♪</td><td>9834</td><td>266A</td><td>&nbsp;</td><td>EIGHTH NOTE</td></tr>
+<tr><td>♫</td><td>9835</td><td>266B</td><td>&nbsp;</td><td>BEAMED EIGHTH NOTES</td></tr>
+<tr><td>♬</td><td>9836</td><td>266C</td><td>&nbsp;</td><td>BEAMED SIXTEENTH NOTES</td></tr>
+<tr><td>♭</td><td>9837</td><td>266D</td><td>&nbsp;</td><td>MUSIC FLAT SIGN</td></tr>
+<tr><td>♮</td><td>9838</td><td>266E</td><td>&nbsp;</td><td>MUSIC NATURAL SIGN</td></tr>
+<tr><td>♯</td><td>9839</td><td>266F</td><td>&nbsp;</td><td>MUSIC SHARP SIGN</td></tr>
+<tr><td>♰</td><td>9840</td><td>2670</td><td>&nbsp;</td><td>WEST SYRIAC CROSS</td></tr>
+<tr><td>♱</td><td>9841</td><td>2671</td><td>&nbsp;</td><td>EAST SYRIAC CROSS</td></tr>
+<tr><td>♲</td><td>9842</td><td>2672</td><td>&nbsp;</td><td>UNIVERSAL RECYCLING SYMBOL</td></tr>
+<tr><td>♳</td><td>9843</td><td>2673</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-1 PLASTICS</td></tr>
+<tr><td>♴</td><td>9844</td><td>2674</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-2 PLASTICS</td></tr>
+<tr><td>♵</td><td>9845</td><td>2675</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-3 PLASTICS</td></tr>
+<tr><td>♶</td><td>9846</td><td>2676</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-4 PLASTICS</td></tr>
+<tr><td>♷</td><td>9847</td><td>2677</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-5 PLASTICS</td></tr>
+<tr><td>♸</td><td>9848</td><td>2678</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-6 PLASTICS</td></tr>
+<tr><td>♹</td><td>9849</td><td>2679</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR TYPE-7 PLASTICS</td></tr>
+<tr><td>♺</td><td>9850</td><td>267A</td><td>&nbsp;</td><td>RECYCLING SYMBOL FOR GENERIC MATERIALS</td></tr>
+<tr><td>♻</td><td>9851</td><td>267B</td><td>&nbsp;</td><td>BLACK UNIVERSAL RECYCLING SYMBOL</td></tr>
+<tr><td>♼</td><td>9852</td><td>267C</td><td>&nbsp;</td><td>RECYCLED PAPER SYMBOL</td></tr>
+<tr><td>♽</td><td>9853</td><td>267D</td><td>&nbsp;</td><td>PARTIALLY-RECYCLED PAPER SYMBOL</td></tr>
+<tr><td>♾</td><td>9854</td><td>267E</td><td>&nbsp;</td><td>PERMANENT PAPER SIGN</td></tr>
+<tr><td>♿</td><td>9855</td><td>267F</td><td>&nbsp;</td><td>WHEELCHAIR SYMBOL</td></tr>
+<tr><td>⚀</td><td>9856</td><td>2680</td><td>&nbsp;</td><td>DIE FACE-1</td></tr>
+<tr><td>⚁</td><td>9857</td><td>2681</td><td>&nbsp;</td><td>DIE FACE-2</td></tr>
+<tr><td>⚂</td><td>9858</td><td>2682</td><td>&nbsp;</td><td>DIE FACE-3</td></tr>
+<tr><td>⚃</td><td>9859</td><td>2683</td><td>&nbsp;</td><td>DIE FACE-4</td></tr>
+<tr><td>⚄</td><td>9860</td><td>2684</td><td>&nbsp;</td><td>DIE FACE-5</td></tr>
+<tr><td>⚅</td><td>9861</td><td>2685</td><td>&nbsp;</td><td>DIE FACE-6</td></tr>
+<tr><td>⚆</td><td>9862</td><td>2686</td><td>&nbsp;</td><td>WHITE CIRCLE WITH DOT RIGHT</td></tr>
+<tr><td>⚇</td><td>9863</td><td>2687</td><td>&nbsp;</td><td>WHITE CIRCLE WITH TWO DOTS</td></tr>
+<tr><td>⚈</td><td>9864</td><td>2688</td><td>&nbsp;</td><td>BLACK CIRCLE WITH WHITE DOT RIGHT</td></tr>
+<tr><td>⚉</td><td>9865</td><td>2689</td><td>&nbsp;</td><td>BLACK CIRCLE WITH TWO WHITE DOTS</td></tr>
+<tr><td>⚊</td><td>9866</td><td>268A</td><td>&nbsp;</td><td>MONOGRAM FOR YANG</td></tr>
+<tr><td>⚋</td><td>9867</td><td>268B</td><td>&nbsp;</td><td>MONOGRAM FOR YIN</td></tr>
+<tr><td>⚌</td><td>9868</td><td>268C</td><td>&nbsp;</td><td>DIGRAM FOR GREATER YANG</td></tr>
+<tr><td>⚍</td><td>9869</td><td>268D</td><td>&nbsp;</td><td>DIGRAM FOR LESSER YIN</td></tr>
+<tr><td>⚎</td><td>9870</td><td>268E</td><td>&nbsp;</td><td>DIGRAM FOR LESSER YANG</td></tr>
+<tr><td>⚏</td><td>9871</td><td>268F</td><td>&nbsp;</td><td>DIGRAM FOR GREATER YIN</td></tr>
+<tr><td>⚐</td><td>9872</td><td>2690</td><td>&nbsp;</td><td>WHITE FLAG</td></tr>
+<tr><td>⚑</td><td>9873</td><td>2691</td><td>&nbsp;</td><td>BLACK FLAG</td></tr>
+<tr><td>⚒</td><td>9874</td><td>2692</td><td>&nbsp;</td><td>HAMMER AND PICK</td></tr>
+<tr><td>⚓</td><td>9875</td><td>2693</td><td>&nbsp;</td><td>ANCHOR</td></tr>
+<tr><td>⚔</td><td>9876</td><td>2694</td><td>&nbsp;</td><td>CROSSED SWORDS</td></tr>
+<tr><td>⚕</td><td>9877</td><td>2695</td><td>&nbsp;</td><td>STAFF OF AESCULAPIUS</td></tr>
+<tr><td>⚖</td><td>9878</td><td>2696</td><td>&nbsp;</td><td>SCALES</td></tr>
+<tr><td>⚗</td><td>9879</td><td>2697</td><td>&nbsp;</td><td>ALEMBIC</td></tr>
+<tr><td>⚘</td><td>9880</td><td>2698</td><td>&nbsp;</td><td>FLOWER</td></tr>
+<tr><td>⚙</td><td>9881</td><td>2699</td><td>&nbsp;</td><td>GEAR</td></tr>
+<tr><td>⚚</td><td>9882</td><td>269A</td><td>&nbsp;</td><td>STAFF OF HERMES</td></tr>
+<tr><td>⚛</td><td>9883</td><td>269B</td><td>&nbsp;</td><td>ATOM SYMBOL</td></tr>
+<tr><td>⚜</td><td>9884</td><td>269C</td><td>&nbsp;</td><td>FLEUR-DE-LIS</td></tr>
+<tr><td>⚝</td><td>9885</td><td>269D</td><td>&nbsp;</td><td>OUTLINED WHITE STAR</td></tr>
+<tr><td>⚞</td><td>9886</td><td>269E</td><td>&nbsp;</td><td>THREE LINES CONVERGING RIGHT</td></tr>
+<tr><td>⚟</td><td>9887</td><td>269F</td><td>&nbsp;</td><td>THREE LINES CONVERGING LEFT</td></tr>
+<tr><td>⚠</td><td>9888</td><td>26A0</td><td>&nbsp;</td><td>WARNING SIGN</td></tr>
+<tr><td>⚡</td><td>9889</td><td>26A1</td><td>&nbsp;</td><td>HIGH VOLTAGE SIGN</td></tr>
+<tr><td>⚢</td><td>9890</td><td>26A2</td><td>&nbsp;</td><td>DOUBLED FEMALE SIGN</td></tr>
+<tr><td>⚣</td><td>9891</td><td>26A3</td><td>&nbsp;</td><td>DOUBLED MALE SIGN</td></tr>
+<tr><td>⚤</td><td>9892</td><td>26A4</td><td>&nbsp;</td><td>INTERLOCKED FEMALE AND MALE SIGN</td></tr>
+<tr><td>⚥</td><td>9893</td><td>26A5</td><td>&nbsp;</td><td>MALE AND FEMALE SIGN</td></tr>
+<tr><td>⚦</td><td>9894</td><td>26A6</td><td>&nbsp;</td><td>MALE WITH STROKE SIGN</td></tr>
+<tr><td>⚧</td><td>9895</td><td>26A7</td><td>&nbsp;</td><td>MALE WITH STROKE AND MALE AND FEMALE SIGN</td></tr>
+<tr><td>⚨</td><td>9896</td><td>26A8</td><td>&nbsp;</td><td>VERTICAL MALE WITH STROKE SIGN</td></tr>
+<tr><td>⚩</td><td>9897</td><td>26A9</td><td>&nbsp;</td><td>HORIZONTAL MALE WITH STROKE SIGN</td></tr>
+<tr><td>⚪</td><td>9898</td><td>26AA</td><td>&nbsp;</td><td>MEDIUM WHITE CIRCLE</td></tr>
+<tr><td>⚫</td><td>9899</td><td>26AB</td><td>&nbsp;</td><td>MEDIUM BLACK CIRCLE</td></tr>
+<tr><td>⚬</td><td>9900</td><td>26AC</td><td>&nbsp;</td><td>MEDIUM SMALL WHITE CIRCLE</td></tr>
+<tr><td>⚭</td><td>9901</td><td>26AD</td><td>&nbsp;</td><td>MARRIAGE SYMBOL</td></tr>
+<tr><td>⚮</td><td>9902</td><td>26AE</td><td>&nbsp;</td><td>DIVORCE SYMBOL</td></tr>
+<tr><td>⚯</td><td>9903</td><td>26AF</td><td>&nbsp;</td><td>UNMARRIED PARTNERSHIP SYMBOL</td></tr>
+<tr><td>⚰</td><td>9904</td><td>26B0</td><td>&nbsp;</td><td>COFFIN</td></tr>
+<tr><td>⚱</td><td>9905</td><td>26B1</td><td>&nbsp;</td><td>FUNERAL URN</td></tr>
+<tr><td>⚲</td><td>9906</td><td>26B2</td><td>&nbsp;</td><td>NEUTER</td></tr>
+<tr><td>⚳</td><td>9907</td><td>26B3</td><td>&nbsp;</td><td>CERES</td></tr>
+<tr><td>⚴</td><td>9908</td><td>26B4</td><td>&nbsp;</td><td>PALLAS</td></tr>
+<tr><td>⚵</td><td>9909</td><td>26B5</td><td>&nbsp;</td><td>JUNO</td></tr>
+<tr><td>⚶</td><td>9910</td><td>26B6</td><td>&nbsp;</td><td>VESTA</td></tr>
+<tr><td>⚷</td><td>9911</td><td>26B7</td><td>&nbsp;</td><td>CHIRON</td></tr>
+<tr><td>⚸</td><td>9912</td><td>26B8</td><td>&nbsp;</td><td>BLACK MOON LILITH</td></tr>
+<tr><td>⚹</td><td>9913</td><td>26B9</td><td>&nbsp;</td><td>SEXTILE</td></tr>
+<tr><td>⚺</td><td>9914</td><td>26BA</td><td>&nbsp;</td><td>SEMISEXTILE</td></tr>
+<tr><td>⚻</td><td>9915</td><td>26BB</td><td>&nbsp;</td><td>QUINCUNX</td></tr>
+<tr><td>⚼</td><td>9916</td><td>26BC</td><td>&nbsp;</td><td>SESQUIQUADRATE</td></tr>
+<tr><td>⚽</td><td>9917</td><td>26BD</td><td>&nbsp;</td><td>SOCCER BALL</td></tr>
+<tr><td>⚾</td><td>9918</td><td>26BE</td><td>&nbsp;</td><td>BASEBALL</td></tr>
+<tr><td>⚿</td><td>9919</td><td>26BF</td><td>&nbsp;</td><td>SQUARED KEY</td></tr>
+<tr><td>⛀</td><td>9920</td><td>26C0</td><td>&nbsp;</td><td>WHITE DRAUGHTS MAN</td></tr>
+<tr><td>⛁</td><td>9921</td><td>26C1</td><td>&nbsp;</td><td>WHITE DRAUGHTS KING</td></tr>
+<tr><td>⛂</td><td>9922</td><td>26C2</td><td>&nbsp;</td><td>BLACK DRAUGHTS MAN</td></tr>
+<tr><td>⛃</td><td>9923</td><td>26C3</td><td>&nbsp;</td><td>BLACK DRAUGHTS KING</td></tr>
+<tr><td>⛄</td><td>9924</td><td>26C4</td><td>&nbsp;</td><td>SNOWMAN WITHOUT SNOW</td></tr>
+<tr><td>⛅</td><td>9925</td><td>26C5</td><td>&nbsp;</td><td>SUN BEHIND CLOUD</td></tr>
+<tr><td>⛆</td><td>9926</td><td>26C6</td><td>&nbsp;</td><td>RAIN</td></tr>
+<tr><td>⛇</td><td>9927</td><td>26C7</td><td>&nbsp;</td><td>BLACK SNOWMAN</td></tr>
+<tr><td>⛈</td><td>9928</td><td>26C8</td><td>&nbsp;</td><td>THUNDER CLOUD AND RAIN</td></tr>
+<tr><td>⛉</td><td>9929</td><td>26C9</td><td>&nbsp;</td><td>TURNED WHITE SHOGI PIECE</td></tr>
+<tr><td>⛊</td><td>9930</td><td>26CA</td><td>&nbsp;</td><td>TURNED BLACK SHOGI PIECE</td></tr>
+<tr><td>⛋</td><td>9931</td><td>26CB</td><td>&nbsp;</td><td>WHITE DIAMOND IN SQUARE</td></tr>
+<tr><td>⛌</td><td>9932</td><td>26CC</td><td>&nbsp;</td><td>CROSSING LANES</td></tr>
+<tr><td>⛍</td><td>9933</td><td>26CD</td><td>&nbsp;</td><td>DISABLED CAR</td></tr>
+<tr><td>⛎</td><td>9934</td><td>26CE</td><td>&nbsp;</td><td>OPHIUCHUS</td></tr>
+<tr><td>⛏</td><td>9935</td><td>26CF</td><td>&nbsp;</td><td>PICK</td></tr>
+<tr><td>⛐</td><td>9936</td><td>26D0</td><td>&nbsp;</td><td>CAR SLIDING</td></tr>
+<tr><td>⛑</td><td>9937</td><td>26D1</td><td>&nbsp;</td><td>HELMET WITH WHITE CROSS</td></tr>
+<tr><td>⛒</td><td>9938</td><td>26D2</td><td>&nbsp;</td><td>CIRCLED CROSSING LANES</td></tr>
+<tr><td>⛓</td><td>9939</td><td>26D3</td><td>&nbsp;</td><td>CHAINS</td></tr>
+<tr><td>⛔</td><td>9940</td><td>26D4</td><td>&nbsp;</td><td>NO ENTRY</td></tr>
+<tr><td>⛕</td><td>9941</td><td>26D5</td><td>&nbsp;</td><td>ALTERNATE ONE-WAY LEFT WAY TRAFFIC</td></tr>
+<tr><td>⛖</td><td>9942</td><td>26D6</td><td>&nbsp;</td><td>BLACK TWO-WAY LEFT WAY TRAFFIC</td></tr>
+<tr><td>⛗</td><td>9943</td><td>26D7</td><td>&nbsp;</td><td>WHITE TWO-WAY LEFT WAY TRAFFIC</td></tr>
+<tr><td>⛘</td><td>9944</td><td>26D8</td><td>&nbsp;</td><td>BLACK LEFT LANE MERGE</td></tr>
+<tr><td>⛙</td><td>9945</td><td>26D9</td><td>&nbsp;</td><td>WHITE LEFT LANE MERGE</td></tr>
+<tr><td>⛚</td><td>9946</td><td>26DA</td><td>&nbsp;</td><td>DRIVE SLOW SIGN</td></tr>
+<tr><td>⛛</td><td>9947</td><td>26DB</td><td>&nbsp;</td><td>HEAVY WHITE DOWN-POINTING TRIANGLE</td></tr>
+<tr><td>⛜</td><td>9948</td><td>26DC</td><td>&nbsp;</td><td>LEFT CLOSED ENTRY</td></tr>
+<tr><td>⛝</td><td>9949</td><td>26DD</td><td>&nbsp;</td><td>SQUARED SALTIRE</td></tr>
+<tr><td>⛞</td><td>9950</td><td>26DE</td><td>&nbsp;</td><td>FALLING DIAGONAL IN WHITE CIRCLE IN BLACK SQUARE</td></tr>
+<tr><td>⛟</td><td>9951</td><td>26DF</td><td>&nbsp;</td><td>BLACK TRUCK</td></tr>
+<tr><td>⛠</td><td>9952</td><td>26E0</td><td>&nbsp;</td><td>RESTRICTED LEFT ENTRY-1</td></tr>
+<tr><td>⛡</td><td>9953</td><td>26E1</td><td>&nbsp;</td><td>RESTRICTED LEFT ENTRY-2</td></tr>
+<tr><td>⛢</td><td>9954</td><td>26E2</td><td>&nbsp;</td><td>ASTRONOMICAL SYMBOL FOR URANUS</td></tr>
+<tr><td>⛣</td><td>9955</td><td>26E3</td><td>&nbsp;</td><td>HEAVY CIRCLE WITH STROKE AND TWO DOTS ABOVE</td></tr>
+<tr><td>⛤</td><td>9956</td><td>26E4</td><td>&nbsp;</td><td>PENTAGRAM</td></tr>
+<tr><td>⛥</td><td>9957</td><td>26E5</td><td>&nbsp;</td><td>RIGHT-HANDED INTERLACED PENTAGRAM</td></tr>
+<tr><td>⛦</td><td>9958</td><td>26E6</td><td>&nbsp;</td><td>LEFT-HANDED INTERLACED PENTAGRAM</td></tr>
+<tr><td>⛧</td><td>9959</td><td>26E7</td><td>&nbsp;</td><td>INVERTED PENTAGRAM</td></tr>
+<tr><td>⛨</td><td>9960</td><td>26E8</td><td>&nbsp;</td><td>BLACK CROSS ON SHIELD</td></tr>
+<tr><td>⛩</td><td>9961</td><td>26E9</td><td>&nbsp;</td><td>SHINTO SHRINE</td></tr>
+<tr><td>⛪</td><td>9962</td><td>26EA</td><td>&nbsp;</td><td>CHURCH</td></tr>
+<tr><td>⛫</td><td>9963</td><td>26EB</td><td>&nbsp;</td><td>CASTLE</td></tr>
+<tr><td>⛬</td><td>9964</td><td>26EC</td><td>&nbsp;</td><td>HISTORIC SITE</td></tr>
+<tr><td>⛭</td><td>9965</td><td>26ED</td><td>&nbsp;</td><td>GEAR WITHOUT HUB</td></tr>
+<tr><td>⛮</td><td>9966</td><td>26EE</td><td>&nbsp;</td><td>GEAR WITH HANDLES</td></tr>
+<tr><td>⛯</td><td>9967</td><td>26EF</td><td>&nbsp;</td><td>MAP SYMBOL FOR LIGHTHOUSE</td></tr>
+<tr><td>⛰</td><td>9968</td><td>26F0</td><td>&nbsp;</td><td>MOUNTAIN</td></tr>
+<tr><td>⛱</td><td>9969</td><td>26F1</td><td>&nbsp;</td><td>UMBRELLA ON GROUND</td></tr>
+<tr><td>⛲</td><td>9970</td><td>26F2</td><td>&nbsp;</td><td>FOUNTAIN</td></tr>
+<tr><td>⛳</td><td>9971</td><td>26F3</td><td>&nbsp;</td><td>FLAG IN HOLE</td></tr>
+<tr><td>⛴</td><td>9972</td><td>26F4</td><td>&nbsp;</td><td>FERRY</td></tr>
+<tr><td>⛵</td><td>9973</td><td>26F5</td><td>&nbsp;</td><td>SAILBOAT</td></tr>
+<tr><td>⛶</td><td>9974</td><td>26F6</td><td>&nbsp;</td><td>SQUARE FOUR CORNERS</td></tr>
+<tr><td>⛷</td><td>9975</td><td>26F7</td><td>&nbsp;</td><td>SKIER</td></tr>
+<tr><td>⛸</td><td>9976</td><td>26F8</td><td>&nbsp;</td><td>ICE SKATE</td></tr>
+<tr><td>⛹</td><td>9977</td><td>26F9</td><td>&nbsp;</td><td>PERSON WITH BALL</td></tr>
+<tr><td>⛺</td><td>9978</td><td>26FA</td><td>&nbsp;</td><td>TENT</td></tr>
+<tr><td>⛻</td><td>9979</td><td>26FB</td><td>&nbsp;</td><td>JAPANESE BANK SYMBOL</td></tr>
+<tr><td>⛼</td><td>9980</td><td>26FC</td><td>&nbsp;</td><td>HEADSTONE GRAVEYARD SYMBOL</td></tr>
+<tr><td>⛽</td><td>9981</td><td>26FD</td><td>&nbsp;</td><td>FUEL PUMP</td></tr>
+<tr><td>⛾</td><td>9982</td><td>26FE</td><td>&nbsp;</td><td>CUP ON BLACK SQUARE</td></tr>
+<tr><td>⛿</td><td>9983</td><td>26FF</td><td>&nbsp;</td><td>WHITE FLAG WITH HORIZONTAL MIDDLE BLACK STRIPE</td></tr>
+</tbody></table>
+<br>
+<br>
+<div class="chapter">
+<div class="prev"><a href="http://www.w3schools.com/charsetsref_utf_geometric.asp" class="chapter">« Previous</a></div>
+<div class="next"><a href="http://www.w3schools.com/charsetsref_utf_dingbats.asp" class="chapter">Next Reference »</a></div>
+</div>
+
+     <br>
+    </div>
+   </div>
+   <div class="col-lg-2 col-md-2 col-sm-12">
+    <div class="row">
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sidesection">
+      <div id="skyscraper">
+       <div id="div-gpt-ad-1422003450156-5">
+         
+       <div id="google_ads_iframe_/16833175/WideSkyScraper_0__container__">&lt;body style='background:transparent'&gt;&lt;/body&gt;&lt;/html&gt;""&gt;</div>&lt;body style='background:transparent'&gt;&lt;/body&gt;&lt;/html&gt;""&gt;</div>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sidesection">
+      <h3>W3SCHOOLS EXAMS</h3>
+      <a href="http://www.w3schools.com/cert/default.asp" target="_blank">HTML, CSS, JavaScript, PHP, jQuery, and XML Certifications</a>
+     </div>
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sidesection">
+      <h3>SHARE THIS PAGE</h3>
+      <div class="sharethis">
+       <a title="Facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://www.w3schools.com/charsets/ref_utf_symbols.asp"><span class="share sharefacebook social social-facebook"></span></a><a title="Twitter" target="_blank" href="http://twitter.com/home?status=Currently%20reading%20http://www.w3schools.com/charsets/ref_utf_symbols.asp"><span class="share sharetwitter social social-twitter"></span></a><a title="Google+" target="_blank" href="https://plus.google.com/share?url=http://www.w3schools.com/charsets/ref_utf_symbols.asp"><span class="share sharegoogle social social-google-plus"></span></a>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sidesection">
+      <h3>COLOR PICKER</h3>
+      <a href="http://www.w3schools.com/charsets/tags/ref_colorpicker.asp">
+      <img alt="colorpicker" src="http://www.w3schools.com/images/colorpicker.gif"></a>
+     </div>
+    </div>
+   </div>
+  </div>
+
+------

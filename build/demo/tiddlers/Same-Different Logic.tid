@@ -1,0 +1,69 @@
+created: 20150412074446578
+modified: 20150415072655374
+tags: [[Same Different logic]]
+title: Same-Different Logic
+type: text/vnd.tiddlywiki
+
+Others have developed systems to represent logic using boundaries. Here I will extend some of this work, I will call this system 'Same Different' logic.
+
+Logic is not such an intuitive notion as Number, but at it heart lies the simple idea of opposites - eg  same/different. 
+
+We have two values in our system, each value will be represented by various different forms. As with the LOF one of the values can be represented by 'a blank space', unlike the LOF the other can be represented by a textured space. These spaces will be alway appear in a boundry, called 'limitation'. eg
+
+[ ] and [.]
+
+The intension is to compare these representations. For this we need a new (binary )structure which I will called 'compares' with a forms
+--form-- 
+
+[ | ] , [.|] , [ | .],  [ .| .] 
+
+The base form [ | ] is a Partition.
+
+We relate 'compares' (C form )and 'limitation' (L form) thus
+
+[ | ] = [.|.] = [.]
+
+[.| ] = [ |.] = [ ]
+
+C and L forms can be embedded in each other:
+
+[ [.] ] = [.]
+
+[ [ ] ] =[ ]
+
+[.[ ] ] = [ [ ] ] 
+
+also
+
+[ [.] | ] = [.| ]
+
+[ [ | ] ] = [ | ]
+
+and 
+[.| [.| ] ]  = [.| ]
+
+[.| [.| ] ] = [ [.| ] |. ] 
+
+this last composite form we will write also as
+
+[. |.| ] = [.| |.]
+
+!!Extending to Include variable attributes
+Some replacement rules are general, eg
+
+[ | ] = [.|.] = [.]
+
+In this case we can write as
+
+[a|a]  = [.] where a can be either "." or nothing. 
+
+simularly pairs of same values can be replaced in the compares rule
+
+[a| ... |a] = [...|.] 
+
+also
+
+[ [a] ] = [a]
+
+----
+the story with the '[[Primary Algebra]]' 

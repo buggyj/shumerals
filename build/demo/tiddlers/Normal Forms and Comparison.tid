@@ -1,0 +1,81 @@
+created: 20150421114425370
+modified: 20150421201426901
+tags: [[Same Different logic]]
+title: Normal Forms and Comparison
+type: text/vnd.tiddlywiki
+
+@@.borderless
+
+Others have developed systems to represent logic using boundaries. Here I will extend some of this work, I will call this system 'Same Different' logic.
+
+Logic is not such an intuitive notion as Number, but at it heart lies the simple idea of opposites - eg  same/different. 
+
+We have two values in our system, each value will be represented by various different forms. As with the LOF one of the values can be represented by 'a blank space', but must be within a boundry. Unlike the LOF the other value can be represented by a bounded textured space. These are the  'normal' forms. The type of boundary used will be called 'limitation', and forms with this (outer) boundries will be called (L forms). eg
+
+|<<lg """[]""" >>| and |<<lg """[.]""" >>|
+
+are  L forms.
+
+The intension is to compare these normal form representations. For this we need a new (binary )structure which I will called 'compares' with a forms
+
+|<<lg """[[]|[]]""" >>| , |<<lg """[[.]|[]]""" >>| , |<<lg """[[]|[.]]""" >>|,  |<<lg """[[.]|[.]]""" >>|
+
+
+The base form <<lg """[|]""" >> is a Partition.  Forms with this (outer) form will be called P forms
+
+We relate 'compares' (P forms )and 'limitation' (L forms) thus
+
+|<<lg """[[]|[]]""" >>|= |<<lg """[[.]|[.]]""" >>|= |<<lg """[.]""" >>|
+
+|<<lg """[[.]|[]]""" >>|= |<<lg """[[]|[.]]""" >>|= |<<lg """[]""" >>|
+
+P and L forms can be embedded in each other:
+
+|<<lg """[[.]]""" >>| = |<<lg """[.]""" >>|
+
+and
+
+|<<lg """[[]]""" >>| =|<<lg """[]""" >>|
+
+and
+
+|<<lg """[.[]]""" >>| = |<<lg """[[]]""" >>|
+
+also
+
+|<<lg """[ [[.]]|[]]""" >>| = |<<lg """[[.]|[]]""" >>|
+
+|<<lg """[[[]|[]]]""" >>| = |<<lg """[[]|[]]""" >>|
+
+and 
+
+|<<lg """[[.]| [[.]|[]]]""" >>|  = |<<lg """[[.]|[]]""" >>|
+
+and
+
+|<<lg """[[.]| [[.]|[]]]""" >>| = |<<lg """[[[.]|[]]|[.]]""" >>|
+
+this last composite form we will write also as
+
+|<<lg """[[.]|[.]|]""" >>| = |<<lg """[[.]||[.]]""" >>|
+
+!!Extending to Include variable values
+Some replacement rules are general, eg
+
+|<<lg """[[]|[]]""" >>| = |<<lg """[[.]|[.]]""" >>| = |<<lg """[[.]]""" >>|
+
+In this case we can write as
+
+|<<lg """[A|A]""" >>| = |<<lg """[.]""" >>|
+|where A can be |<<lg """[]""" >>| or |<<lg """[.]""" >>|
+
+simularly pairs of same values can be replaced in the compares rule
+
+|<<lg """[A| ... |A]""" >>| = |<<lg """[ ...|[.]]""" >>|
+
+also
+
+|<<lg """[[A]]""" >>| = |<<lg """[A]""" >>|
+
+----
+Next [[Forms and binary numbers]]

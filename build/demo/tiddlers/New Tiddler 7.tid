@@ -1,7 +1,79 @@
 created: 20150416155253769
-modified: 20150417074510318
+modified: 20150421114037470
 tags: 
 title: New Tiddler 7
 type: text/vnd.tiddlywiki
 
-<<lg """aa[bs|d| [s|za]]""" >>
+@@.borderless
+|<<lg """aa[bs|d|. [s a|.za]]""" >>|
+Others have developed systems to represent logic using boundaries. Here I will extend some of this work, I will call this system 'Same Different' logic.
+
+Logic is not such an intuitive notion as Number, but at it heart lies the simple idea of opposites - eg  same/different. 
+
+We have two values in our system, each value will be represented by various different forms. As with the LOF one of the values can be represented by 'a blank space', but must be within a boundry. Unlike the LOF the other value can be represented by a bounded textured space. These forms called 'limitations'. eg
+
+|<<lg """[]""" >>| and |<<lg """[.]""" >>|
+
+The intension is to compare these representations. For this we need a new (binary )structure which I will called 'compares' with a forms
+
+|<<lg """[|]""" >>| , |<<lg """[.|]""" >>| , |<<lg """[|.]""" >>|,  |<<lg """[.|.]""" >>|
+
+
+The base form <<lg """[|]""" >> is a Partition.
+
+We relate 'compares' (C form )and 'limitation' (L form) thus
+
+|<<lg """[|]""" >>|= |<<lg """[.|.]""" >>|= |<<lg """[.]""" >>|
+
+|<<lg """[.|]""" >>|= |<<lg """[ |.]""" >>|= |<<lg """[]""" >>|
+
+C and L forms can be embedded in each other:
+
+|<<lg """[[.]]""" >>| = |<<lg """[.]""" >>|
+
+and
+
+|<<lg """[[]]""" >>| =|<<lg """[]""" >>|
+
+and
+
+|<<lg """[.[]]""" >>| = |<<lg """[[]]""" >>|
+
+also
+
+|<<lg """[ [.]|]""" >>| = |<<lg """[.|]""" >>|
+
+|<<lg """[[|]]""" >>| = |<<lg """[|]""" >>|
+
+and 
+
+|<<lg """[.| [.|]]""" >>|  = |<<lg """[.|]""" >>|
+
+and
+
+|<<lg """[.| [.|]]""" >>| = |<<lg """[[.|]|.]""" >>|
+
+this last composite form we will write also as
+
+|<<lg """[. |.|]""" >>| = |<<lg """[.||.]""" >>|
+
+!!Extending to Include variable attributes
+Some replacement rules are general, eg
+
+|<<lg """[|]""" >>| = |<<lg """[.|.]""" >>|= |<<lg """[.]""" >>|
+
+In this case we can write as
+
+|<<lg """[a|a]""" >>| = |<<lg """[.]""" >>|
+where a can be either "." or nothing. 
+
+simularly pairs of same values can be replaced in the compares rule
+
+|<<lg """[a| ... |a]""" >>| = |<<lg """[ ...|.]""" >>|
+
+also
+
+|<<lg """[[a]]""" >>| = |<<lg """[a]""" >>|
+
+----
+the story with the '[[Primary Algebra]]' 

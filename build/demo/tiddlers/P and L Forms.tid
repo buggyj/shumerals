@@ -1,0 +1,60 @@
+created: 20150421201435576
+modified: 20150421201926266
+tags: [[Same Different logic]]
+title: P and L Forms
+type: text/vnd.tiddlywiki
+
+@@.borderless
+
+
+
+P and L forms can be embedded in each other:
+
+|<<lg """[[.]]""" >>| = |<<lg """[.]""" >>|
+
+and
+
+|<<lg """[[]]""" >>| =|<<lg """[]""" >>|
+
+and
+
+|<<lg """[.[]]""" >>| = |<<lg """[[]]""" >>|
+
+also
+
+|<<lg """[ [[.]]|[]]""" >>| = |<<lg """[[.]|[]]""" >>|
+
+|<<lg """[[[]|[]]]""" >>| = |<<lg """[[]|[]]""" >>|
+
+and 
+
+|<<lg """[[.]| [[.]|[]]]""" >>|  = |<<lg """[[.]|[]]""" >>|
+
+and
+
+|<<lg """[[.]| [[.]|[]]]""" >>| = |<<lg """[[[.]|[]]|[.]]""" >>|
+
+this last composite form we will write also as
+
+|<<lg """[[.]|[.]|]""" >>| = |<<lg """[[.]||[.]]""" >>|
+
+!!Extending to Include variable values
+Some replacement rules are general, eg
+
+|<<lg """[[]|[]]""" >>| = |<<lg """[[.]|[.]]""" >>| = |<<lg """[[.]]""" >>|
+
+In this case we can write as
+
+|<<lg """[A|A]""" >>| = |<<lg """[.]""" >>|
+|where A can be |<<lg """[]""" >>| or |<<lg """[.]""" >>|
+
+simularly pairs of same values can be replaced in the compares rule
+
+|<<lg """[A| ... |A]""" >>| = |<<lg """[ ...|[.]]""" >>|
+
+also
+
+|<<lg """[[A]]""" >>| = |<<lg """[A]""" >>|
+
+----
+Next [[Forms and binary numbers]]

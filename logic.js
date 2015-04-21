@@ -37,13 +37,21 @@ function replaceAll(str,mapObj,mapSrc){
         return mapSrc[matched.toLowerCase()];
     });
 }
+function replaceDots(str,mapObj,mapSrc){
+
+    var re = new RegExp(Object.keys(mapObj).join("|"),"gi");
+
+    return str.replace(re, function(matched){
+        return mapSrc[matched.toLowerCase()];
+    });
+}
 exports.run = function(instring, lgclass) {
 	lgclass = lgclass||"lgclass";
-	var replaedsource = {"\\[":"<table>                         <tr><td>","\\|":"</td><td>","\\]":"</td></tr></table>"};
+	var replaedsource = {"\\[":"<table>                             <tr><td>","\\|":"</td><td>","\\]":"</td></tr></table>"};
 	var replacemapped;
-	if (lgclass )replacemapped = {  '[':'<table class="'+lgclass+'"><tr><td>',  '|':'</td><td>'  ,']':'</td></tr></table>'};
-	else replacemapped = {  '[':'<table><tr><td>',  '|':'</td><td>'  ,']':'</td></tr></table>'};
-return replaceAll(instring,replaedsource, replacemapped);
+	if (lgclass )replacemapped = {  '[':'<table class="'+lgclass+'"><tr><td class="lgblank">',  '|':'</td><td class="lgblank">'  ,']':'</td></tr></table>'};
+	else replacemapped = {  '[':'<table><tr><td class="lgblank">',  '|':'</td><td class="lgblank">'  ,']':'</td></tr></table>'};
+return replaceAll(instring,replaedsource, replacemapped).replace(/<td class=\"lgblank\">\./mg,'<td class="lgdot">');
 }
 
 })();

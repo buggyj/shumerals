@@ -1,10 +1,10 @@
 created: 20150416063235494
-modified: 20150416155122517
+modified: 20150420062751835
 tags: [[Same Different logic]]
 title: Logic as Binary Arithmetic
 type: text/vnd.tiddlywiki
 
-Binary logic and binary number follow the same patterns. As most of us are familiar with numbers it is easier to recongnise the simplicity of the patterns when we write them as binary numbers.
+Binary logic and binary number follow the same patterns. As most of us are familiar with numbers it is easier to recognize the simplicity of the patterns when we write them as binary numbers.
 
 There are only two binary numbers 0 and 1. Multiplication is the same as ordinary numbers so 
 
@@ -44,6 +44,8 @@ so adding the same number to itself is zero, so if B is a binary number:
 
 B+B = 0
 
+!!Facts and Calculations
+!!!Equality
 If A and B are binary numbers asking the question "Are A and B the same number" is the same as asking "is A+B=0"
 
 A+B = 0
@@ -63,4 +65,30 @@ A = B
 
 We also note that there is only one even number (0) and one odd (1).
 
+!!!Minimium
+If we ask what is the min of two or more binary numbers , we can multiply them together and test if the result is zero
+eg
+min(1,0,1) 
 
+=>
+
+1*0*1 
+
+=>
+
+0
+
+We can reason that if the binary numbers that  min (...) is applied to contains a 0 the the min will be 0
+
+
+!Maximum
+For Max (1,0,1) the calculation is
+
+(1+1)*(0+1)*(1+1)+1
+
+=>
+
+1
+
+that is we add 1 to each binary number and then add 1 to the result. 
+We can reason that if the binary numbers that  max (...) is applied to contains a 1 the the max will be 1

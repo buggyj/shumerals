@@ -1,11 +1,55 @@
 created: 20150417073934129
-modified: 20150417075132388
+modified: 20150421110755846
 tags: $:/tags/Stylesheet
 title: $:/plugins/bj/shumerals/lgtablecss
 type: text/vnd.tiddlywiki
 
 \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
 
-.lgclass {
-	border-collapse:seperate;
+.lgdot:empty::after{
+  content: "\00a0";
 }
+.lgblank:empty::after{
+  content: "\00a0";
+}
+.lgclass {
+	border-collapse:separate;
+border-width:1px; 
+border-spacing:0;
+border-style:solid;
+ empty-cells: show;
+}
+
+.lgclass table,
+.lgclass td,
+.lgclass tr,
+.lgclass th,
+.lgclass tbody
+    { border:1px ;
+border-style:show; }
+.lgdot {
+border:1px !important; 
+		background-color: LightCyan ;
+ empty-cells: show;
+border-style:solid !important; 
+}
+.lgblank {
+border:1px !important; 
+		background-color: white ;
+ empty-cells: show;
+border-style:solid !important; 
+}
+.borderless,
+.borderless table,
+.borderless td,
+.borderless tr,
+.borderless th,
+.borderless tbody
+    { border-style:hidden; }
+.borderled,
+.borderled table,
+.borderled td,
+.borderled tr,
+.borderled th,
+.borderled tbody
+    { border:1px !important; }
